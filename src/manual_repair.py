@@ -60,6 +60,14 @@ def manual_repair(cache: dict, rows: list[dict]):
 
     save_json(RECORDING_CACHE_FILE, cache)
     print(f"    Done. {updated} updated, {skipped} skipped.")
+    
+    remaining = [r for r in rows if r.get("confirmed", "0") != "1"]
+    if len(remaining) < len(rows):
+        with open(FAILED_LOG_FILE, "w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=rows[0].keys())
+            writer.writeheader()
+            writer.writerows(remaining)
+        print(f"    Removed {len(rows) - len(remaining)} confirmed rows from {FAILED_LOG_FILE}")
 
 if __name__ == "__main__":
 
