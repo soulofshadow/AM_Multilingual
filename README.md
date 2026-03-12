@@ -1,5 +1,7 @@
 # 🎵 Apple Music Metadata Fixer
 
+**[English](README.md) | [中文](README.zh.md)**
+
 A tool to automatically fix and localize metadata (song name, artist, album) in your Apple Music library using the **Gemini API** and **MusicBrainz**.
 
 Useful if your library contains:
@@ -20,7 +22,7 @@ Useful if your library contains:
 - Incremental processing — already-fixed tracks are skipped automatically
 - MusicBrainz integration for artist name localization
 - Manual review workflow for low-confidence corrections
-- Caches all results locally to avoid redundant API calls, (Also shared my music brain cache and formalized artist name cache file there)
+- Caches all results locally to avoid redundant API calls (Also shared my MusicBrainz cache and formalized artist name cache file there)
 
 ---
 
@@ -126,7 +128,7 @@ Leave `confirmed = 0` to skip a row and keep it pending for next time.
 python3 -m src.manual_repair
 ```
 
-Rows marked `confirmed = 1` are written back to `cache/recording_cache.json` with `needs_review` cleared to `false`.
+Rows marked `confirmed = 1` are written back to `cache/recording_cache.json` with `needs_review` cleared to `false`. Confirmed rows are automatically removed from `data/needs_review.csv`.
 
 ### Step 3 — Write back to Music.app
 
@@ -212,7 +214,7 @@ The tool correctly handles metadata in:
 - Tracks are matched by `database ID` from Music.app — re-importing a track will change its ID and require re-processing
 - The `cache/recording_cache.json`, `data/`, and `.env` files are gitignored by default to protect your personal data and API keys
 - MusicBrainz API has a strict rate limit of **1 request/second** — the tool handles this automatically
-- Gemini prefer to return to the "official standard album name" and remove edition tags such as (Deluxe), - Single, - EP.
+- Gemini prefers to return the official standard album name and will remove edition tags such as `(Deluxe)`, `- Single`, `- EP`
 
 ---
 
