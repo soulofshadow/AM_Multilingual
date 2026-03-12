@@ -8,20 +8,21 @@ tell application "Music"
     set output to ""
     set allTracks to every track of library playlist 1
     repeat with t in allTracks
-        set dbID        to database ID of t as string
-        set tName       to name of t as string
-        set tArtist     to artist of t as string
+        set dbID         to persistent ID of t as string
+        set tName        to name of t as string
+        set tArtist      to artist of t as string
         set tAlbumArtist to album artist of t as string
-        set tAlbum      to album of t as string
-        set sName       to sort name of t as string
-        set sArtist     to sort artist of t as string
+        set tAlbum       to album of t as string
+        set sName        to sort name of t as string
+        set sArtist      to sort artist of t as string
         set sAlbumArtist to sort album artist of t as string
-        set sAlbum      to sort album of t as string
-        set output to output & dbID & "|||" & tName & "|||" & tArtist & "|||" & tAlbumArtist & "|||" & tAlbum & "|||" & sName & "|||" & sArtist & "|||" & sAlbumArtist & "|||" & sAlbum & "\n"
+        set sAlbum       to sort album of t as string
+        set output to output & dbID & "\t" & tName & "\t" & tArtist & "\t" & tAlbumArtist & "\t" & tAlbum & "\t" & sName & "\t" & sArtist & "\t" & sAlbumArtist & "\t" & sAlbum & "\n"
     end repeat
     return output
 end tell
 '''
+
 
 def fetch_library() -> list[dict]:
     result = subprocess.run(
@@ -39,6 +40,16 @@ def fetch_library() -> list[dict]:
         if len(parts) != len(FIELDS):
             continue
         tracks.append(dict(zip(FIELDS, parts)))
+
+    for line in result.stdout.strip().split("\n"):
+        if not line:
+            continue
+        parts = line.split("\t")
+        if len(parts) != len(FIELDS):
+            print(f"    Skipped malformed line: {line[:80]}")
+            continue
+        tracks.append(dict(zip(FIELDS, parts)))
+
     return tracks
 
 def save_csv(tracks, path="default.csv"):
@@ -52,8 +63,8 @@ def save_csv(tracks, path="default.csv"):
     print(f"    Saved {len(tracks)} tracks to {path}")
 
 if __name__ == "__main__":
-    print("📚 Reading library...")
+    print("📚  Reading library...")
     tracks = fetch_library()
     print(f"    Found {len(tracks)} tracks")
     save_csv(tracks, MUSIC_LIBRARY_FILE)
-    print("📚 Library saved!")
+    print("📚  Library saved!")

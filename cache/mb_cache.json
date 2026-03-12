@@ -1,3786 +1,3797 @@
 {
-    "Cyndi Wang": {
-        "area": "Taiwan",
-        "aliases": {
-            "zh_Hans": "王心凌",
-            "zh_Hant": "王心凌"
-        }
-    },
-    "JOLIN": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Jolin Tsai",
-            "zh_Hans": "蔡依林",
-            "zh_Hant": "蔡依林"
-        }
-    },
-    "A-Mei Chang": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "A-Mei Chang",
-            "zh_Hans": "张惠妹",
-            "zh_Hant": "張惠妹"
-        }
-    },
-    "Alicia Keys": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Franco126": {
-        "area": "Italy",
-        "aliases": {}
-    },
-    "Paul Buchanan": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "祁紫檀": {
-        "area": "China",
-        "aliases": {
-            "en": "Zitan Qi",
-            "zh": "祁紫檀",
-            "zh_Hans": "祁紫檀",
-            "zh_Hant": "祁紫檀"
-        }
-    },
-    "Gino Paoli": {
-        "area": "Italy",
-        "aliases": {}
-    },
-    "Karen Dalton": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "諾拉·瓊斯": {
-        "area": "United States",
-        "aliases": {
-            "en": "Norah Jones"
-        }
-    },
-    "Solomon": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Michael Jackson": {
-        "area": "United States",
-        "aliases": {
-            "en": "Michael Jackson",
-            "ru": "Майкл Джексон",
-            "ja": "マイケル・ジャクソン",
-            "yue_Hans_CN": "迈克尔·杰克逊",
-            "zh_Hans": "迈克尔·杰克逊",
-            "ko": "마이클 잭슨"
-        }
-    },
-    "Linda Ronstadt": {
-        "area": "United States",
-        "aliases": {
-            "ja": "リンダ・ロンシュタット"
-        }
-    },
-    "Ashe": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "方大同": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Khalil Fong",
-            "zh": "方大同",
-            "zh_Hans": "方大同",
-            "zh_Hant": "方大同"
-        }
-    },
-    "Phillip Long": {
-        "area": "Germany",
-        "aliases": {}
-    },
-    "Sam Smith": {
-        "area": "United Kingdom",
-        "aliases": {
-            "ja_JP": "サム・スミス",
-            "ko": "샘 스미스"
-        }
-    },
-    "WILLOW": {
-        "area": "United States",
-        "aliases": {
-            "zh": "葳蘿"
-        }
-    },
-    "いかりや長介": {
-        "area": "Japan",
-        "aliases": {}
-    },
-    "Högni": {
-        "area": "Iceland",
-        "aliases": {}
-    },
-    "Miki Matsubara": {
-        "area": "Japan",
-        "aliases": {
-            "en": "Miki Matsubara",
-            "ja": "松原みき"
-        }
-    },
-    "Miyuu": {
-        "area": "Japan",
-        "aliases": {}
-    },
-    "劉惜君": {
-        "area": "China",
-        "aliases": {
-            "zh": "刘惜君",
-            "zh_Hans": "刘惜君",
-            "zh_Hant": "劉惜君"
-        }
-    },
-    "Bahamas": {
-        "area": "Canada",
-        "aliases": {}
-    },
-    "Domenico Modugno": {
-        "area": "Italy",
-        "aliases": {
-            "ru": "Д. Модуньо"
-        }
-    },
-    "陳奕迅": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Eason Chan",
-            "zh_Hans": "陈奕迅",
-            "zh_Hans_CN": "陈奕迅",
-            "zh": "陳奕迅",
-            "zh_Hant": "陳奕迅"
-        }
-    },
-    "Novo Amor": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "Grace VanderWaal": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Niko Rubio": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Hayd": {
-        "area": "United States",
-        "aliases": {
-            "ko_KR": "Hayd"
-        }
-    },
-    "Why Don't We": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Allan Taylor": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "陶喆": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "David Tao",
-            "zh": "陶喆",
-            "zh_Hant": "陶喆",
-            "zh_Hans": "陶喆"
-        }
-    },
-    "Whitney Houston": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "張韶涵": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Angela Chang",
-            "zh_Hans_CN": "张韶涵",
-            "zh": "張韶涵",
-            "zh_Hans": "张韶涵",
-            "zh_Hant": "張韶涵"
-        }
-    },
-    "Nicki Minaj": {
-        "area": "United States",
-        "aliases": {
-            "en": "Nicki Minaj",
-            "ja": "ニッキー・ミナージュ",
-            "zh": "妮琪米娜"
-        }
-    },
-    "Zeph": {
-        "area": "Maryland",
-        "aliases": {}
-    },
-    "Luciano Pavarotti": {
-        "area": "Italy",
-        "aliases": {
-            "en": "Luciano Pavarotti",
-            "zh": "帕華洛帝",
-            "zh_Hans": "帕华洛蒂",
-            "zh_Hant": "帕華洛帝"
-        }
-    },
-    "Eagles": {
-        "area": "United States",
-        "aliases": {
-            "en": "Eagles",
-            "ja": "イーグルス",
-            "zh_Hans_CN": "老鹰乐队"
-        }
-    },
-    "Emma Stone": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Justin Hurwitz": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Justin Paul": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Benj Pasek": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Callie Hernandez": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Sonoya Mizuno": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "Jessica Rothe": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Avril Lavigne": {
-        "area": "Canada",
-        "aliases": {
-            "en": "Avril Lavigne",
-            "ja": "アヴリル・ラヴィーン",
-            "zh_Hans": "艾薇儿"
-        }
-    },
-    "Arcade Player": {
-        "area": null,
-        "aliases": {}
-    },
-    "Bill Withers": {
-        "area": "United States",
-        "aliases": {
-            "en": "B. Withers",
-            "ja": "ビル・ウィザース"
-        }
-    },
-    "Jason Chan": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Chan Pak Yu",
-            "zh_Hans": "陈柏宇",
-            "zh_Hant": "陳柏宇"
-        }
-    },
-    "陳粒": {
-        "area": "China",
-        "aliases": {
-            "en": "Chen Li",
-            "zh_Hans_CN": "陈粒",
-            "zh_Hans": "陈粒",
-            "zh_Hant": "陳粒"
-        }
-    },
-    "崔迪": {
-        "area": "China",
-        "aliases": {
-            "zh_Hans": "崔迪",
-            "zh_Hant": "崔迪"
-        }
-    },
-    "Maki Ohguro": {
-        "area": "Japan",
-        "aliases": {
-            "en": "Maki Ohguro",
-            "ja": "大黒摩季"
-        }
-    },
-    "Princess Ai": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Princess Ai",
-            "zh_Hant": "戴愛玲",
-            "zh_Hans": "戴爱玲"
-        }
-    },
-    "Frank Sinatra": {
-        "area": "United States",
-        "aliases": {
-            "en": "Sinatra",
-            "ja": "フランク・シナトラ"
-        }
-    },
-    "F.I.R.": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "F.I.R.",
-            "zh_Hans_CN": "F.I.R. 飞儿乐团",
-            "zh_Hant": "飛兒樂團",
-            "zh": "飞儿乐团",
-            "zh_Hans": "飞儿乐团",
-            "zh-Hans": "F.I.R. 飞儿乐团",
-            "zh-Hant": "F.I.R. 飛兒樂團"
-        }
-    },
-    "Andrea Bocelli": {
-        "area": "Italy",
-        "aliases": {
-            "en": "Andrea Bocelli",
-            "zh": "安德烈·波切利",
-            "zh_Hans": "安德烈·波切利",
-            "zh_Hant": "安德烈·波切利"
-        }
-    },
-    "郭斯": {
-        "area": "China",
-        "aliases": {
-            "en": "Guo Si",
-            "zh_Hans": "郭斯",
-            "zh_Hant": "郭斯"
-        }
-    },
-    "Huang Qishan": {
-        "area": "China",
-        "aliases": {
-            "en": "Huang Qishan",
-            "zh_Hans": "黄绮珊",
-            "zh_Hant": "黃綺珊"
-        }
-    },
-    "Curley Gao": {
-        "area": "China",
-        "aliases": {
-            "en": "Curley Gao",
-            "zh_Hans": "希林娜依高",
-            "zh_Hant": "希林娜依高"
-        }
-    },
-    "黃小琥": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Tiger Wong",
-            "zh_Hant": "黃小琥",
-            "zh_Hans": "黄小琥"
-        }
-    },
-    "金志文": {
-        "area": "China",
-        "aliases": {
-            "en": "Jin Zhiwen",
-            "zh_Hans": "金志文",
-            "zh_Hant": "金志文"
-        }
-    },
-    "Cardi B": {
-        "area": "United States",
-        "aliases": {
-            "ja": "カーディ・B"
-        }
-    },
-    "Megan Thee Stallion": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Mao Buyi": {
-        "area": "China",
-        "aliases": {
-            "en": "Mao Buyi",
-            "zh": "毛不易",
-            "zh_Hans": "毛不易",
-            "zh_Hant": "王維家"
-        }
-    },
-    "ABBA": {
-        "area": "Sweden",
-        "aliases": {
-            "bg": "АББА",
-            "ru": "АББА",
-            "ja": "アバ"
-        }
-    },
-    "Maroon 5": {
-        "area": "United States",
-        "aliases": {
-            "ko": "마룬 5"
-        }
-    },
-    "Norah Jones": {
-        "area": "United States",
-        "aliases": {
-            "en": "Norah Jones"
-        }
-    },
-    "Bing Crosby": {
-        "area": "United States",
-        "aliases": {
-            "ja": "ビング・クロスビー"
-        }
-    },
-    "Scarlett Johansson": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Joaquin Phoenix": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Various Artists": {
-        "area": null,
-        "aliases": {
-            "en": "(Karaoke) Various Artists",
-            "it": "A.A.V.V.",
-            "cy": "Amrywiol",
-            "fr": "Artistes divers",
-            "sv": "Blandade artister",
-            "pt": "Coletânea",
-            "es": "Compilaciones",
-            "da": "Danske Kunstnere",
-            "de": "Diverse",
-            "nl": "Diverse Artiesten",
-            "nn": "Diverse Artistar",
-            "nb": "Diverse Artister",
-            "fi": "Eri esittäjiä",
-            "et": "Erinevad",
-            "eu": "Hainbat artista",
-            "vi": "Hợp ca",
-            "eo": "Pluraj artistoj",
-            "sl": "Razlièni izvajalci",
-            "bs": "Razni Izvođači",
-            "hr": "Razni Izvođači",
-            "sr_Latn": "Razni Izvođači",
-            "uk": "Rizni vykonavci",
-            "pl": "Różni",
-            "cs": "Různí interpreti",
-            "ru": "[различные исполнители]",
-            "ca": "diversos artistes",
-            "tr": "Çeşitli sanatçılar",
-            "is": "Ýmsir hljóðfæraleikarar",
-            "lt": "Įvairūs atlikėjai",
-            "el": "Διάφοροι Καλλιτέχνες",
-            "bg": "Различни изпълнители",
-            "mk": "Разни изведувачи",
-            "be": "розныя выканаўцы",
-            "he": "אומנים שונים",
-            "ar": "مختلف الفنانين",
-            "fa": "هنرمندان مختلف",
-            "th": "รวมศิลปิน",
-            "ja": "さまざまなアーティスト",
-            "zh": "群星",
-            "ko": "여러 아티스트"
-        }
-    },
-    "Sting": {
-        "area": "England",
-        "aliases": {}
-    },
-    "Aoi Teshima": {
-        "area": "Japan",
-        "aliases": {
-            "en": "Aoi Teshima",
-            "ja": "手嶌葵"
-        }
-    },
-    "宋冬野": {
-        "area": "China",
-        "aliases": {
-            "en": "Song Dongye",
-            "zh_Hans_CN": "宋冬野",
-            "zh_Hans": "宋冬野",
-            "zh_Hant": "宋冬野"
-        }
-    },
-    "Elva Hsiao": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Elva Hsiao",
-            "zh_Hans": "萧亚轩",
-            "zh_Hant": "蕭亞軒"
-        }
-    },
-    "小霞": {
-        "area": "China",
-        "aliases": {
-            "zh_Hans": "黄绮珊",
-            "zh_Hant": "黃綺珊"
-        }
-    },
-    "Adam Lambert": {
-        "area": "United States",
-        "aliases": {
-            "en": "Adam Lambert",
-            "ja": "アダム・ランバート"
-        }
-    },
-    "Alessandra Amoroso": {
-        "area": "Italy",
-        "aliases": {}
-    },
-    "Naiwen Yang": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Faith Yang",
-            "zh_Hans": "杨乃文",
-            "zh_Hant": "楊乃文"
-        }
-    },
-    "Deserts Chang": {
-        "area": "Taiwan",
-        "aliases": {
-            "zh": "张悬",
-            "zh_Hans": "张悬",
-            "zh_Hant": "張懸"
-        }
-    },
-    "Bondy Chiu": {
-        "area": "Hong Kong",
-        "aliases": {
-            "zh_Hans_CN": "赵学而",
-            "zh_Hans": "赵学而",
-            "zh_Hant": "趙學而"
-        }
-    },
-    "趙紫驊": {
-        "area": "China",
-        "aliases": {
-            "en": "Zhao Zihua",
-            "zh_Hans": "赵紫骅",
-            "zh_Hant": "趙紫驊"
-        }
-    },
-    "Mika Nakashima": {
-        "area": "Japan",
-        "aliases": {
-            "en": "Mika Nakashima",
-            "ja": "中島美嘉"
-        }
-    },
-    "A Great Big World": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Christina Aguilera": {
-        "area": "United States",
-        "aliases": {
-            "ja": "クリスティーナ・アギレラ"
-        }
-    },
-    "A. Savage": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Adele": {
-        "area": "United Kingdom",
-        "aliases": {
-            "en_GB": "Adele",
-            "ja": "アデル",
-            "zh_Hans": "阿黛尔"
-        }
-    },
-    "Adriano Celentano": {
-        "area": "Italy",
-        "aliases": {
-            "ru": "Адриано Челентано"
-        }
-    },
-    "Aimer": {
-        "area": "Japan",
-        "aliases": {
-            "en": "Aimer",
-            "ja": "Aimer"
-        }
-    },
-    "Al Bano And Romina Power": {
-        "area": "Italy",
-        "aliases": {}
-    },
-    "Alanis Morissette": {
-        "area": "Canada",
-        "aliases": {}
-    },
-    "Alexander 23": {
-        "area": "Chicago",
-        "aliases": {
-            "ko_KR": "Alexander 23"
-        }
-    },
-    "Alexander Wren": {
-        "area": "Manhattan",
-        "aliases": {}
-    },
-    "Alice Phoebe Lou": {
-        "area": "Berlin",
-        "aliases": {}
-    },
-    "Jerry Lin": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Jerry Lin",
-            "zh": "林正忠",
-            "zh-Hans": "林正忠",
-            "zh-Hant": "林正忠"
-        }
-    },
-    "Angela Chang": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Angela Chang",
-            "zh_Hans_CN": "张韶涵",
-            "zh": "張韶涵",
-            "zh_Hans": "张韶涵",
-            "zh_Hant": "張韶涵"
-        }
-    },
-    "Tiger Hu": {
-        "area": "China",
-        "aliases": {
-            "en": "Anson Hu",
-            "zh_Hant": "胡彥斌",
-            "zh": "胡彦斌",
-            "zh_Hans": "胡彦斌",
-            "zh-Hans": "胡彦斌",
-            "zh-Hant": "胡彥斌"
-        }
-    },
-    "Anthony Gonzalez": {
-        "area": "France",
-        "aliases": {}
-    },
-    "Ana Ofelia Murguía": {
-        "area": "Mexico",
-        "aliases": {}
-    },
-    "Anthony Lazaro": {
-        "area": null,
-        "aliases": {}
-    },
-    "Arcade Fire": {
-        "area": "Canada",
-        "aliases": {
-            "en": "The Arcade Fire"
-        }
-    },
-    "Ariana Grande": {
-        "area": "United States",
-        "aliases": {
-            "yi": "אריאנא גראנדע",
-            "fa_IR": "آریانا گرانده",
-            "ar": "أريانا غراندي",
-            "ku": "ئاریانا گراندێی",
-            "ja": "アリアナ・グランデ",
-            "zh_Hans_CN": "爱莉安娜·格兰德",
-            "yue": "艾尼安娜格兰德",
-            "ko_KR": "아리아나 그란데"
-        }
-    },
-    "Arisa": {
-        "area": "Italy",
-        "aliases": {
-            "it_IT": "Rosalba Pippa"
-        }
-    },
-    "Niall Horan": {
-        "area": "Ireland",
-        "aliases": {}
-    },
-    "Audrey Assad": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Augustana": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "ayokay": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Jeremy Zucker": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "B.B.QUEENS": {
-        "area": "Japan",
-        "aliases": {}
-    },
-    "Dany Red": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "Barbara Zanetti": {
-        "area": "Italy",
-        "aliases": {}
-    },
-    "Bastille": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "The Bathers": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "The Beatles": {
-        "area": "United Kingdom",
-        "aliases": {
-            "en": "Beatles",
-            "is": "Bítlarnir",
-            "de": "Die Beatles",
-            "it": "I Beatles",
-            "fr": "Les Beatles",
-            "es": "Los Beatles",
-            "ru": "Битлз",
-            "mk": "Битлси",
-            "uk": "Бітлз",
-            "hy": "Պիթլս",
-            "yi": "די ביטלס",
-            "he": "הביטלס",
-            "ar": "البيتلز",
-            "fa": "بیتلز",
-            "ur": "بیٹلز",
-            "ne": "द बिटल्स",
-            "hi": "द बीटल्स",
-            "bn": "দ্য বিটল্‌স",
-            "pa": "ਦ ਬੀਟਲਜ਼",
-            "gu": "ધ બિટલ્સ",
-            "ta": "பீட்டில்ஸ்",
-            "te": "ద బీటిల్స్",
-            "kn": "ದಿ ಬೀಟಲ್ಸ್",
-            "ml": "ദി ബീറ്റിൽസ്",
-            "th": "เดอะบีเทิลส์",
-            "my": "ဘီးတဲလ်အဖွဲ့",
-            "ka": "ბითლზი",
-            "am": "ዘ ቢተልስ",
-            "sat": "ᱫᱚ ᱵᱤᱴᱞᱮᱥ",
-            "ja": "ザ・ビートルズ",
-            "zh_Hans": "披头士",
-            "zh_Hans_CN": "披头士乐队",
-            "zh_Hant": "披頭四",
-            "ko": "더 비틀즈"
-        }
-    },
-    "Beck": {
-        "area": "United States",
-        "aliases": {
-            "en": "Beck David Hansen"
-        }
-    },
-    "Ben Mazué": {
-        "area": "France",
-        "aliases": {
-            "fr": "Benjamin Mazuet"
-        }
-    },
-    "Louane": {
-        "area": "France",
-        "aliases": {}
-    },
-    "Beyoncé": {
-        "area": "United States",
-        "aliases": {
-            "zh_Hans_CN": "Beyoncé",
-            "en": "Beyoncé Giselle Knowles",
-            "ja": "ビヨンセ",
-            "zh_Hant_TW": "碧昂絲"
-        }
-    },
-    "Beyond": {
-        "area": "Hong Kong",
-        "aliases": {}
-    },
-    "Big Star": {
-        "area": "Memphis",
-        "aliases": {}
-    },
-    "Billie Eilish": {
-        "area": "United States",
-        "aliases": {
-            "lt": "Bili Ailiš",
-            "az": "Billi Ayliş",
-            "en": "Billie Eilish Pirate Baird O’Connell",
-            "lv": "Billija Ailiša",
-            "el": "Μπίλλι Άιλις",
-            "bg": "Били Ейлиш",
-            "kk": "Билли Айлиш",
-            "be": "Білі Айліш",
-            "hy": "Բիլլի Այլիշ",
-            "he": "בילי אייליש",
-            "ar": "بيلي إيليش",
-            "fa": "بیلی آیلیش",
-            "ckb": "بیڵی_ئایڵش",
-            "hi": "बिली एलीश",
-            "bn": "বিলি আইলিশ",
-            "ka": "ბილი აილიში",
-            "km": "ប៊ីលលី អៃលីស",
-            "ja": "ビリー・アイリッシュ",
-            "zh": "比莉艾莉什",
-            "ko": "빌리 아일리시"
-        }
-    },
-    "Billie Holiday": {
-        "area": "United States",
-        "aliases": {
-            "en": "B. Holiday",
-            "fr": "B. Holiday",
-            "ja": "ビリー・ホリデイ"
-        }
-    },
-    "Billy Corgan": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Bleachers": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Bon Iver": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "David Bowie": {
-        "area": "England",
-        "aliases": {
-            "ja": "デビッド・ボウイ"
-        }
-    },
-    "Brenn!": {
-        "area": "Lillehammer",
-        "aliases": {}
-    },
-    "Brunori Sas": {
-        "area": "Italy",
-        "aliases": {}
-    },
-    "Calvin Harris": {
-        "area": "United Kingdom",
-        "aliases": {
-            "en": "Calvin Harris"
-        }
-    },
-    "Carly Rae Jepsen": {
-        "area": "Canada",
-        "aliases": {
-            "ja": "カーリー・レイ・ジェプセン"
-        }
-    },
-    "Drake": {
-        "area": "Canada",
-        "aliases": {
-            "ja_JP": "ドレイク"
-        }
-    },
-    "Catatonia": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "Roland Herrington": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "Tommy D": {
-        "area": "Moscow",
-        "aliases": {
-            "ru_RU": "Тимофей Доценко"
-        }
-    },
-    "Cate Le Bon": {
-        "area": "Wales",
-        "aliases": {}
-    },
-    "Celeste": {
-        "area": "Brighton",
-        "aliases": {
-            "en": "Celeste Epiphany Waite"
-        }
-    },
-    "Chappell Roan": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Charli xcx": {
-        "area": "England",
-        "aliases": {
-            "en": "Charli XCX",
-            "kk": "Чарли XCX",
-            "bg": "Чарли Екс Си Екс",
-            "sr": "Чарли Екс-Си-Екс",
-            "hy": "Չարլի ԷքսՍիԷքս",
-            "he": "צ'ארלי XCX",
-            "fa": "شارلوت اما ایچیسن",
-            "ar": "شارلي إكس سي إكس",
-            "sd": "چارلي ايڪس‌سي ايڪس",
-            "ku": "چارلی ئێکس سی ئێکس",
-            "az_Arab": "چارلی ایکس‌سیایکس",
-            "ur": "چارلی ایکس‌سی‌ایکس",
-            "ta": "சார்லி எக்ஸ்சிஎக்ஸ்",
-            "th": "ชาร์ลี เอ็กซ์ซีเอ็กซ์",
-            "ka": "ჩარლი ექსიექსი",
-            "ja": "チャーリー・XCX",
-            "zh": "夏洛特·愛瑪·阿奇森",
-            "ko": "찰리 XCX"
-        }
-    },
-    "MØ": {
-        "area": "Denmark",
-        "aliases": {}
-    },
-    "Charlie Puth": {
-        "area": "United States",
-        "aliases": {
-            "en_US": "Charles Otto Puth Jr.",
-            "ko_KR": "찰리푸스"
-        }
-    },
-    "Charmaine Fong": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Charmaine Fong",
-            "zh_Hans_CN": "方皓玟",
-            "zh_Hans": "方皓玟",
-            "zh_Hant": "方皓玟"
-        }
-    },
-    "Chumbawamba": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "Cigarettes After Sex": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Coez": {
-        "area": "Italy",
-        "aliases": {}
-    },
-    "Frah Quintale": {
-        "area": "Italy",
-        "aliases": {}
-    },
-    "Coldplay": {
-        "area": "United Kingdom",
-        "aliases": {
-            "ja": "コールドプレイ"
-        }
-    },
-    "Hazbin Hotel": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Jessica Vosk": {
-        "area": null,
-        "aliases": {}
-    },
-    "Alex Brightman": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Sam Haft": {
-        "area": "New York",
-        "aliases": {}
-    },
-    "Andrew Underberg": {
-        "area": null,
-        "aliases": {
-            "en": "Andrew Englander Underberg"
-        }
-    },
-    "Selena Gomez": {
-        "area": "United States",
-        "aliases": {
-            "en": "Selena Marie Gomez",
-            "ja": "セレーナ・ゴメス"
-        }
-    },
-    "Cosmo": {
-        "area": "Italy",
-        "aliases": {
-            "it_IT": "Marco Jacopo Bianchi"
-        }
-    },
-    "Cringe and the Lizards": {
-        "area": null,
-        "aliases": {}
-    },
-    "The Cure": {
-        "area": "United Kingdom",
-        "aliases": {
-            "en": "The Cure"
-        }
-    },
-    "Khalil Fong": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Khalil Fong",
-            "zh": "方大同",
-            "zh_Hans": "方大同",
-            "zh_Hant": "方大同"
-        }
-    },
-    "Damien Rice": {
-        "area": "Ireland",
-        "aliases": {}
-    },
-    "U2": {
-        "area": "Ireland",
-        "aliases": {}
-    },
-    "Daniel Norgren": {
-        "area": "Sweden",
-        "aliases": {}
-    },
-    "David Kushner": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "David Tao": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "David Tao",
-            "zh": "陶喆",
-            "zh_Hant": "陶喆",
-            "zh_Hans": "陶喆"
-        }
-    },
-    "Dean Martin": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Teresa Teng": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Teng Li Chun",
-            "vi": "Đặng Lệ Quân",
-            "ja": "テレサ・テン",
-            "zh_Hans": "邓丽君",
-            "zh_Hant": "鄧麗君",
-            "zh-Hans": "邓丽君",
-            "zh-Hant": "鄧麗君"
-        }
-    },
-    "Djo": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Mally Mall": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Eric Bellinger": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Chinx": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Too $hort": {
-        "area": "United States",
-        "aliases": {
-            "en": "Todd A. Shaw"
-        }
-    },
-    "Doja Cat": {
-        "area": "United States",
-        "aliases": {
-            "ko_KR": "Doja Cat",
-            "ja": "ドージャ・キャット",
-            "ko": "도자 캣"
-        }
-    },
-    "SZA": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Dolly Parton": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "La Gente": {
-        "area": "Venezuela",
-        "aliases": {}
-    },
-    "Dua Lipa": {
-        "area": "United Kingdom",
-        "aliases": {
-            "sq": "Dua Lipa",
-            "ja": "デュア・リパ",
-            "ko": "두아 리파"
-        }
-    },
-    "Power Music Workout": {
-        "area": null,
-        "aliases": {}
-    },
-    "Bossa Bros": {
-        "area": null,
-        "aliases": {}
-    },
-    "Nara": {
-        "area": "Brazil",
-        "aliases": {
-            "pt_BR": "Nara Leão",
-            "ja": "ナラ・レオン"
-        }
-    },
-    "Eason Chan": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Eason Chan",
-            "zh_Hans": "陈奕迅",
-            "zh_Hans_CN": "陈奕迅",
-            "zh": "陳奕迅",
-            "zh_Hant": "陳奕迅"
-        }
-    },
-    "Faye Wong": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Faye Wong",
-            "vi": "Vương Phi",
-            "ja": "フェイ・ウォン",
-            "zh": "王菲",
-            "zh_Hant": "王菲",
-            "zh_Hans": "王菲",
-            "zh-Hans": "王菲",
-            "zh-Hant": "王菲"
-        }
-    },
-    "Ed Sheeran": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "EDEN": {
-        "area": "Ireland",
-        "aliases": {}
-    },
-    "Vincent Dalgaard": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Elephant Brain": {
-        "area": "Italy",
-        "aliases": {}
-    },
-    "Elis Regina": {
-        "area": "Brazil",
-        "aliases": {
-            "pt": "Elis Regina",
-            "pt_BR": "Elis Regina Carvalho Costa"
-        }
-    },
-    "Antônio Carlos Jobim": {
-        "area": "Brazil",
-        "aliases": {
-            "en": "A. Carlos Jobim",
-            "ja": "アントニオ・カルロス・ジョビン"
-        }
-    },
-    "Ellie Goulding": {
-        "area": "United Kingdom",
-        "aliases": {
-            "zh_Hans": "艾丽·高登"
-        }
-    },
-    "Eminem": {
-        "area": "United States",
-        "aliases": {
-            "en": "Eminem",
-            "ja": "エミネム",
-            "ko": "에미넴"
-        }
-    },
-    "Rihanna": {
-        "area": "United States",
-        "aliases": {
-            "en": "Rihanna",
-            "ja": "リアーナ",
-            "zh": "蕾哈娜",
-            "ko": "리아나"
-        }
-    },
-    "Eric Clapton": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "Eve Ai": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Eve Ai",
-            "ja": "アイ・イーリャン",
-            "zh": "艾怡良",
-            "zh-Hans": "艾怡良",
-            "zh-Hant": "艾怡良"
-        }
-    },
-    "Ezra Furman": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Jay Fung": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Jay Fung",
-            "zh_Hans": "冯允谦",
-            "zh_Hant": "馮允謙",
-            "zh-Hans": "冯允谦",
-            "zh-Hant": "馮允謙"
-        }
-    },
-    "FINNEAS": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Fiona Apple": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Fleurie": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Alok": {
-        "area": "Brazil",
-        "aliases": {}
-    },
-    "Zeeba": {
-        "area": "Brazil",
-        "aliases": {}
-    },
-    "Bruno Martini": {
-        "area": null,
-        "aliases": {}
-    },
-    "Florence + The Machine": {
-        "area": "England",
-        "aliases": {
-            "ja": "フローレンス・アンド・ザ・マシーン"
-        }
-    },
-    "Florist": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "ヨルシカ": {
-        "area": "Japan",
-        "aliases": {
-            "en": "Yorushika",
-            "ja": "ヨルシカ"
-        }
-    },
-    "Queen": {
-        "area": "United Kingdom",
-        "aliases": {
-            "ja": "クイーン",
-            "zh_Hans_CN": "皇后乐队"
-        }
-    },
-    "DJ Snake": {
-        "area": "France",
-        "aliases": {}
-    },
-    "Ozuna": {
-        "area": "Puerto Rico",
-        "aliases": {}
-    },
-    "ギヴン": {
-        "area": "Japan",
-        "aliases": {}
-    },
-    "Valentin Silvestrov": {
-        "area": "Ukraine",
-        "aliases": {
-            "en": "Valentyn Sylvestrov",
-            "ru": "Валентин Васильевич Сильвестров",
-            "uk": "Валентин Васильович Сильвестров"
-        }
-    },
-    "Anja Lechner": {
-        "area": "Germany",
-        "aliases": {
-            "ru": "Анна Лехнер"
-        }
-    },
-    "Silke Avenhaus": {
-        "area": "Germany",
-        "aliases": {}
-    },
-    "Maacha Deubner": {
-        "area": "Germany",
-        "aliases": {}
-    },
-    "Simon Fordham": {
-        "area": "Germany",
-        "aliases": {}
-    },
-    "Rosamunde Quartett": {
-        "area": "Germany",
-        "aliases": {}
-    },
-    "FLOWER FLOWER": {
-        "area": "Japan",
-        "aliases": {
-            "ja": "FLOWER FLOWER"
-        }
-    },
-    "Kurumi Enomoto": {
-        "area": "Japan",
-        "aliases": {}
-    },
-    "Goose house": {
-        "area": "Japan",
-        "aliases": {}
-    },
-    "Kaientai": {
-        "area": "Japan",
-        "aliases": {
-            "en": "KAIENTAI"
-        }
-    },
-    "傻子與白痴": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Fool and Idiot",
-            "zh_Hans": "傻子与白痴",
-            "zh_Hant": "傻子與白痴"
-        }
-    },
-    "Francesco De Gregori": {
-        "area": "Italy",
-        "aliases": {}
-    },
-    "Francesco Guccini": {
-        "area": "Italy",
-        "aliases": {}
-    },
-    "Tommaso Paradiso": {
-        "area": "Italy",
-        "aliases": {}
-    },
-    "fun.": {
-        "area": "Italy",
-        "aliases": {}
-    },
-    "Gatlin": {
-        "area": "Cleveland",
-        "aliases": {}
-    },
-    "Gianna Nannini": {
-        "area": "Italy",
-        "aliases": {}
-    },
-    "Gordi": {
-        "area": "New South Wales",
-        "aliases": {}
-    },
-    "Benson Boone": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Take Me To Your Best Friends House": {
-        "area": "Japan",
-        "aliases": {}
-    },
-    "郭顶": {
-        "area": "China",
-        "aliases": {
-            "zh": "郭顶",
-            "zh-Hans": "郭顶",
-            "zh-Hant": "郭頂"
-        }
-    },
-    "Halsey": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Hamilton Leithauser": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Rostam": {
-        "area": "United States",
-        "aliases": {
-            "en": "Rostam Batmanglij",
-            "fa": "رستم"
-        }
-    },
-    "Harrison Brome": {
-        "area": "Canada",
-        "aliases": {}
-    },
-    "Helen Reddy": {
-        "area": "Australia",
-        "aliases": {
-            "ja": "ヘレン・レディ"
-        }
-    },
-    "Christie Brooke": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "Hot Left Pole": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "Hozier": {
-        "area": "Ireland",
-        "aliases": {}
-    },
-    "I Segreti": {
-        "area": null,
-        "aliases": {}
-    },
-    "Icona Pop": {
-        "area": "Sweden",
-        "aliases": {}
-    },
-    "Backing Force": {
-        "area": null,
-        "aliases": {}
-    },
-    "Irama": {
-        "area": "Italy",
-        "aliases": {
-            "it_IT": "Filippo Maria Fanti"
-        }
-    },
-    "JACE": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Jack Stauber": {
-        "area": "Pittsburgh",
-        "aliases": {}
-    },
-    "Jacky Cheung": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Cheung Hok Yau",
-            "ja": "ジャッキー・チュン",
-            "zh_Hans": "张学友",
-            "zh_Hant": "張學友",
-            "zh-Hans": "张学友",
-            "zh-Hant": "張學友"
-        }
-    },
-    "Jaime R. Echavarría": {
-        "area": "Colombia",
-        "aliases": {}
-    },
-    "James Bay": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "Papa Roach": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "James Blunt": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "Janelle Monáe": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Janis Joplin": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "宇多田光": {
-        "area": "Japan",
-        "aliases": {
-            "en": "Hikaru Utada",
-            "ja": "宇多田ヒカル"
-        }
-    },
-    "Jace Chan": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Jace Chan",
-            "zh_Hans": "陈凯咏",
-            "zh_Hant": "陳凱詠"
-        }
-    },
-    "Rachel Lui": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Rachel Lui",
-            "zh_Hans": "雷深如",
-            "zh_Hant": "雷深如"
-        }
-    },
-    "Jay Chou": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Chieh-Lun Chou",
-            "zh_Hans": "周杰伦",
-            "zh_Hant_TW": "周杰倫",
-            "zh_Hant": "周杰倫"
-        }
-    },
-    "Zoom Karaoke": {
-        "area": null,
-        "aliases": {}
-    },
-    "Jaymes Young": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "JC 陳詠桐": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Jennifer Chan",
-            "zh_Hans": "陈咏桐",
-            "zh_Hant": "陳泳彤"
-        }
-    },
-    "Jenevieve": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Noctilucent": {
-        "area": null,
-        "aliases": {}
-    },
-    "Chelsea Cutler": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "The Cadillacs": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Simply Red": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "Joanna Wang": {
-        "area": "Taiwan",
-        "aliases": {
-            "en_001": "Joanna Wang",
-            "zh": "王若琳",
-            "zh_Hans": "王若琳",
-            "zh_Hant": "王若琳"
-        }
-    },
-    "John Denver": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "John Mayer": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Johnny Cash": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Joji": {
-        "area": "United States",
-        "aliases": {
-            "ja": "ジョージ・楠木・ミラー"
-        }
-    },
-    "Landon Austin": {
-        "area": "Nashville",
-        "aliases": {}
-    },
-    "Kaya May": {
-        "area": null,
-        "aliases": {}
-    },
-    "Jonathan Lee": {
-        "area": null,
-        "aliases": {}
-    },
-    "Journey": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Joy Of Cooking": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "LILY STONE": {
-        "area": "United Kingdom",
-        "aliases": {
-            "ja": "ローリング・ストーンズ"
-        }
-    },
-    "Judy Garland": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Julia Jacklin": {
-        "area": "Australia",
-        "aliases": {}
-    },
-    "JVKE": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "k.d. lang": {
-        "area": "Canada",
-        "aliases": {}
-    },
-    "Karen Mok": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Karen Mok",
-            "zh_Hans": "莫文蔚",
-            "zh_Hant": "莫文蔚"
-        }
-    },
-    "Kate Bush": {
-        "area": "England",
-        "aliases": {
-            "ja": "ケイト・ブッシュ"
-        }
-    },
-    "Katy Perry": {
-        "area": "United States",
-        "aliases": {
-            "en": "Katheryn Elizabeth Hudson",
-            "ja": "ケイティ・ペリー",
-            "zh": "凯蒂·佩里"
-        }
-    },
-    "Kelly Yu": {
-        "area": "China",
-        "aliases": {
-            "en": "Kelly Yu",
-            "zh_Hans": "于文文",
-            "zh_Hant": "于文文"
-        }
-    },
-    "Kelsea Ballerini": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "LANY": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "keshi": {
-        "area": "United States",
-        "aliases": {
-            "ja": "ケシ"
-        }
-    },
-    "ProSource Karaoke": {
-        "area": null,
-        "aliases": {
-            "en": "Karaoke",
-            "ru": "Каркаоке"
-        }
-    },
-    "The Amplified Project": {
-        "area": "Japan",
-        "aliases": {}
-    },
-    "Bob Marley & The Wailers": {
-        "area": "Jamaica",
-        "aliases": {
-            "ja": "ボブ・マーリー"
-        }
-    },
-    "Skip Marley": {
-        "area": "Jamaica",
-        "aliases": {
-            "en_JM": "Skip Marley Minto"
-        }
-    },
-    "Cedella Marley": {
-        "area": "Jamaica",
-        "aliases": {}
-    },
-    "Stephen Marley": {
-        "area": "Jamaica",
-        "aliases": {}
-    },
-    "Ghetto Youths Foundation": {
-        "area": null,
-        "aliases": {}
-    },
-    "Kim Nain": {
-        "area": "Jamaica",
-        "aliases": {}
-    },
-    "Manifesto Ja": {
-        "area": "Umeå",
-        "aliases": {}
-    },
-    "TEEKS": {
-        "area": "New Zealand",
-        "aliases": {}
-    },
-    "Natty": {
-        "area": "Finsbury Park",
-        "aliases": {}
-    },
-    "Kim Carnes": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "King Floyd": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "If I Was Your": {
-        "area": "Germany",
-        "aliases": {}
-    },
-    "King Gnu": {
-        "area": "Japan",
-        "aliases": {}
-    },
-    "Lady Gaga": {
-        "area": "United States",
-        "aliases": {
-            "it": "Jo Calderone",
-            "az_Latn": "Ledi Qaqa",
-            "bs_Latn": "Lejdi Gaga",
-            "lv": "Lēdija Gāga",
-            "lt": "Stefanija Džoana Andželina Germanota",
-            "el": "Λέιντι Γκάγκα",
-            "sr": "Џо Калдероне",
-            "ru": "Джо Кальдероне",
-            "ba": "Леди Гага",
-            "ce": "Леди Гага",
-            "cv": "Леди Гага",
-            "ky": "Леди Гага",
-            "sah": "Леди Гага",
-            "tt": "Леди Гага",
-            "tyv": "Леди Гага",
-            "uk": "Леді Гага",
-            "bg": "Лейди Гага",
-            "tg": "Лейди Гага",
-            "bs_Cyrl": "Лејди Гага",
-            "mk": "Лејди Гага",
-            "be": "Лэдзі Гага",
-            "mn": "Лэди Гага",
-            "hy": "Լեդի Գագա",
-            "he": "ליידי גאגא",
-            "yi": "ליידי גאגא",
-            "fa": "جوآن استفانی جرمانوتا",
-            "ar": "ستيفاني جيرمانوتا",
-            "ar_EG": "ليدى جاجا",
-            "ar_MA": "ليدي ڭاڭا",
-            "az_Arab": "لیدی قاقا",
-            "ks": "لیڈی گاگا",
-            "skr": "لیڈی گاگا",
-            "ur": "لیڈی گاگا",
-            "ug": "لېيدى گاگا",
-            "ku": "لەیدی گاگا",
-            "bho": "लेडी गागा",
-            "hi": "लेडी गागा",
-            "mai": "लेडी गागा",
-            "mr": "लेडी गागा",
-            "ne": "लेडी गागा",
-            "bn": "লেডি গাগা",
-            "as": "লেডী গাগা",
-            "pa": "ਲੇਡੀ ਗਾਗਾ",
-            "gu": "લેડી ગાગા",
-            "or": "ଲେଡି ଗାଗା",
-            "ta": "லேடி காகா",
-            "te": "లేడీ గాగా",
-            "kn": "ಲೇಡಿ ಗಾಗಾ",
-            "ml": "ലേഡി ഗാഗ",
-            "si": "ලේඩි ගාගා",
-            "th": "สเตฟานี โจแอนน์ แอนเจลินา เจอร์มาน็อตตา",
-            "lo": "ເລດີ້ ກາກ້າ",
-            "my": "လေဒီဂါဂါ",
-            "ka": "ლედი გაგა",
-            "am": "ስቲፋኒ ጆአኒ አንጀሊና ጀርማኖታ",
-            "km": "ឡេឌី ហ្គាហ្គា",
-            "sat": "ᱞᱮᱰᱤ ᱜᱟᱜᱟ",
-            "ja": "ステファニー・ジョアン・アンジェリーナ・ジャーマノッタ",
-            "zh": "史蒂芬妮·乔安妮·安吉丽娜·杰尔马诺塔",
-            "zh_Hant": "嘎嘎小姐",
-            "ko": "레이디 가가"
-        }
-    },
-    "Swagu": {
-        "area": null,
-        "aliases": {}
-    },
-    "Bradley Cooper": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Bruno Mars": {
-        "area": "United States",
-        "aliases": {
-            "en": "Bruno Mars",
-            "zh_Hans_CN": "Bruno Mars",
-            "ja": "ブルーノ・マーズ",
-            "ko": "브루노 마스"
-        }
-    },
-    "Snoop Dogg": {
-        "area": "United States",
-        "aliases": {
-            "en": "Da Bigg Boss Dogg",
-            "ja": "スヌープ・ドギー・ドッグ"
-        }
-    },
-    "Lauv": {
-        "area": "United States",
-        "aliases": {
-            "en": "Ari Staprans Leff",
-            "ko": "Lauv"
-        }
-    },
-    "Zhao Lei": {
-        "area": "China",
-        "aliases": {
-            "en": "Zhao Lei",
-            "zh": "赵雷",
-            "zh_Hans": "赵雷",
-            "zh_Hant": "趙雷"
-        }
-    },
-    "Leon Bridges": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Lewis Capaldi": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "李宗盛": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Jonathan Lee",
-            "zh_Hans_CN": "李宗盛",
-            "zh_Hans": "李宗盛",
-            "zh_Hant": "李宗盛"
-        }
-    },
-    "Sandy Lam": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Lam Yik Lin",
-            "zh_Hans": "林忆莲",
-            "zh_Hant": "林憶蓮"
-        }
-    },
-    "Fish Leong": {
-        "area": "Malaysia",
-        "aliases": {
-            "en": "Fish Leong",
-            "zh_Hans": "梁静茹",
-            "zh_Hans_CN": "梁静茹",
-            "zh": "梁靜茹",
-            "zh_Hant": "梁靜茹"
-        }
-    },
-    "LISA": {
-        "area": "Japan",
-        "aliases": {
-            "ja": "LiSA",
-            "zh_Hans_CN": "织部里沙 (LiSA OLiVE)"
-        }
-    },
-    "RAYE": {
-        "area": "United Kingdom",
-        "aliases": {
-            "en_GB": "Rachel Agatha Keen"
-        }
-    },
-    "Little Tony": {
-        "area": "San Marino",
-        "aliases": {}
-    },
-    "Rene Liu": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Rene Liu",
-            "zh_Hans": "刘若英",
-            "zh_Hans_CN": "刘若英",
-            "zh_Hant": "劉若英"
-        }
-    },
-    "Lord Huron": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Lorde": {
-        "area": "New Zealand",
-        "aliases": {
-            "ja": "ロード"
-        }
-    },
-    "Jessi": {
-        "area": "South Korea",
-        "aliases": {}
-    },
-    "Lou Reed": {
-        "area": "United States",
-        "aliases": {
-            "en": "Reed"
-        }
-    },
-    "LOVE SUPREME": {
-        "area": "France",
-        "aliases": {}
-    },
-    "Megadeth": {
-        "area": "United States",
-        "aliases": {
-            "ja": "メガデス"
-        }
-    },
-    "Sammy Hagar": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "SingLike": {
-        "area": null,
-        "aliases": {}
-    },
-    "Macaroni Empitsu": {
-        "area": "Japan",
-        "aliases": {
-            "en": "Macaroni Empitsu"
-        }
-    },
-    "Just Da Truth": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Linkin Park": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Maisie Peters": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "おやすみベイビー": {
-        "area": null,
-        "aliases": {}
-    },
-    "MANAGEMENT DEL DOLORE POST-OPERATORIO": {
-        "area": "Italy",
-        "aliases": {}
-    },
-    "Marco Antonio Solís": {
-        "area": "Mexico",
-        "aliases": {}
-    },
-    "Mavis Hee": {
-        "area": "Singapore",
-        "aliases": {
-            "zh_Hans": "许美静",
-            "zh_Hant": "許美靜"
-        }
-    },
-    "Meghan Trainor": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "John Legend": {
-        "area": "United States",
-        "aliases": {
-            "ja": "ジョン・レジェンド"
-        }
-    },
-    "mehro": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Melanie": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Michael Hurley": {
-        "area": "Astoria",
-        "aliases": {}
-    },
-    "OG PO": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Midnight Flyer": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "MIKA": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "milet": {
-        "area": "Japan",
-        "aliases": {
-            "ja": "milet"
-        }
-    },
-    "Lilas": {
-        "area": null,
-        "aliases": {}
-    },
-    "Miley Cyrus": {
-        "area": "United States",
-        "aliases": {
-            "en": "Ashley O",
-            "ja": "マイリー・サイラス"
-        }
-    },
-    "Milky Chance": {
-        "area": "Germany",
-        "aliases": {}
-    },
-    "Mina": {
-        "area": "Italy",
-        "aliases": {}
-    },
-    "Mindy Gledhill": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Miriam Yeung": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Miriam Yeung",
-            "zh_Hans": "杨千嬅",
-            "zh_Hant": "楊千嬅"
-        }
-    },
-    "Rockin Moroccin": {
-        "area": "London",
-        "aliases": {}
-    },
-    "Modern Baseball": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "MONGOL800": {
-        "area": "Japan",
-        "aliases": {}
-    },
-    "那英": {
-        "area": "China",
-        "aliases": {
-            "en": "Na Ying",
-            "zh": "那英",
-            "zh_Hans": "那英",
-            "zh_Hant": "那英"
-        }
-    },
-    "Nakimushi": {
-        "area": "Japan",
-        "aliases": {
-            "en": "Nakimushi☔︎",
-            "ja": "泣き虫"
-        }
-    },
-    "田中タリラ": {
-        "area": "Japan",
-        "aliases": {}
-    },
-    "Gregory Porter": {
-        "area": "United States",
-        "aliases": {
-            "ja": "グレゴリー・ポーター"
-        }
-    },
-    "NIKI": {
-        "area": "Indonesia",
-        "aliases": {}
-    },
-    "88rising": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Snow Strippers": {
-        "area": "New York",
-        "aliases": {}
-    },
-    "DJ Antoine": {
-        "area": "Switzerland",
-        "aliases": {}
-    },
-    "Mad Mark": {
-        "area": null,
-        "aliases": {}
-    },
-    "Temara Melek": {
-        "area": null,
-        "aliases": {}
-    },
-    "Euro": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Achille Lauro": {
-        "area": "Italy",
-        "aliases": {
-            "it_IT": "Lauro De Marinis"
-        }
-    },
-    "Tom Odell": {
-        "area": "United Kingdom",
-        "aliases": {
-            "en_GB": "Thomas Peter Odell"
-        }
-    },
-    "Norman Greenbaum": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "One Direction": {
-        "area": "England",
-        "aliases": {}
-    },
-    "オレンジスパイニクラブ": {
-        "area": "Japan",
-        "aliases": {
-            "en": "Orange Spiny Crab"
-        }
-    },
-    "P!nk": {
-        "area": "United States",
-        "aliases": {
-            "ja": "ピンク"
-        }
-    },
-    "Nate Ruess": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Eduardo di Capua": {
-        "area": "Italy",
-        "aliases": {
-            "lv": "I.Di Capua"
-        }
-    },
-    "Alfredo Mazzucchi": {
-        "area": "Italy",
-        "aliases": {}
-    },
-    "National Philharmonic Orchestra": {
-        "area": "United Kingdom",
-        "aliases": {
-            "en": "London National Philharmonic Orchestra",
-            "fr": "L’Orchestre Philharmonique National de Londres",
-            "es": "Orquesta filarmónica nacional de Londres"
-        }
-    },
-    "Giancarlo Chiaramello": {
-        "area": "Italy",
-        "aliases": {}
-    },
-    "Paolo Nutini": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "Peggy Lee": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Penny Tai": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Penny Tai",
-            "zh_Hans": "戴佩妮",
-            "zh_Hant": "戴佩妮"
-        }
-    },
-    "Pet Shop Boys": {
-        "area": "United Kingdom",
-        "aliases": {
-            "en": "Pet Shop Boys",
-            "ja": "ペット・ショップ・ボーイズ"
-        }
-    },
-    "Peter McPoland": {
-        "area": "The Woodlands",
-        "aliases": {}
-    },
-    "KI/KI": {
-        "area": "Netherlands",
-        "aliases": {}
-    },
-    "Phosphorescent": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Songlorious": {
-        "area": null,
-        "aliases": {}
-    },
-    "Pinkzebra": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Benji Jackson": {
-        "area": "Melbourne",
-        "aliases": {}
-    },
-    "Kristen Agee": {
-        "area": "Poland",
-        "aliases": {}
-    },
-    "Onyay Pheori": {
-        "area": null,
-        "aliases": {}
-    },
-    "Portishead": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "Post Malone": {
-        "area": "United States",
-        "aliases": {
-            "ko": "포스트 말론"
-        }
-    },
-    "Priscilla Chan": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Chan Wai Han",
-            "ja": "プリシラ・チャン",
-            "zh_Hans": "陈慧娴",
-            "zh_Hant": "陳慧嫻"
-        }
-    },
-    "Purple Disco Machine": {
-        "area": "Germany",
-        "aliases": {}
-    },
-    "Sophie and the Giants": {
-        "area": "Sheffield",
-        "aliases": {}
-    },
-    "賴雅妍": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Megan Lai",
-            "zh_Hans": "赖雅妍",
-            "zh_Hant": "賴雅妍"
-        }
-    },
-    "Original Soundtrack": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Ninth Degree": {
-        "area": "Edinburgh",
-        "aliases": {}
-    },
-    "R.E.M.": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Rachael Yamagata": {
-        "area": "United States",
-        "aliases": {
-            "en": "Rachael Yamagata"
-        }
-    },
-    "Piano Echoes": {
-        "area": "Japan",
-        "aliases": {}
-    },
-    "オルゴール ミドリ": {
-        "area": "Japan",
-        "aliases": {}
-    },
-    "RADWIMPS": {
-        "area": "Japan",
-        "aliases": {}
-    },
-    "Raffaella Carrà": {
-        "area": "Italy",
-        "aliases": {}
-    },
-    "Rainie Yang": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Rainie Yang",
-            "zh_Hans": "杨丞琳",
-            "zh_Hant": "楊丞琳"
-        }
-    },
-    "Regina Spektor": {
-        "area": "United States",
-        "aliases": {
-            "en": "Regina Ilyinichna Spektor",
-            "ru": "Реги́на Ильи́нична Спе́ктор",
-            "ja": "レジーナ・スペクター",
-            "zh": "蕾吉娜·史派克特"
-        }
-    },
-    "Donatella Rettore": {
-        "area": "Italy",
-        "aliases": {}
-    },
-    "Rick James": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Diamonds": {
-        "area": "Canada",
-        "aliases": {
-            "ja": "ザ・ダイアモンズ"
-        }
-    },
-    "Done Again": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Paris Music": {
-        "area": "France",
-        "aliases": {}
-    },
-    "Rio Romeo": {
-        "area": "Los Angeles",
-        "aliases": {}
-    },
-    "The Beach Boys": {
-        "area": "United States",
-        "aliases": {
-            "ja": "ザ・ビーチ・ボーイズ"
-        }
-    },
-    "Roo Panes": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "Waa Wei": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Waa Wei",
-            "zh_Hant_TW": "魏如萱",
-            "zh_Hans": "魏如萱",
-            "zh_Hant": "魏如萱"
-        }
-    },
-    "Valen Hsu": {
-        "area": "Taiwan",
-        "aliases": {
-            "vi": "Hứa Như Vân",
-            "en": "Valen Hsu",
-            "zh_Hans_CN": "许茹芸",
-            "zh_Hans": "许茹芸",
-            "zh_Hant": "許茹芸"
-        }
-    },
-    "S.H.E": {
-        "area": "Taiwan",
-        "aliases": {}
-    },
-    "Samara Joy": {
-        "area": "United States",
-        "aliases": {
-            "en_US": "Samara Joy McLendon"
-        }
-    },
-    "Sebastian Yatra": {
-        "area": "Colombia",
-        "aliases": {}
-    },
-    "SEKAI NO OWARI": {
-        "area": "Japan",
-        "aliases": {
-            "en": "End of the World",
-            "ja": "SEKAI NO OWARI"
-        }
-    },
-    "SHAED": {
-        "area": "United States",
-        "aliases": {
-            "en": "SHAED"
-        }
-    },
-    "Silly Boy Blue": {
-        "area": "France",
-        "aliases": {}
-    },
-    "Sleeping At Last": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Social House": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Lil Yachty": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "sodagreen": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "sodagreen",
-            "yue_Hans": "苏打绿",
-            "yue_Hans_CN": "苏打绿",
-            "zh_Hans": "苏打绿",
-            "zh_Hans_CN": "苏打绿",
-            "zh_Hans_HK": "苏打绿",
-            "zh_Hans_MO": "苏打绿",
-            "zh_Hans_SG": "苏打绿",
-            "yue": "蘇打綠",
-            "yue_Hant": "蘇打綠",
-            "yue_Hant_HK": "蘇打綠",
-            "zh": "蘇打綠",
-            "zh_Hant": "蘇打綠",
-            "zh_Hant_HK": "蘇打綠",
-            "zh_Hant_MO": "蘇打綠",
-            "zh_Hant_TW": "蘇打綠"
-        }
-    },
-    "SOLOMON": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Steven Grossman": {
-        "area": null,
-        "aliases": {}
-    },
-    "Paul Leonard-Morgan": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "Stevie Wonder": {
-        "area": "United States",
-        "aliases": {
-            "en": "Stevie Wonder",
-            "ru": "Стиви Уандер",
-            "ja": "スティーヴィー・ワンダー"
-        }
-    },
-    "徐剑秋": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Stefanie Sun": {
-        "area": "Singapore",
-        "aliases": {
-            "en": "Stefanie Sun",
-            "ja": "スン・イェンツー",
-            "zh": "孙燕姿",
-            "zh_Hans": "孙燕姿",
-            "zh_Hans_CN": "孙燕姿",
-            "zh_Hant": "孫燕姿"
-        }
-    },
-    "Lezel": {
-        "area": "Japan",
-        "aliases": {
-            "ja": "Lezel"
-        }
-    },
-    "Tame Impala": {
-        "area": "Australia",
-        "aliases": {}
-    },
-    "Supertramp": {
-        "area": "United Kingdom",
-        "aliases": {
-            "en": "Daddy"
-        }
-    },
-    "Tanya Chua": {
-        "area": "Singapore",
-        "aliases": {
-            "en": "Tanya Chua",
-            "zh": "蔡健雅",
-            "zh_Hans": "蔡健雅",
-            "zh_Hant": "蔡健雅"
-        }
-    },
-    "Taylor Swift": {
-        "area": "United States",
-        "aliases": {
-            "en": "Dr. Taylor Alison Swift",
-            "sv": "Nils Sjöberg",
-            "cs": "Taylor Swiftová",
-            "sk": "Taylor Swiftová",
-            "shi": "Taylur Swift",
-            "lv": "Teilora Svifta",
-            "tk": "Teýlor Swift",
-            "el": "Τέιλορ Σουίφτ",
-            "kk": "Тейлор Свифт",
-            "ky": "Тейлор Свифт",
-            "ru": "Тейлор Свифт",
-            "uk": "Тейлор Свіфт",
-            "bg": "Тейлър Суифт",
-            "mk": "Тејлор Свифт",
-            "sr": "Тејлор Свифт",
-            "be": "Тэйлар Свіфт",
-            "mn": "Тэйлор Свифт",
-            "sah": "Тэйлор Суифт",
-            "hy": "Թեյլոր Սվիֆթ",
-            "he": "טיילור סוויפט",
-            "yi": "טעילאר סוויפט",
-            "ku": "تایلر سویفت",
-            "az": "تیلور سوئیفت",
-            "fa": "تیلور سوئیفت",
-            "ks": "ٹیلر سوئفٹ",
-            "pa_Arab": "ٹیلر سوئفٹ",
-            "skr": "ٹیلر سوئفٹ",
-            "ur": "ٹیلر سوئفٹ",
-            "bho": "टेलर स्विफ्ट",
-            "hi": "टेलर स्विफ्ट",
-            "mai": "टेलर स्विफ्ट",
-            "mr": "टेलर स्विफ्ट",
-            "ne": "टेलर स्विफ्ट",
-            "bn": "টেইলর সুইফট",
-            "as": "টেইলৰ ছুইফ্ট",
-            "pa_Guru": "ਟੇਲਰ ਸਵਿਫਟ",
-            "ta": "டேலர் ஸ்விஃப்ட்",
-            "te": "టేలర్ స్విఫ్ట్",
-            "kn": "ಟೈಲರ್ ಸ್ವಿಫ್ಟ್",
-            "ml": "ടെയിലർ സ്വിഫ്റ്റ്",
-            "si": "ටේලර් ස්විෆ්ට්",
-            "th": "เทย์เลอร์ สวิฟต์",
-            "lo": "ເທເລໍ່ ສວິຟ",
-            "my": "တေလာဆွစ်ဖ်",
-            "ka": "ტეილორ სვიფტი",
-            "km": "ថេល័រ ស្វីហ្វត៍",
-            "ja": "テイラー・スウィフト",
-            "zh_Hans": "泰勒·史薇芙特",
-            "zh": "泰勒·斯威夫特",
-            "zh_Hans_SG": "泰勒丝",
-            "zh_Hant_TW": "泰勒絲",
-            "ko": "테일러 스위프트"
-        }
-    },
-    "Keith Urban": {
-        "area": "Australia",
-        "aliases": {}
-    },
-    "曲婉婷": {
-        "area": "China",
-        "aliases": {
-            "en": "Wanting",
-            "zh_Hans": "曲婉婷",
-            "zh_Hant": "曲婉婷"
-        }
-    },
-    "Normani": {
-        "area": "United States",
-        "aliases": {
-            "zh": "諾瑪妮"
-        }
-    },
-    "Yichun Shan": {
-        "area": "China",
-        "aliases": {
-            "en": "Yichun Shan",
-            "zh_Hans": "单依纯",
-            "zh_Hant": "單依純"
-        }
-    },
-    "林家謙": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Lam Ka Him",
-            "yue": "林家謙",
-            "yue_Hant": "林家謙",
-            "yue_Hant_HK": "林家謙",
-            "zh": "林家謙",
-            "zh_Hant": "林家謙",
-            "zh_Hant_HK": "林家謙",
-            "zh_Hant_MO": "林家謙",
-            "zh_Hant_MY": "林家謙",
-            "zh_Hant_TW": "林家謙",
-            "yue_Hans": "林家谦",
-            "yue_Hans_CN": "林家谦",
-            "zh_Hans": "林家谦",
-            "zh_Hans_CN": "林家谦",
-            "zh_Hans_HK": "林家谦",
-            "zh_Hans_MO": "林家谦",
-            "zh_Hans_MY": "林家谦",
-            "zh_Hans_SG": "林家谦"
-        }
-    },
-    "THE ANXIETY": {
-        "area": null,
-        "aliases": {}
-    },
-    "Tyler Cole": {
-        "area": null,
-        "aliases": {}
-    },
-    "The Cardigans": {
-        "area": "Sweden",
-        "aliases": {}
-    },
-    "The Chainsmokers feat. Halsey": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "The Chainsmokers": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Commodores": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "The Cranberries": {
-        "area": "Ireland",
-        "aliases": {
-            "ja": "クランベリーズ"
-        }
-    },
-    "浪花兄弟": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "The Drifters"
-        }
-    },
-    "The Kills": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "The Lumineers": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "The Maytals": {
-        "area": null,
-        "aliases": {}
-    },
-    "The Platters": {
-        "area": "United States",
-        "aliases": {
-            "es": "Los Plateros"
-        }
-    },
-    "The Pogues": {
-        "area": "United Kingdom",
-        "aliases": {
-            "ja": "ザ・ポーグス"
-        }
-    },
-    "The Raconteurs": {
-        "area": "United States",
-        "aliases": {
-            "en": "The Raconteurs",
-            "en_AU": "The Saboteurs"
-        }
-    },
-    "The Righteous Brothers": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "The Temptations": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "The Turbines": {
-        "area": null,
-        "aliases": {}
-    },
-    "The Who": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "田馥甄": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Hebe Tien"
-        }
-    },
-    "Tim McGraw": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Tim Seely": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "OneRepublic": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Timbaland": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Shiloh Dynasty": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "timmies": {
-        "area": null,
-        "aliases": {}
-    },
-    "Tony Bennett": {
-        "area": "United States",
-        "aliases": {
-            "ja": "トニー・ベネット"
-        }
-    },
-    "Train": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Troye Sivan": {
-        "area": "Australia",
-        "aliases": {
-            "en": "Troye Sivan",
-            "ko": "트로이 시반"
-        }
-    },
-    "Broods": {
-        "area": "New Zealand",
-        "aliases": {}
-    },
-    "Tungevaag": {
-        "area": "Norway",
-        "aliases": {}
-    },
-    "Twin Forks": {
-        "area": "Boca Raton",
-        "aliases": {}
-    },
-    "Two Door Cinema Club": {
-        "area": "Northern Ireland",
-        "aliases": {}
-    },
-    "ur pretty": {
-        "area": "Alabama",
-        "aliases": {}
-    },
-    "宇多田ヒカル": {
-        "area": "Japan",
-        "aliases": {
-            "en": "Hikaru Utada",
-            "ja": "宇多田ヒカル"
-        }
-    },
-    "Vance Joy": {
-        "area": "Australia",
-        "aliases": {}
-    },
-    "Vaundy": {
-        "area": "Japan",
-        "aliases": {
-            "ja": "Vaundy"
-        }
-    },
-    "Cory Wong": {
-        "area": "Minneapolis",
-        "aliases": {}
-    },
-    "The Velvet Underground": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Videoclub": {
-        "area": "France",
-        "aliases": {
-            "en": "Videoclub",
-            "fr": "Vidéoclub"
-        }
-    },
-    "魏如萱": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Waa Wei",
-            "zh_Hant_TW": "魏如萱",
-            "zh_Hans": "魏如萱",
-            "zh_Hant": "魏如萱"
-        }
-    },
-    "Whitmer Thomas": {
-        "area": "Los Angeles",
-        "aliases": {}
-    },
-    "Wilco": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "刘惜君": {
-        "area": "China",
-        "aliases": {
-            "zh": "刘惜君",
-            "zh_Hans": "刘惜君",
-            "zh_Hant": "劉惜君"
-        }
-    },
-    "薛之谦": {
-        "area": "China",
-        "aliases": {
-            "en": "Jacky Xue",
-            "zh_Hant": "薛之謙",
-            "zh": "薛之谦",
-            "zh_Hans": "薛之谦"
-        }
-    },
-    "薛之謙": {
-        "area": "China",
-        "aliases": {
-            "en": "Jacky Xue",
-            "zh_Hant": "薛之謙",
-            "zh": "薛之谦",
-            "zh_Hans": "薛之谦"
-        }
-    },
-    "yama": {
-        "area": "Japan",
-        "aliases": {}
-    },
-    "孫燕姿": {
-        "area": "Singapore",
-        "aliases": {
-            "en": "Stefanie Sun",
-            "ja": "スン・イェンツー",
-            "zh": "孙燕姿",
-            "zh_Hans": "孙燕姿",
-            "zh_Hans_CN": "孙燕姿",
-            "zh_Hant": "孫燕姿"
-        }
-    },
-    "孙燕姿": {
-        "area": "Singapore",
-        "aliases": {
-            "en": "Stefanie Sun",
-            "ja": "スン・イェンツー",
-            "zh": "孙燕姿",
-            "zh_Hans": "孙燕姿",
-            "zh_Hans_CN": "孙燕姿",
-            "zh_Hant": "孫燕姿"
-        }
-    },
-    "Etta James": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Engelbert Humperdinck": {
-        "area": "United Kingdom",
-        "aliases": {
-            "ja": "エンゲルベルト・フンパーディンク"
-        }
-    },
-    "郁可唯": {
-        "area": "China",
-        "aliases": {
-            "en": "Yisa Yu",
-            "zh": "郁可唯",
-            "zh_Hans": "郁可唯",
-            "zh_Hant": "鬱可唯"
-        }
-    },
-    "于文文": {
-        "area": "China",
-        "aliases": {
-            "en": "Kelly Yu",
-            "zh_Hans": "于文文",
-            "zh_Hant": "于文文"
-        }
-    },
-    "YUI": {
-        "area": "Japan",
-        "aliases": {
-            "ja": "YUI",
-            "en": "YUI for Kaoru Amane",
-            "zh_Hans_CN": "优依"
-        }
-    },
-    "Sia": {
-        "area": "Australia",
-        "aliases": {
-            "en": "Sia",
-            "ja": "シーア"
-        }
-    },
-    "ZAYN": {
-        "area": "England",
-        "aliases": {
-            "en_GB": "ZAYN",
-            "ja": "ゼイン"
-        }
-    },
-    "Zella Day": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "周杰倫": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Chieh-Lun Chou",
-            "zh_Hans": "周杰伦",
-            "zh_Hant_TW": "周杰倫",
-            "zh_Hant": "周杰倫"
-        }
-    },
-    "齐秦": {
-        "area": "Taiwan",
-        "aliases": {
-            "zh_Hans": "齐秦",
-            "zh_Hant": "齊秦"
-        }
-    },
-    "ザ・ドリフターズ feat. いかりや長介": {
-        "area": "Japan",
-        "aliases": {
-            "en": "The Drifters",
-            "ja": "ザ・ドリフターズ"
-        }
-    },
-    "ザ・ドリフターズ": {
-        "area": "Japan",
-        "aliases": {
-            "en": "The Drifters",
-            "ja": "ザ・ドリフターズ"
-        }
-    },
-    "みきなつみ": {
-        "area": "Japan",
-        "aliases": {}
-    },
-    "4 Non Blondes": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "40mP feat. 初音ミク": {
-        "area": "Japan",
-        "aliases": {
-            "en": "Hatsune Miku",
-            "ru": "Мику Хацунэ",
-            "uk": "Міку, Хацуне",
-            "he": "האטסונה מיקו",
-            "th": "ฮะสึเนะ มิกุ",
-            "ja": "初音ミク",
-            "zh": "初音ミク",
-            "zh_Hans": "初音未来",
-            "zh_Hans_CN": "初音未来",
-            "ko": "하츠네 미쿠"
-        }
-    },
-    "40mP": {
-        "area": "Japan",
-        "aliases": {
-            "ja": "40メートルP"
-        }
-    },
-    "Robert Smith": {
-        "area": "United Kingdom",
-        "aliases": {
-            "en": "Robert Smith",
-            "ja": "ロバート・スミス"
-        }
-    },
-    "65daysofstatic": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "The 1975": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "GROUPLOVE": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "KureiYuki's": {
-        "area": "Japan",
-        "aliases": {
-            "en": "KureiYuki"
-        }
-    },
-    "Duke": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Eden James": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Iggy Azalea": {
-        "area": "Australia",
-        "aliases": {
-            "en": "Iggy Azalea",
-            "ja": "イギー・アゼリア"
-        }
-    },
-    "Jay-Z": {
-        "area": "United States",
-        "aliases": {
-            "en": "Jay-Z",
-            "ja": "ジェイ・Z"
-        }
-    },
-    "Jennifer June": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Jeremih": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Jessie Ware": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "Jon Bellion": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "JP Saxe": {
-        "area": "Canada",
-        "aliases": {}
-    },
-    "Khalid": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Kito": {
-        "area": "Australia",
-        "aliases": {}
-    },
-    "Lana Del Rey": {
-        "area": "United States",
-        "aliases": {
-            "en": "Lana Del Rey",
-            "ja": "ラナ・デル・レイ"
-        }
-    },
-    "Lucas Harmon": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "MACI": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Madison Ryann Ward": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Mae Stephens": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "MAISONdes": {
-        "area": "Japan",
-        "aliases": {}
-    },
-    "Management": {
-        "area": "Italy",
-        "aliases": {}
-    },
-    "Micah Kesselring": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Nat King Cole": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "November Ultra": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Phil Collins": {
-        "area": "United Kingdom",
-        "aliases": {
-            "en": "Phil Collins",
-            "ja": "フィル・コリンズ"
-        }
-    },
-    "Pink Martini": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Pip Millett": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Roddy Frame": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "Sam Ock": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Sjowgren": {
-        "area": "Sweden",
-        "aliases": {}
-    },
-    "Tariq": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "莫文蔚": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Karen Mok",
-            "zh_Hans": "莫文蔚",
-            "zh_Hant": "莫文蔚"
-        }
-    },
-    "AGA": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "AGA",
-            "zh_Hant": "江海迦",
-            "zh_Hans": "江海迦"
-        }
-    },
-    "艾怡良": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Eve Ai",
-            "ja": "アイ・イーリャン",
-            "zh": "艾怡良",
-            "zh-Hans": "艾怡良",
-            "zh-Hant": "艾怡良"
-        }
-    },
-    "Al Bano": {
-        "area": "Italy",
-        "aliases": {
-            "ru": "Аль Бано"
-        }
-    },
-    "Romina Power": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Germaine Franco": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "B.B.クイーンズ": {
-        "area": null,
-        "aliases": {}
-    },
-    "B.B.クィーンズ": {
-        "area": "Japan",
-        "aliases": {
-            "ja": "B.B.クィーンズ"
-        }
-    },
-    "蔡健雅": {
-        "area": "Singapore",
-        "aliases": {
-            "en": "Tanya Chua",
-            "zh": "蔡健雅",
-            "zh_Hans": "蔡健雅",
-            "zh_Hant": "蔡健雅"
-        }
-    },
-    "蔡依林": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Jolin Tsai",
-            "zh_Hans": "蔡依林",
-            "zh_Hant": "蔡依林"
-        }
-    },
-    "Charli XCX": {
-        "area": "England",
-        "aliases": {
-            "en": "Charli XCX",
-            "kk": "Чарли XCX",
-            "bg": "Чарли Екс Си Екс",
-            "sr": "Чарли Екс-Си-Екс",
-            "hy": "Չարլի ԷքսՍիԷքս",
-            "he": "צ'ארלי XCX",
-            "fa": "چارلی ایکس‌سی‌ایکس",
-            "ar": "شارلي إكس سي إكس",
-            "sd": "چارلي ايڪس‌سي ايڪس",
-            "ku": "چارلی ئێکس سی ئێکس",
-            "az_Arab": "چارلی ایکس‌سیایکس",
-            "ur": "چارلی ایکس‌سی‌ایکس",
-            "ta": "சார்லி எக்ஸ்சிஎக்ஸ்",
-            "th": "ชาร์ลี เอ็กซ์ซีเอ็กซ์",
-            "ka": "ჩარლი ექსიექსი",
-            "ja": "チャーリー・XCX",
-            "zh": "查莉 XCX",
-            "ko": "찰리 XCX"
-        }
-    },
-    "陳柏宇": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Chan Pak Yu",
-            "zh_Hans": "陈柏宇",
-            "zh_Hant": "陳柏宇"
-        }
-    },
-    "陳慧嫻": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Chan Wai Han",
-            "ja": "プリシラ・チャン",
-            "zh_Hans": "陈慧娴",
-            "zh_Hant": "陳慧嫻"
-        }
-    },
-    "陳凱詠": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Jace Chan",
-            "zh_Hans": "陈凯咏",
-            "zh_Hant": "陳凱詠"
-        }
-    },
-    "陈粒": {
-        "area": "China",
-        "aliases": {
-            "en": "Chen Li",
-            "zh_Hans_CN": "陈粒",
-            "zh_Hans": "陈粒",
-            "zh_Hant": "陳粒"
-        }
-    },
-    "Rosemary Clooney": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "王菲": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Faye Wong",
-            "vi": "Vương Phi",
-            "ja": "フェイ・ウォン",
-            "zh": "王菲",
-            "zh_Hant": "王菲",
-            "zh-Hans": "王菲",
-            "zh-Hant": "王菲"
-        }
-    },
-    "陳泳彤": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Jennifer Chan",
-            "zh_Hans": "陈咏桐",
-            "zh_Hant": "陳泳彤"
-        }
-    },
-    "Cringe": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "the Lizards": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "戴愛玲": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Princess Ai",
-            "zh_Hant": "戴愛玲",
-            "zh_Hans": "戴爱玲"
-        }
-    },
-    "戴佩妮": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Penny Tai",
-            "zh_Hans": "戴佩妮",
-            "zh_Hant": "戴佩妮"
-        }
-    },
-    "大黒摩季": {
-        "area": "Japan",
-        "aliases": {
-            "en": "Maki Ohguro",
-            "ja": "大黒摩季"
-        }
-    },
-    "鄧麗君": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Teng Li Chun",
-            "vi": "Đặng Lệ Quân",
-            "ja": "テレサ・テン",
-            "zh_Hans": "邓丽君",
-            "zh_Hant": "鄧麗君",
-            "zh-Hans": "邓丽君",
-            "zh-Hant": "鄧麗君"
-        }
-    },
-    "Rettore": {
-        "area": "Italy",
-        "aliases": {}
-    },
-    "Jones": {
-        "area": "United States",
-        "aliases": {
-            "en": "George Glenn Jones"
-        }
-    },
-    "Louis Theroux": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "Giovanni Capurro": {
-        "area": null,
-        "aliases": {
-            "lv": "Capurro"
-        }
-    },
-    "F.I.R. 飛兒樂團": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "F.I.R.",
-            "zh_Hans_CN": "F.I.R. 飞儿乐团",
-            "zh_Hant": "飛兒樂團",
-            "zh": "飞儿乐团",
-            "zh_Hans": "飞儿乐团",
-            "zh-Hans": "F.I.R. 飞儿乐团",
-            "zh-Hant": "F.I.R. 飛兒樂團"
-        }
-    },
-    "方皓玟": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Charmaine Fong",
-            "zh_Hans_CN": "方皓玟",
-            "zh_Hans": "方皓玟",
-            "zh_Hant": "方皓玟"
-        }
-    },
-    "馮允謙": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Jay Fung",
-            "zh_Hans": "冯允谦",
-            "zh_Hant": "馮允謙",
-            "zh-Hans": "冯允谦",
-            "zh-Hant": "馮允謙"
-        }
-    },
-    "ミゾベリョウ": {
-        "area": "Japan",
-        "aliases": {
-            "ja": "ミゾベリョウ"
-        }
-    },
-    "初音ミク": {
-        "area": "Japan",
-        "aliases": {
-            "en": "Hatsune Miku",
-            "ru": "Мику Хацунэ",
-            "uk": "Міку, Хацуне",
-            "he": "האטסונה מיקו",
-            "th": "ฮะสึเนะ มิกุ",
-            "ja": "初音ミク",
-            "zh": "初音ミク",
-            "zh_Hans": "初音未来",
-            "zh_Hans_CN": "初音未来",
-            "ko": "하츠네 미쿠"
-        }
-    },
-    "胡彦斌": {
-        "area": "China",
-        "aliases": {
-            "en": "Anson Hu",
-            "zh_Hant": "胡彥斌",
-            "zh": "胡彦斌",
-            "zh_Hans": "胡彦斌",
-            "zh-Hans": "胡彦斌",
-            "zh-Hant": "胡彥斌"
-        }
-    },
-    "希林娜依·高": {
-        "area": "China",
-        "aliases": {
-            "zh_Hans": "希林娜依·高",
-            "en": "Curley G",
-            "zh": "希林娜依·高",
-            "zh_Hant": "希林娜依·高"
-        }
-    },
-    "Jennifer Hudson": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Kanye West": {
-        "area": "United States",
-        "aliases": {
-            "en": "Kanye Omari West",
-            "ja": "カニエ・ウェスト"
-        }
-    },
-    "James George": {
-        "area": null,
-        "aliases": {}
-    },
-    "YG": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "江海迦": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "AGA",
-            "zh_Hant": "江海迦",
-            "zh_Hans": "江海迦"
-        }
-    },
-    "Joy of Cooking": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Kah-Lo": {
-        "area": "Lagos",
-        "aliases": {}
-    },
-    "Brazy": {
-        "area": null,
-        "aliases": {}
-    },
-    "Baauer": {
-        "area": "United States",
-        "aliases": {
-            "ja": "バウアー"
-        }
-    },
-    "Kino Todo": {
-        "area": null,
-        "aliases": {}
-    },
-    "yui*": {
-        "area": "Japan",
-        "aliases": {
-            "ja": "YUI",
-            "zh_Hans_CN": "优依"
-        }
-    },
-    "yui": {
-        "area": "Japan",
-        "aliases": {
-            "ja": "YUI",
-            "en": "YUI for Kaoru Amane",
-            "zh_Hans_CN": "优依"
-        }
-    },
-    "雷深如": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Rachel Lui",
-            "zh_Hans": "雷深如",
-            "zh_Hant": "雷深如"
-        }
-    },
-    "梁靜茹": {
-        "area": "Malaysia",
-        "aliases": {
-            "en": "Fish Leong",
-            "zh_Hans": "梁静茹",
-            "zh_Hans_CN": "梁静茹",
-            "zh": "梁靜茹",
-            "zh_Hant": "梁靜茹"
-        }
-    },
-    "林憶蓮": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Lam Yik Lin",
-            "zh_Hans": "林忆莲",
-            "zh_Hant": "林憶蓮"
-        }
-    },
-    "LiSA": {
-        "area": "Japan",
-        "aliases": {
-            "ja": "LiSA",
-            "zh_Hans_CN": "织部里沙 (LiSA OLiVE)"
-        }
-    },
-    "劉若英": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Rene Liu",
-            "zh_Hans": "刘若英",
-            "zh_Hans_CN": "刘若英",
-            "zh_Hant": "劉若英"
-        }
-    },
-    "ScHoolboy Q": {
-        "area": "Los Angeles",
-        "aliases": {}
-    },
-    "Love Supreme": {
-        "area": "France",
-        "aliases": {}
-    },
-    "マカロニえんぴつ": {
-        "area": "Japan",
-        "aliases": {
-            "ja": "マカロニえんぴつ",
-            "en": "Macaroni Empitsu"
-        }
-    },
-    "和ぬか": {
-        "area": "Japan",
-        "aliases": {
-            "ja": "和ぬか",
-            "en": "Wanuka"
-        }
-    },
-    "asmi": {
-        "area": "Japan",
-        "aliases": {
-            "ja": "asmi"
-        }
-    },
-    "毛不易": {
-        "area": "China",
-        "aliases": {
-            "en": "Mao Buyi",
-            "zh": "毛不易",
-            "zh_Hans": "毛不易",
-            "zh_Hant": "王維家"
-        }
-    },
-    "Kendrick Lamar": {
-        "area": "United States",
-        "aliases": {
-            "ja": "ケンドリック・ラマー",
-            "ko": "켄드릭 라마"
-        }
-    },
-    "BRAVVO": {
-        "area": null,
-        "aliases": {}
-    },
-    "幾田りら": {
-        "area": "Japan",
-        "aliases": {
-            "ja": "幾田りら",
-            "en": "Lilas Ikuta"
-        }
-    },
-    "中島美嘉": {
-        "area": "Japan",
-        "aliases": {
-            "en": "Mika Nakashima",
-            "ja": "中島美嘉"
-        }
-    },
-    "泣き虫": {
-        "area": "Japan",
-        "aliases": {
-            "en": "Nakimushi☔︎",
-            "ja": "泣き虫"
-        }
-    },
-    "JAY-Z": {
-        "area": "United States",
-        "aliases": {
-            "en": "Shawn Corey Carter"
-        }
-    },
-    "Mikky Ekko": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Michelle": {
-        "area": "Germany",
-        "aliases": {}
-    },
-    "Karen O": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Sebastián Yatra": {
-        "area": "Colombia",
-        "aliases": {}
-    },
-    "蘇打綠": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "sodagreen",
-            "yue_Hans": "苏打绿",
-            "yue_Hans_CN": "苏打绿",
-            "zh_Hans": "苏打绿",
-            "zh_Hans_CN": "苏打绿",
-            "zh_Hans_HK": "苏打绿",
-            "zh_Hans_MO": "苏打绿",
-            "zh_Hans_SG": "苏打绿",
-            "yue": "蘇打綠",
-            "yue_Hant": "蘇打綠",
-            "yue_Hant_HK": "蘇打綠",
-            "zh": "蘇打綠",
-            "zh_Hant": "蘇打綠",
-            "zh_Hant_HK": "蘇打綠",
-            "zh_Hant_MO": "蘇打綠",
-            "zh_Hant_TW": "蘇打綠"
-        }
-    },
-    "The Gregory Brothers": {
-        "area": "United States",
-        "aliases": {}
-    },
-    "Recess Therapy": {
-        "area": "United Kingdom",
-        "aliases": {}
-    },
-    "手嶌葵": {
-        "area": "Japan",
-        "aliases": {
-            "en": "Aoi Teshima",
-            "ja": "手嶌葵"
-        }
-    },
-    "Lontalius": {
-        "area": "New Zealand",
-        "aliases": {}
-    },
-    "王若琳": {
-        "area": "Taiwan",
-        "aliases": {
-            "en_001": "Joanna Wang",
-            "zh": "王若琳",
-            "zh_Hans": "王若琳",
-            "zh_Hant": "王若琳"
-        }
-    },
-    "王心凌": {
-        "area": "Taiwan",
-        "aliases": {
-            "zh_Hans": "王心凌",
-            "zh_Hant": "王心凌"
-        }
-    },
-    "蕭亞軒": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Elva Hsiao",
-            "zh_Hans": "萧亚轩",
-            "zh_Hant": "蕭亞軒"
-        }
-    },
-    "许美静": {
-        "area": "Singapore",
-        "aliases": {
-            "zh_Hans": "许美静",
-            "zh_Hant": "許美靜"
-        }
-    },
-    "許茹芸": {
-        "area": "Taiwan",
-        "aliases": {
-            "vi": "Hứa Như Vân",
-            "en": "Valen Hsu",
-            "zh_Hans_CN": "许茹芸",
-            "zh_Hans": "许茹芸",
-            "zh_Hant": "許茹芸"
-        }
-    },
-    "楊丞琳": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Rainie Yang",
-            "zh_Hans": "杨丞琳",
-            "zh_Hant": "楊丞琳"
-        }
-    },
-    "楊乃文": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "Faith Yang",
-            "zh_Hans": "杨乃文",
-            "zh_Hant": "楊乃文"
-        }
-    },
-    "楊千嬅": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Miriam Yeung",
-            "zh_Hans": "杨千嬅",
-            "zh_Hant": "楊千嬅"
-        }
-    },
-    "張惠妹": {
-        "area": "Taiwan",
-        "aliases": {
-            "en": "A-Mei Chang",
-            "zh_Hans": "张惠妹",
-            "zh_Hant": "張惠妹"
-        }
-    },
-    "阿密特": {
-        "area": "Japan",
-        "aliases": {
-            "ja": "阿保剛",
-            "en": "Takeshi Abo"
-        }
-    },
-    "張懸": {
-        "area": "Taiwan",
-        "aliases": {
-            "zh": "张悬",
-            "zh_Hans": "张悬",
-            "zh_Hant": "張懸"
-        }
-    },
-    "張學友": {
-        "area": "Hong Kong",
-        "aliases": {
-            "en": "Cheung Hok Yau",
-            "ja": "ジャッキー・チュン",
-            "zh_Hans": "张学友",
-            "zh_Hant": "張學友",
-            "zh-Hans": "张学友",
-            "zh-Hant": "張學友"
-        }
-    },
-    "赵雷": {
-        "area": "China",
-        "aliases": {
-            "en": "Zhao Lei",
-            "zh": "赵雷",
-            "zh_Hans": "赵雷",
-            "zh_Hant": "趙雷"
-        }
-    },
-    "趙學而": {
-        "area": "Hong Kong",
-        "aliases": {
-            "zh_Hans_CN": "赵学而",
-            "zh_Hans": "赵学而",
-            "zh_Hant": "趙學而"
-        }
-    },
-    "赵紫骅": {
-        "area": "China",
-        "aliases": {
-            "en": "Zhao Zihua",
-            "zh_Hans": "赵紫骅",
-            "zh_Hant": "趙紫驊"
-        }
-    },
-    "魏如昀": {
-        "area": "Taiwan",
-        "aliases": {
-            "zh_Hant": "魏如昀",
-            "zh_Hans": "魏如昀"
-        }
-    },
-    "方文山": {
-        "area": "Taiwan",
-        "aliases": {
-            "zh_Hant": "方文山",
-            "en": "Vincent Fang",
-            "zh": "方文山",
-            "zh_Hans": "方文山"
-        }
+  "Cyndi Wang": {
+    "area": "Taiwan",
+    "aliases": {
+      "zh_Hans": "王心凌",
+      "zh_Hant": "王心凌"
     }
+  },
+  "JOLIN": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Jolin Tsai",
+      "zh_Hans": "蔡依林",
+      "zh_Hant": "蔡依林"
+    }
+  },
+  "A-Mei Chang": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "A-Mei Chang",
+      "zh_Hans": "张惠妹",
+      "zh_Hant": "張惠妹"
+    }
+  },
+  "Alicia Keys": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Franco126": {
+    "area": "Italy",
+    "aliases": {}
+  },
+  "Paul Buchanan": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "祁紫檀": {
+    "area": "China",
+    "aliases": {
+      "en": "Zitan Qi",
+      "zh": "祁紫檀",
+      "zh_Hans": "祁紫檀",
+      "zh_Hant": "祁紫檀"
+    }
+  },
+  "Gino Paoli": {
+    "area": "Italy",
+    "aliases": {}
+  },
+  "Karen Dalton": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "諾拉·瓊斯": {
+    "area": "United States",
+    "aliases": {
+      "en": "Norah Jones"
+    }
+  },
+  "Solomon": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Michael Jackson": {
+    "area": "United States",
+    "aliases": {
+      "en": "Michael Jackson",
+      "ru": "Майкл Джексон",
+      "ja": "マイケル・ジャクソン",
+      "yue_Hans_CN": "迈克尔·杰克逊",
+      "zh_Hans": "迈克尔·杰克逊",
+      "ko": "마이클 잭슨"
+    }
+  },
+  "Linda Ronstadt": {
+    "area": "United States",
+    "aliases": {
+      "ja": "リンダ・ロンシュタット"
+    }
+  },
+  "Ashe": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "方大同": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Khalil Fong",
+      "zh": "方大同",
+      "zh_Hans": "方大同",
+      "zh_Hant": "方大同"
+    }
+  },
+  "Phillip Long": {
+    "area": "Germany",
+    "aliases": {}
+  },
+  "Sam Smith": {
+    "area": "United Kingdom",
+    "aliases": {
+      "ja_JP": "サム・スミス",
+      "ko": "샘 스미스"
+    }
+  },
+  "WILLOW": {
+    "area": "United States",
+    "aliases": {
+      "zh": "葳蘿"
+    }
+  },
+  "いかりや長介": {
+    "area": "Japan",
+    "aliases": {}
+  },
+  "Högni": {
+    "area": "Iceland",
+    "aliases": {}
+  },
+  "Miki Matsubara": {
+    "area": "Japan",
+    "aliases": {
+      "en": "Miki Matsubara",
+      "ja": "松原みき"
+    }
+  },
+  "Miyuu": {
+    "area": "Japan",
+    "aliases": {}
+  },
+  "劉惜君": {
+    "area": "China",
+    "aliases": {
+      "zh": "刘惜君",
+      "zh_Hans": "刘惜君",
+      "zh_Hant": "劉惜君"
+    }
+  },
+  "Bahamas": {
+    "area": "Canada",
+    "aliases": {}
+  },
+  "Domenico Modugno": {
+    "area": "Italy",
+    "aliases": {
+      "ru": "Д. Модуньо"
+    }
+  },
+  "陳奕迅": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Eason Chan",
+      "zh_Hans": "陈奕迅",
+      "zh_Hans_CN": "陈奕迅",
+      "zh": "陳奕迅",
+      "zh_Hant": "陳奕迅"
+    }
+  },
+  "Novo Amor": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "Grace VanderWaal": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Niko Rubio": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Hayd": {
+    "area": "United States",
+    "aliases": {
+      "ko_KR": "Hayd"
+    }
+  },
+  "Why Don't We": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Allan Taylor": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "陶喆": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "David Tao",
+      "zh": "陶喆",
+      "zh_Hant": "陶喆",
+      "zh_Hans": "陶喆"
+    }
+  },
+  "Whitney Houston": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "張韶涵": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Angela Chang",
+      "zh_Hans_CN": "张韶涵",
+      "zh": "張韶涵",
+      "zh_Hans": "张韶涵",
+      "zh_Hant": "張韶涵"
+    }
+  },
+  "Nicki Minaj": {
+    "area": "United States",
+    "aliases": {
+      "en": "Nicki Minaj",
+      "ja": "ニッキー・ミナージュ",
+      "zh": "妮琪米娜"
+    }
+  },
+  "Zeph": {
+    "area": "Maryland",
+    "aliases": {}
+  },
+  "Luciano Pavarotti": {
+    "area": "Italy",
+    "aliases": {
+      "en": "Luciano Pavarotti",
+      "zh": "帕華洛帝",
+      "zh_Hans": "帕华洛蒂",
+      "zh_Hant": "帕華洛帝"
+    }
+  },
+  "Eagles": {
+    "area": "United States",
+    "aliases": {
+      "en": "Eagles",
+      "ja": "イーグルス",
+      "zh_Hans_CN": "老鹰乐队"
+    }
+  },
+  "Emma Stone": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Justin Hurwitz": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Justin Paul": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Benj Pasek": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Callie Hernandez": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Sonoya Mizuno": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "Jessica Rothe": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Avril Lavigne": {
+    "area": "Canada",
+    "aliases": {
+      "en": "Avril Lavigne",
+      "ja": "アヴリル・ラヴィーン",
+      "zh_Hans": "艾薇儿"
+    }
+  },
+  "Arcade Player": {
+    "area": null,
+    "aliases": {}
+  },
+  "Bill Withers": {
+    "area": "United States",
+    "aliases": {
+      "en": "B. Withers",
+      "ja": "ビル・ウィザース"
+    }
+  },
+  "Jason Chan": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Chan Pak Yu",
+      "zh_Hans": "陈柏宇",
+      "zh_Hant": "陳柏宇"
+    }
+  },
+  "陳粒": {
+    "area": "China",
+    "aliases": {
+      "en": "Chen Li",
+      "zh_Hans_CN": "陈粒",
+      "zh_Hans": "陈粒",
+      "zh_Hant": "陳粒"
+    }
+  },
+  "崔迪": {
+    "area": "China",
+    "aliases": {
+      "zh_Hans": "崔迪",
+      "zh_Hant": "崔迪"
+    }
+  },
+  "Maki Ohguro": {
+    "area": "Japan",
+    "aliases": {
+      "en": "Maki Ohguro",
+      "ja": "大黒摩季"
+    }
+  },
+  "Princess Ai": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Princess Ai",
+      "zh_Hant": "戴愛玲",
+      "zh_Hans": "戴爱玲"
+    }
+  },
+  "Frank Sinatra": {
+    "area": "United States",
+    "aliases": {
+      "en": "Sinatra",
+      "ja": "フランク・シナトラ"
+    }
+  },
+  "F.I.R.": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "F.I.R.",
+      "zh_Hans_CN": "F.I.R. 飞儿乐团",
+      "zh_Hant": "飛兒樂團",
+      "zh": "飞儿乐团",
+      "zh_Hans": "飞儿乐团",
+      "zh-Hans": "F.I.R. 飞儿乐团",
+      "zh-Hant": "F.I.R. 飛兒樂團"
+    }
+  },
+  "Andrea Bocelli": {
+    "area": "Italy",
+    "aliases": {
+      "en": "Andrea Bocelli",
+      "zh": "安德烈·波切利",
+      "zh_Hans": "安德烈·波切利",
+      "zh_Hant": "安德烈·波切利"
+    }
+  },
+  "郭斯": {
+    "area": "China",
+    "aliases": {
+      "en": "Guo Si",
+      "zh_Hans": "郭斯",
+      "zh_Hant": "郭斯"
+    }
+  },
+  "Huang Qishan": {
+    "area": "China",
+    "aliases": {
+      "en": "Huang Qishan",
+      "zh_Hans": "黄绮珊",
+      "zh_Hant": "黃綺珊"
+    }
+  },
+  "Curley Gao": {
+    "area": "China",
+    "aliases": {
+      "en": "Curley Gao",
+      "zh_Hans": "希林娜依高",
+      "zh_Hant": "希林娜依高"
+    }
+  },
+  "黃小琥": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Tiger Wong",
+      "zh_Hant": "黃小琥",
+      "zh_Hans": "黄小琥"
+    }
+  },
+  "金志文": {
+    "area": "China",
+    "aliases": {
+      "en": "Jin Zhiwen",
+      "zh_Hans": "金志文",
+      "zh_Hant": "金志文"
+    }
+  },
+  "Cardi B": {
+    "area": "United States",
+    "aliases": {
+      "ja": "カーディ・B"
+    }
+  },
+  "Megan Thee Stallion": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Mao Buyi": {
+    "area": "China",
+    "aliases": {
+      "en": "Mao Buyi",
+      "zh": "毛不易",
+      "zh_Hans": "毛不易",
+      "zh_Hant": "王維家"
+    }
+  },
+  "ABBA": {
+    "area": "Sweden",
+    "aliases": {
+      "bg": "АББА",
+      "ru": "АББА",
+      "ja": "アバ"
+    }
+  },
+  "Maroon 5": {
+    "area": "United States",
+    "aliases": {
+      "ko": "마룬 5"
+    }
+  },
+  "Norah Jones": {
+    "area": "United States",
+    "aliases": {
+      "en": "Norah Jones"
+    }
+  },
+  "Bing Crosby": {
+    "area": "United States",
+    "aliases": {
+      "ja": "ビング・クロスビー"
+    }
+  },
+  "Scarlett Johansson": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Joaquin Phoenix": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Various Artists": {
+    "area": null,
+    "aliases": {
+      "en": "(Karaoke) Various Artists",
+      "it": "A.A.V.V.",
+      "cy": "Amrywiol",
+      "fr": "Artistes divers",
+      "sv": "Blandade artister",
+      "pt": "Coletânea",
+      "es": "Compilaciones",
+      "da": "Danske Kunstnere",
+      "de": "Diverse",
+      "nl": "Diverse Artiesten",
+      "nn": "Diverse Artistar",
+      "nb": "Diverse Artister",
+      "fi": "Eri esittäjiä",
+      "et": "Erinevad",
+      "eu": "Hainbat artista",
+      "vi": "Hợp ca",
+      "eo": "Pluraj artistoj",
+      "sl": "Razlièni izvajalci",
+      "bs": "Razni Izvođači",
+      "hr": "Razni Izvođači",
+      "sr_Latn": "Razni Izvođači",
+      "uk": "Rizni vykonavci",
+      "pl": "Różni",
+      "cs": "Různí interpreti",
+      "ru": "[различные исполнители]",
+      "ca": "diversos artistes",
+      "tr": "Çeşitli sanatçılar",
+      "is": "Ýmsir hljóðfæraleikarar",
+      "lt": "Įvairūs atlikėjai",
+      "el": "Διάφοροι Καλλιτέχνες",
+      "bg": "Различни изпълнители",
+      "mk": "Разни изведувачи",
+      "be": "розныя выканаўцы",
+      "he": "אומנים שונים",
+      "ar": "مختلف الفنانين",
+      "fa": "هنرمندان مختلف",
+      "th": "รวมศิลปิน",
+      "ja": "さまざまなアーティスト",
+      "zh": "群星",
+      "ko": "여러 아티스트"
+    }
+  },
+  "Sting": {
+    "area": "England",
+    "aliases": {}
+  },
+  "Aoi Teshima": {
+    "area": "Japan",
+    "aliases": {
+      "en": "Aoi Teshima",
+      "ja": "手嶌葵"
+    }
+  },
+  "宋冬野": {
+    "area": "China",
+    "aliases": {
+      "en": "Song Dongye",
+      "zh_Hans_CN": "宋冬野",
+      "zh_Hans": "宋冬野",
+      "zh_Hant": "宋冬野"
+    }
+  },
+  "Elva Hsiao": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Elva Hsiao",
+      "zh_Hans": "萧亚轩",
+      "zh_Hant": "蕭亞軒"
+    }
+  },
+  "小霞": {
+    "area": "China",
+    "aliases": {
+      "zh_Hans": "黄绮珊",
+      "zh_Hant": "黃綺珊"
+    }
+  },
+  "Adam Lambert": {
+    "area": "United States",
+    "aliases": {
+      "en": "Adam Lambert",
+      "ja": "アダム・ランバート"
+    }
+  },
+  "Alessandra Amoroso": {
+    "area": "Italy",
+    "aliases": {}
+  },
+  "Naiwen Yang": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Faith Yang",
+      "zh_Hans": "杨乃文",
+      "zh_Hant": "楊乃文"
+    }
+  },
+  "Deserts Chang": {
+    "area": "Taiwan",
+    "aliases": {
+      "zh": "张悬",
+      "zh_Hans": "张悬",
+      "zh_Hant": "張懸"
+    }
+  },
+  "Bondy Chiu": {
+    "area": "Hong Kong",
+    "aliases": {
+      "zh_Hans_CN": "赵学而",
+      "zh_Hans": "赵学而",
+      "zh_Hant": "趙學而"
+    }
+  },
+  "趙紫驊": {
+    "area": "China",
+    "aliases": {
+      "en": "Zhao Zihua",
+      "zh_Hans": "赵紫骅",
+      "zh_Hant": "趙紫驊"
+    }
+  },
+  "Mika Nakashima": {
+    "area": "Japan",
+    "aliases": {
+      "en": "Mika Nakashima",
+      "ja": "中島美嘉"
+    }
+  },
+  "A Great Big World": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Christina Aguilera": {
+    "area": "United States",
+    "aliases": {
+      "ja": "クリスティーナ・アギレラ"
+    }
+  },
+  "A. Savage": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Adele": {
+    "area": "United Kingdom",
+    "aliases": {
+      "en_GB": "Adele",
+      "ja": "アデル",
+      "zh_Hans": "阿黛尔"
+    }
+  },
+  "Adriano Celentano": {
+    "area": "Italy",
+    "aliases": {
+      "ru": "Адриано Челентано"
+    }
+  },
+  "Aimer": {
+    "area": "Japan",
+    "aliases": {
+      "en": "Aimer",
+      "ja": "Aimer"
+    }
+  },
+  "Al Bano And Romina Power": {
+    "area": "Italy",
+    "aliases": {}
+  },
+  "Alanis Morissette": {
+    "area": "Canada",
+    "aliases": {}
+  },
+  "Alexander 23": {
+    "area": "Chicago",
+    "aliases": {
+      "ko_KR": "Alexander 23"
+    }
+  },
+  "Alexander Wren": {
+    "area": "Manhattan",
+    "aliases": {}
+  },
+  "Alice Phoebe Lou": {
+    "area": "Berlin",
+    "aliases": {}
+  },
+  "Jerry Lin": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Jerry Lin",
+      "zh": "林正忠",
+      "zh-Hans": "林正忠",
+      "zh-Hant": "林正忠"
+    }
+  },
+  "Angela Chang": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Angela Chang",
+      "zh_Hans_CN": "张韶涵",
+      "zh": "張韶涵",
+      "zh_Hans": "张韶涵",
+      "zh_Hant": "張韶涵"
+    }
+  },
+  "Tiger Hu": {
+    "area": "China",
+    "aliases": {
+      "en": "Anson Hu",
+      "zh_Hant": "胡彥斌",
+      "zh": "胡彦斌",
+      "zh_Hans": "胡彦斌",
+      "zh-Hans": "胡彦斌",
+      "zh-Hant": "胡彥斌"
+    }
+  },
+  "Anthony Gonzalez": {
+    "area": "France",
+    "aliases": {}
+  },
+  "Ana Ofelia Murguía": {
+    "area": "Mexico",
+    "aliases": {}
+  },
+  "Anthony Lazaro": {
+    "area": null,
+    "aliases": {}
+  },
+  "Arcade Fire": {
+    "area": "Canada",
+    "aliases": {
+      "en": "The Arcade Fire"
+    }
+  },
+  "Ariana Grande": {
+    "area": "United States",
+    "aliases": {
+      "yi": "אריאנא גראנדע",
+      "fa_IR": "آریانا گرانده",
+      "ar": "أريانا غراندي",
+      "ku": "ئاریانا گراندێی",
+      "ja": "アリアナ・グランデ",
+      "zh_Hans_CN": "爱莉安娜·格兰德",
+      "yue": "艾尼安娜格兰德",
+      "ko_KR": "아리아나 그란데"
+    }
+  },
+  "Arisa": {
+    "area": "Italy",
+    "aliases": {
+      "it_IT": "Rosalba Pippa"
+    }
+  },
+  "Niall Horan": {
+    "area": "Ireland",
+    "aliases": {}
+  },
+  "Audrey Assad": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Augustana": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "ayokay": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Jeremy Zucker": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "B.B.QUEENS": {
+    "area": "Japan",
+    "aliases": {}
+  },
+  "Dany Red": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "Barbara Zanetti": {
+    "area": "Italy",
+    "aliases": {}
+  },
+  "Bastille": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "The Bathers": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "The Beatles": {
+    "area": "United Kingdom",
+    "aliases": {
+      "en": "Beatles",
+      "is": "Bítlarnir",
+      "de": "Die Beatles",
+      "it": "I Beatles",
+      "fr": "Les Beatles",
+      "es": "Los Beatles",
+      "ru": "Битлз",
+      "mk": "Битлси",
+      "uk": "Бітлз",
+      "hy": "Պիթլս",
+      "yi": "די ביטלס",
+      "he": "הביטלס",
+      "ar": "البيتلز",
+      "fa": "بیتلز",
+      "ur": "بیٹلز",
+      "ne": "द बिटल्स",
+      "hi": "द बीटल्स",
+      "bn": "দ্য বিটল্‌স",
+      "pa": "ਦ ਬੀਟਲਜ਼",
+      "gu": "ધ બિટલ્સ",
+      "ta": "பீட்டில்ஸ்",
+      "te": "ద బీటిల్స్",
+      "kn": "ದಿ ಬೀಟಲ್ಸ್",
+      "ml": "ദി ബീറ്റിൽസ്",
+      "th": "เดอะบีเทิลส์",
+      "my": "ဘီးတဲလ်အဖွဲ့",
+      "ka": "ბითლზი",
+      "am": "ዘ ቢተልስ",
+      "sat": "ᱫᱚ ᱵᱤᱴᱞᱮᱥ",
+      "ja": "ザ・ビートルズ",
+      "zh_Hans": "披头士",
+      "zh_Hans_CN": "披头士乐队",
+      "zh_Hant": "披頭四",
+      "ko": "더 비틀즈"
+    }
+  },
+  "Beck": {
+    "area": "United States",
+    "aliases": {
+      "en": "Beck David Hansen"
+    }
+  },
+  "Ben Mazué": {
+    "area": "France",
+    "aliases": {
+      "fr": "Benjamin Mazuet"
+    }
+  },
+  "Louane": {
+    "area": "France",
+    "aliases": {}
+  },
+  "Beyoncé": {
+    "area": "United States",
+    "aliases": {
+      "zh_Hans_CN": "Beyoncé",
+      "en": "Beyoncé Giselle Knowles",
+      "ja": "ビヨンセ",
+      "zh_Hant_TW": "碧昂絲"
+    }
+  },
+  "Beyond": {
+    "area": "Hong Kong",
+    "aliases": {}
+  },
+  "Big Star": {
+    "area": "Memphis",
+    "aliases": {}
+  },
+  "Billie Eilish": {
+    "area": "United States",
+    "aliases": {
+      "lt": "Bili Ailiš",
+      "az": "Billi Ayliş",
+      "en": "Billie Eilish Pirate Baird O’Connell",
+      "lv": "Billija Ailiša",
+      "el": "Μπίλλι Άιλις",
+      "bg": "Били Ейлиш",
+      "kk": "Билли Айлиш",
+      "be": "Білі Айліш",
+      "hy": "Բիլլի Այլիշ",
+      "he": "בילי אייליש",
+      "ar": "بيلي إيليش",
+      "fa": "بیلی آیلیش",
+      "ckb": "بیڵی_ئایڵش",
+      "hi": "बिली एलीश",
+      "bn": "বিলি আইলিশ",
+      "ka": "ბილი აილიში",
+      "km": "ប៊ីលលី អៃលីស",
+      "ja": "ビリー・アイリッシュ",
+      "zh": "比莉艾莉什",
+      "ko": "빌리 아일리시"
+    }
+  },
+  "Billie Holiday": {
+    "area": "United States",
+    "aliases": {
+      "en": "B. Holiday",
+      "fr": "B. Holiday",
+      "ja": "ビリー・ホリデイ"
+    }
+  },
+  "Billy Corgan": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Bleachers": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Bon Iver": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "David Bowie": {
+    "area": "England",
+    "aliases": {
+      "ja": "デビッド・ボウイ"
+    }
+  },
+  "Brenn!": {
+    "area": "Lillehammer",
+    "aliases": {}
+  },
+  "Brunori Sas": {
+    "area": "Italy",
+    "aliases": {}
+  },
+  "Calvin Harris": {
+    "area": "United Kingdom",
+    "aliases": {
+      "en": "Calvin Harris"
+    }
+  },
+  "Carly Rae Jepsen": {
+    "area": "Canada",
+    "aliases": {
+      "ja": "カーリー・レイ・ジェプセン"
+    }
+  },
+  "Drake": {
+    "area": "Canada",
+    "aliases": {
+      "ja_JP": "ドレイク"
+    }
+  },
+  "Catatonia": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "Roland Herrington": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "Tommy D": {
+    "area": "Moscow",
+    "aliases": {
+      "ru_RU": "Тимофей Доценко"
+    }
+  },
+  "Cate Le Bon": {
+    "area": "Wales",
+    "aliases": {}
+  },
+  "Celeste": {
+    "area": "Brighton",
+    "aliases": {
+      "en": "Celeste Epiphany Waite"
+    }
+  },
+  "Chappell Roan": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Charli xcx": {
+    "area": "England",
+    "aliases": {
+      "en": "Charli XCX",
+      "kk": "Чарли XCX",
+      "bg": "Чарли Екс Си Екс",
+      "sr": "Чарли Екс-Си-Екс",
+      "hy": "Չարլի ԷքսՍիԷքս",
+      "he": "צ'ארלי XCX",
+      "fa": "شارلوت اما ایچیسن",
+      "ar": "شارلي إكس سي إكس",
+      "sd": "چارلي ايڪس‌سي ايڪس",
+      "ku": "چارلی ئێکس سی ئێکس",
+      "az_Arab": "چارلی ایکس‌سیایکس",
+      "ur": "چارلی ایکس‌سی‌ایکس",
+      "ta": "சார்லி எக்ஸ்சிஎக்ஸ்",
+      "th": "ชาร์ลี เอ็กซ์ซีเอ็กซ์",
+      "ka": "ჩარლი ექსიექსი",
+      "ja": "チャーリー・XCX",
+      "zh": "夏洛特·愛瑪·阿奇森",
+      "ko": "찰리 XCX"
+    }
+  },
+  "MØ": {
+    "area": "Denmark",
+    "aliases": {}
+  },
+  "Charlie Puth": {
+    "area": "United States",
+    "aliases": {
+      "en_US": "Charles Otto Puth Jr.",
+      "ko_KR": "찰리푸스"
+    }
+  },
+  "Charmaine Fong": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Charmaine Fong",
+      "zh_Hans_CN": "方皓玟",
+      "zh_Hans": "方皓玟",
+      "zh_Hant": "方皓玟"
+    }
+  },
+  "Chumbawamba": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "Cigarettes After Sex": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Coez": {
+    "area": "Italy",
+    "aliases": {}
+  },
+  "Frah Quintale": {
+    "area": "Italy",
+    "aliases": {}
+  },
+  "Coldplay": {
+    "area": "United Kingdom",
+    "aliases": {
+      "ja": "コールドプレイ"
+    }
+  },
+  "Hazbin Hotel": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Jessica Vosk": {
+    "area": null,
+    "aliases": {}
+  },
+  "Alex Brightman": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Sam Haft": {
+    "area": "New York",
+    "aliases": {}
+  },
+  "Andrew Underberg": {
+    "area": null,
+    "aliases": {
+      "en": "Andrew Englander Underberg"
+    }
+  },
+  "Selena Gomez": {
+    "area": "United States",
+    "aliases": {
+      "en": "Selena Marie Gomez",
+      "ja": "セレーナ・ゴメス"
+    }
+  },
+  "Cosmo": {
+    "area": "Italy",
+    "aliases": {
+      "it_IT": "Marco Jacopo Bianchi"
+    }
+  },
+  "Cringe and the Lizards": {
+    "area": null,
+    "aliases": {}
+  },
+  "The Cure": {
+    "area": "United Kingdom",
+    "aliases": {
+      "en": "The Cure"
+    }
+  },
+  "Khalil Fong": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Khalil Fong",
+      "zh": "方大同",
+      "zh_Hans": "方大同",
+      "zh_Hant": "方大同"
+    }
+  },
+  "Damien Rice": {
+    "area": "Ireland",
+    "aliases": {}
+  },
+  "U2": {
+    "area": "Ireland",
+    "aliases": {}
+  },
+  "Daniel Norgren": {
+    "area": "Sweden",
+    "aliases": {}
+  },
+  "David Kushner": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "David Tao": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "David Tao",
+      "zh": "陶喆",
+      "zh_Hant": "陶喆",
+      "zh_Hans": "陶喆"
+    }
+  },
+  "Dean Martin": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Teresa Teng": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Teng Li Chun",
+      "vi": "Đặng Lệ Quân",
+      "ja": "テレサ・テン",
+      "zh_Hans": "邓丽君",
+      "zh_Hant": "鄧麗君",
+      "zh-Hans": "邓丽君",
+      "zh-Hant": "鄧麗君"
+    }
+  },
+  "Djo": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Mally Mall": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Eric Bellinger": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Chinx": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Too $hort": {
+    "area": "United States",
+    "aliases": {
+      "en": "Todd A. Shaw"
+    }
+  },
+  "Doja Cat": {
+    "area": "United States",
+    "aliases": {
+      "ko_KR": "Doja Cat",
+      "ja": "ドージャ・キャット",
+      "ko": "도자 캣"
+    }
+  },
+  "SZA": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Dolly Parton": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "La Gente": {
+    "area": "Venezuela",
+    "aliases": {}
+  },
+  "Dua Lipa": {
+    "area": "United Kingdom",
+    "aliases": {
+      "sq": "Dua Lipa",
+      "ja": "デュア・リパ",
+      "ko": "두아 리파"
+    }
+  },
+  "Power Music Workout": {
+    "area": null,
+    "aliases": {}
+  },
+  "Bossa Bros": {
+    "area": null,
+    "aliases": {}
+  },
+  "Nara": {
+    "area": "Brazil",
+    "aliases": {
+      "pt_BR": "Nara Leão",
+      "ja": "ナラ・レオン"
+    }
+  },
+  "Eason Chan": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Eason Chan",
+      "zh_Hans": "陈奕迅",
+      "zh_Hans_CN": "陈奕迅",
+      "zh": "陳奕迅",
+      "zh_Hant": "陳奕迅"
+    }
+  },
+  "Faye Wong": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Faye Wong",
+      "vi": "Vương Phi",
+      "ja": "フェイ・ウォン",
+      "zh": "王菲",
+      "zh_Hant": "王菲",
+      "zh_Hans": "王菲",
+      "zh-Hans": "王菲",
+      "zh-Hant": "王菲"
+    }
+  },
+  "Ed Sheeran": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "EDEN": {
+    "area": "Ireland",
+    "aliases": {}
+  },
+  "Vincent Dalgaard": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Elephant Brain": {
+    "area": "Italy",
+    "aliases": {}
+  },
+  "Elis Regina": {
+    "area": "Brazil",
+    "aliases": {
+      "pt": "Elis Regina",
+      "pt_BR": "Elis Regina Carvalho Costa"
+    }
+  },
+  "Antônio Carlos Jobim": {
+    "area": "Brazil",
+    "aliases": {
+      "en": "A. Carlos Jobim",
+      "ja": "アントニオ・カルロス・ジョビン"
+    }
+  },
+  "Ellie Goulding": {
+    "area": "United Kingdom",
+    "aliases": {
+      "zh_Hans": "艾丽·高登"
+    }
+  },
+  "Eminem": {
+    "area": "United States",
+    "aliases": {
+      "en": "Eminem",
+      "ja": "エミネム",
+      "ko": "에미넴"
+    }
+  },
+  "Rihanna": {
+    "area": "United States",
+    "aliases": {
+      "en": "Rihanna",
+      "ja": "リアーナ",
+      "zh": "蕾哈娜",
+      "ko": "리아나"
+    }
+  },
+  "Eric Clapton": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "Eve Ai": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Eve Ai",
+      "ja": "アイ・イーリャン",
+      "zh": "艾怡良",
+      "zh-Hans": "艾怡良",
+      "zh-Hant": "艾怡良"
+    }
+  },
+  "Ezra Furman": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Jay Fung": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Jay Fung",
+      "zh_Hans": "冯允谦",
+      "zh_Hant": "馮允謙",
+      "zh-Hans": "冯允谦",
+      "zh-Hant": "馮允謙"
+    }
+  },
+  "FINNEAS": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Fiona Apple": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Fleurie": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Alok": {
+    "area": "Brazil",
+    "aliases": {}
+  },
+  "Zeeba": {
+    "area": "Brazil",
+    "aliases": {}
+  },
+  "Bruno Martini": {
+    "area": null,
+    "aliases": {}
+  },
+  "Florence + The Machine": {
+    "area": "England",
+    "aliases": {
+      "ja": "フローレンス・アンド・ザ・マシーン"
+    }
+  },
+  "Florist": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "ヨルシカ": {
+    "area": "Japan",
+    "aliases": {
+      "en": "Yorushika",
+      "ja": "ヨルシカ"
+    }
+  },
+  "Queen": {
+    "area": "United Kingdom",
+    "aliases": {
+      "ja": "クイーン",
+      "zh_Hans_CN": "皇后乐队"
+    }
+  },
+  "DJ Snake": {
+    "area": "France",
+    "aliases": {}
+  },
+  "Ozuna": {
+    "area": "Puerto Rico",
+    "aliases": {}
+  },
+  "ギヴン": {
+    "area": "Japan",
+    "aliases": {}
+  },
+  "Valentin Silvestrov": {
+    "area": "Ukraine",
+    "aliases": {
+      "en": "Valentyn Sylvestrov",
+      "ru": "Валентин Васильевич Сильвестров",
+      "uk": "Валентин Васильович Сильвестров"
+    }
+  },
+  "Anja Lechner": {
+    "area": "Germany",
+    "aliases": {
+      "ru": "Анна Лехнер"
+    }
+  },
+  "Silke Avenhaus": {
+    "area": "Germany",
+    "aliases": {}
+  },
+  "Maacha Deubner": {
+    "area": "Germany",
+    "aliases": {}
+  },
+  "Simon Fordham": {
+    "area": "Germany",
+    "aliases": {}
+  },
+  "Rosamunde Quartett": {
+    "area": "Germany",
+    "aliases": {}
+  },
+  "FLOWER FLOWER": {
+    "area": "Japan",
+    "aliases": {
+      "ja": "FLOWER FLOWER"
+    }
+  },
+  "Kurumi Enomoto": {
+    "area": "Japan",
+    "aliases": {}
+  },
+  "Goose house": {
+    "area": "Japan",
+    "aliases": {}
+  },
+  "Kaientai": {
+    "area": "Japan",
+    "aliases": {
+      "en": "KAIENTAI"
+    }
+  },
+  "傻子與白痴": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Fool and Idiot",
+      "zh_Hans": "傻子与白痴",
+      "zh_Hant": "傻子與白痴"
+    }
+  },
+  "Francesco De Gregori": {
+    "area": "Italy",
+    "aliases": {}
+  },
+  "Francesco Guccini": {
+    "area": "Italy",
+    "aliases": {}
+  },
+  "Tommaso Paradiso": {
+    "area": "Italy",
+    "aliases": {}
+  },
+  "fun.": {
+    "area": "Italy",
+    "aliases": {}
+  },
+  "Gatlin": {
+    "area": "Cleveland",
+    "aliases": {}
+  },
+  "Gianna Nannini": {
+    "area": "Italy",
+    "aliases": {}
+  },
+  "Gordi": {
+    "area": "New South Wales",
+    "aliases": {}
+  },
+  "Benson Boone": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Take Me To Your Best Friends House": {
+    "area": "Japan",
+    "aliases": {}
+  },
+  "郭顶": {
+    "area": "China",
+    "aliases": {
+      "zh": "郭顶",
+      "zh-Hans": "郭顶",
+      "zh-Hant": "郭頂"
+    }
+  },
+  "Halsey": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Hamilton Leithauser": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Rostam": {
+    "area": "United States",
+    "aliases": {
+      "en": "Rostam Batmanglij",
+      "fa": "رستم"
+    }
+  },
+  "Harrison Brome": {
+    "area": "Canada",
+    "aliases": {}
+  },
+  "Helen Reddy": {
+    "area": "Australia",
+    "aliases": {
+      "ja": "ヘレン・レディ"
+    }
+  },
+  "Christie Brooke": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "Hot Left Pole": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "Hozier": {
+    "area": "Ireland",
+    "aliases": {}
+  },
+  "I Segreti": {
+    "area": null,
+    "aliases": {}
+  },
+  "Icona Pop": {
+    "area": "Sweden",
+    "aliases": {}
+  },
+  "Backing Force": {
+    "area": null,
+    "aliases": {}
+  },
+  "Irama": {
+    "area": "Italy",
+    "aliases": {
+      "it_IT": "Filippo Maria Fanti"
+    }
+  },
+  "JACE": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Jack Stauber": {
+    "area": "Pittsburgh",
+    "aliases": {}
+  },
+  "Jacky Cheung": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Cheung Hok Yau",
+      "ja": "ジャッキー・チュン",
+      "zh_Hans": "张学友",
+      "zh_Hant": "張學友",
+      "zh-Hans": "张学友",
+      "zh-Hant": "張學友"
+    }
+  },
+  "Jaime R. Echavarría": {
+    "area": "Colombia",
+    "aliases": {}
+  },
+  "James Bay": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "Papa Roach": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "James Blunt": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "Janelle Monáe": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Janis Joplin": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "宇多田光": {
+    "area": "Japan",
+    "aliases": {
+      "en": "Hikaru Utada",
+      "ja": "宇多田ヒカル"
+    }
+  },
+  "Jace Chan": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Jace Chan",
+      "zh_Hans": "陈凯咏",
+      "zh_Hant": "陳凱詠"
+    }
+  },
+  "Rachel Lui": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Rachel Lui",
+      "zh_Hans": "雷深如",
+      "zh_Hant": "雷深如"
+    }
+  },
+  "Jay Chou": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Chieh-Lun Chou",
+      "zh_Hans": "周杰伦",
+      "zh_Hant_TW": "周杰倫",
+      "zh_Hant": "周杰倫"
+    }
+  },
+  "Zoom Karaoke": {
+    "area": null,
+    "aliases": {}
+  },
+  "Jaymes Young": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "JC 陳詠桐": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Jennifer Chan",
+      "zh_Hans": "陈咏桐",
+      "zh_Hant": "陳泳彤"
+    }
+  },
+  "Jenevieve": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Noctilucent": {
+    "area": null,
+    "aliases": {}
+  },
+  "Chelsea Cutler": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "The Cadillacs": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Simply Red": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "Joanna Wang": {
+    "area": "Taiwan",
+    "aliases": {
+      "en_001": "Joanna Wang",
+      "zh": "王若琳",
+      "zh_Hans": "王若琳",
+      "zh_Hant": "王若琳"
+    }
+  },
+  "John Denver": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "John Mayer": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Johnny Cash": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Joji": {
+    "area": "United States",
+    "aliases": {
+      "ja": "ジョージ・楠木・ミラー"
+    }
+  },
+  "Landon Austin": {
+    "area": "Nashville",
+    "aliases": {}
+  },
+  "Kaya May": {
+    "area": null,
+    "aliases": {}
+  },
+  "Jonathan Lee": {
+    "area": null,
+    "aliases": {}
+  },
+  "Journey": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Joy Of Cooking": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "LILY STONE": {
+    "area": "United Kingdom",
+    "aliases": {
+      "ja": "ローリング・ストーンズ"
+    }
+  },
+  "Judy Garland": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Julia Jacklin": {
+    "area": "Australia",
+    "aliases": {}
+  },
+  "JVKE": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "k.d. lang": {
+    "area": "Canada",
+    "aliases": {}
+  },
+  "Karen Mok": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Karen Mok",
+      "zh_Hans": "莫文蔚",
+      "zh_Hant": "莫文蔚"
+    }
+  },
+  "Kate Bush": {
+    "area": "England",
+    "aliases": {
+      "ja": "ケイト・ブッシュ"
+    }
+  },
+  "Katy Perry": {
+    "area": "United States",
+    "aliases": {
+      "en": "Katheryn Elizabeth Hudson",
+      "ja": "ケイティ・ペリー",
+      "zh": "凯蒂·佩里"
+    }
+  },
+  "Kelly Yu": {
+    "area": "China",
+    "aliases": {
+      "en": "Kelly Yu",
+      "zh_Hans": "于文文",
+      "zh_Hant": "于文文"
+    }
+  },
+  "Kelsea Ballerini": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "LANY": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "keshi": {
+    "area": "United States",
+    "aliases": {
+      "ja": "ケシ"
+    }
+  },
+  "ProSource Karaoke": {
+    "area": null,
+    "aliases": {
+      "en": "Karaoke",
+      "ru": "Каркаоке"
+    }
+  },
+  "The Amplified Project": {
+    "area": "Japan",
+    "aliases": {}
+  },
+  "Bob Marley & The Wailers": {
+    "area": "Jamaica",
+    "aliases": {
+      "ja": "ボブ・マーリー"
+    }
+  },
+  "Skip Marley": {
+    "area": "Jamaica",
+    "aliases": {
+      "en_JM": "Skip Marley Minto"
+    }
+  },
+  "Cedella Marley": {
+    "area": "Jamaica",
+    "aliases": {}
+  },
+  "Stephen Marley": {
+    "area": "Jamaica",
+    "aliases": {}
+  },
+  "Ghetto Youths Foundation": {
+    "area": null,
+    "aliases": {}
+  },
+  "Kim Nain": {
+    "area": "Jamaica",
+    "aliases": {}
+  },
+  "Manifesto Ja": {
+    "area": "Umeå",
+    "aliases": {}
+  },
+  "TEEKS": {
+    "area": "New Zealand",
+    "aliases": {}
+  },
+  "Natty": {
+    "area": "Finsbury Park",
+    "aliases": {}
+  },
+  "Kim Carnes": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "King Floyd": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "If I Was Your": {
+    "area": "Germany",
+    "aliases": {}
+  },
+  "King Gnu": {
+    "area": "Japan",
+    "aliases": {}
+  },
+  "Lady Gaga": {
+    "area": "United States",
+    "aliases": {
+      "it": "Jo Calderone",
+      "az_Latn": "Ledi Qaqa",
+      "bs_Latn": "Lejdi Gaga",
+      "lv": "Lēdija Gāga",
+      "lt": "Stefanija Džoana Andželina Germanota",
+      "el": "Λέιντι Γκάγκα",
+      "sr": "Џо Калдероне",
+      "ru": "Джо Кальдероне",
+      "ba": "Леди Гага",
+      "ce": "Леди Гага",
+      "cv": "Леди Гага",
+      "ky": "Леди Гага",
+      "sah": "Леди Гага",
+      "tt": "Леди Гага",
+      "tyv": "Леди Гага",
+      "uk": "Леді Гага",
+      "bg": "Лейди Гага",
+      "tg": "Лейди Гага",
+      "bs_Cyrl": "Лејди Гага",
+      "mk": "Лејди Гага",
+      "be": "Лэдзі Гага",
+      "mn": "Лэди Гага",
+      "hy": "Լեդի Գագա",
+      "he": "ליידי גאגא",
+      "yi": "ליידי גאגא",
+      "fa": "جوآن استفانی جرمانوتا",
+      "ar": "ستيفاني جيرمانوتا",
+      "ar_EG": "ليدى جاجا",
+      "ar_MA": "ليدي ڭاڭا",
+      "az_Arab": "لیدی قاقا",
+      "ks": "لیڈی گاگا",
+      "skr": "لیڈی گاگا",
+      "ur": "لیڈی گاگا",
+      "ug": "لېيدى گاگا",
+      "ku": "لەیدی گاگا",
+      "bho": "लेडी गागा",
+      "hi": "लेडी गागा",
+      "mai": "लेडी गागा",
+      "mr": "लेडी गागा",
+      "ne": "लेडी गागा",
+      "bn": "লেডি গাগা",
+      "as": "লেডী গাগা",
+      "pa": "ਲੇਡੀ ਗਾਗਾ",
+      "gu": "લેડી ગાગા",
+      "or": "ଲେଡି ଗାଗା",
+      "ta": "லேடி காகா",
+      "te": "లేడీ గాగా",
+      "kn": "ಲೇಡಿ ಗಾಗಾ",
+      "ml": "ലേഡി ഗാഗ",
+      "si": "ලේඩි ගාගා",
+      "th": "สเตฟานี โจแอนน์ แอนเจลินา เจอร์มาน็อตตา",
+      "lo": "ເລດີ້ ກາກ້າ",
+      "my": "လေဒီဂါဂါ",
+      "ka": "ლედი გაგა",
+      "am": "ስቲፋኒ ጆአኒ አንጀሊና ጀርማኖታ",
+      "km": "ឡេឌី ហ្គាហ្គា",
+      "sat": "ᱞᱮᱰᱤ ᱜᱟᱜᱟ",
+      "ja": "ステファニー・ジョアン・アンジェリーナ・ジャーマノッタ",
+      "zh": "史蒂芬妮·乔安妮·安吉丽娜·杰尔马诺塔",
+      "zh_Hant": "嘎嘎小姐",
+      "ko": "레이디 가가"
+    }
+  },
+  "Swagu": {
+    "area": null,
+    "aliases": {}
+  },
+  "Bradley Cooper": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Bruno Mars": {
+    "area": "United States",
+    "aliases": {
+      "en": "Bruno Mars",
+      "zh_Hans_CN": "Bruno Mars",
+      "ja": "ブルーノ・マーズ",
+      "ko": "브루노 마스"
+    }
+  },
+  "Snoop Dogg": {
+    "area": "United States",
+    "aliases": {
+      "en": "Da Bigg Boss Dogg",
+      "ja": "スヌープ・ドギー・ドッグ"
+    }
+  },
+  "Lauv": {
+    "area": "United States",
+    "aliases": {
+      "en": "Ari Staprans Leff",
+      "ko": "Lauv"
+    }
+  },
+  "Zhao Lei": {
+    "area": "China",
+    "aliases": {
+      "en": "Zhao Lei",
+      "zh": "赵雷",
+      "zh_Hans": "赵雷",
+      "zh_Hant": "趙雷"
+    }
+  },
+  "Leon Bridges": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Lewis Capaldi": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "李宗盛": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Jonathan Lee",
+      "zh_Hans_CN": "李宗盛",
+      "zh_Hans": "李宗盛",
+      "zh_Hant": "李宗盛"
+    }
+  },
+  "Sandy Lam": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Lam Yik Lin",
+      "zh_Hans": "林忆莲",
+      "zh_Hant": "林憶蓮"
+    }
+  },
+  "Fish Leong": {
+    "area": "Malaysia",
+    "aliases": {
+      "en": "Fish Leong",
+      "zh_Hans": "梁静茹",
+      "zh_Hans_CN": "梁静茹",
+      "zh": "梁靜茹",
+      "zh_Hant": "梁靜茹"
+    }
+  },
+  "LISA": {
+    "area": "Japan",
+    "aliases": {
+      "ja": "LiSA",
+      "zh_Hans_CN": "织部里沙 (LiSA OLiVE)"
+    }
+  },
+  "RAYE": {
+    "area": "United Kingdom",
+    "aliases": {
+      "en_GB": "Rachel Agatha Keen"
+    }
+  },
+  "Little Tony": {
+    "area": "San Marino",
+    "aliases": {}
+  },
+  "Rene Liu": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Rene Liu",
+      "zh_Hans": "刘若英",
+      "zh_Hans_CN": "刘若英",
+      "zh_Hant": "劉若英"
+    }
+  },
+  "Lord Huron": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Lorde": {
+    "area": "New Zealand",
+    "aliases": {
+      "ja": "ロード"
+    }
+  },
+  "Jessi": {
+    "area": "South Korea",
+    "aliases": {}
+  },
+  "Lou Reed": {
+    "area": "United States",
+    "aliases": {
+      "en": "Reed"
+    }
+  },
+  "LOVE SUPREME": {
+    "area": "France",
+    "aliases": {}
+  },
+  "Megadeth": {
+    "area": "United States",
+    "aliases": {
+      "ja": "メガデス"
+    }
+  },
+  "Sammy Hagar": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "SingLike": {
+    "area": null,
+    "aliases": {}
+  },
+  "Macaroni Empitsu": {
+    "area": "Japan",
+    "aliases": {
+      "en": "Macaroni Empitsu"
+    }
+  },
+  "Just Da Truth": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Linkin Park": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Maisie Peters": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "おやすみベイビー": {
+    "area": null,
+    "aliases": {}
+  },
+  "MANAGEMENT DEL DOLORE POST-OPERATORIO": {
+    "area": "Italy",
+    "aliases": {}
+  },
+  "Marco Antonio Solís": {
+    "area": "Mexico",
+    "aliases": {}
+  },
+  "Mavis Hee": {
+    "area": "Singapore",
+    "aliases": {
+      "zh_Hans": "许美静",
+      "zh_Hant": "許美靜"
+    }
+  },
+  "Meghan Trainor": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "John Legend": {
+    "area": "United States",
+    "aliases": {
+      "ja": "ジョン・レジェンド"
+    }
+  },
+  "mehro": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Melanie": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Michael Hurley": {
+    "area": "Astoria",
+    "aliases": {}
+  },
+  "OG PO": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Midnight Flyer": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "MIKA": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "milet": {
+    "area": "Japan",
+    "aliases": {
+      "ja": "milet"
+    }
+  },
+  "Lilas": {
+    "area": null,
+    "aliases": {}
+  },
+  "Miley Cyrus": {
+    "area": "United States",
+    "aliases": {
+      "en": "Ashley O",
+      "ja": "マイリー・サイラス"
+    }
+  },
+  "Milky Chance": {
+    "area": "Germany",
+    "aliases": {}
+  },
+  "Mina": {
+    "area": "Italy",
+    "aliases": {}
+  },
+  "Mindy Gledhill": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Miriam Yeung": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Miriam Yeung",
+      "zh_Hans": "杨千嬅",
+      "zh_Hant": "楊千嬅"
+    }
+  },
+  "Rockin Moroccin": {
+    "area": "London",
+    "aliases": {}
+  },
+  "Modern Baseball": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "MONGOL800": {
+    "area": "Japan",
+    "aliases": {}
+  },
+  "那英": {
+    "area": "China",
+    "aliases": {
+      "en": "Na Ying",
+      "zh": "那英",
+      "zh_Hans": "那英",
+      "zh_Hant": "那英"
+    }
+  },
+  "Nakimushi": {
+    "area": "Japan",
+    "aliases": {
+      "en": "Nakimushi☔︎",
+      "ja": "泣き虫"
+    }
+  },
+  "田中タリラ": {
+    "area": "Japan",
+    "aliases": {}
+  },
+  "Gregory Porter": {
+    "area": "United States",
+    "aliases": {
+      "ja": "グレゴリー・ポーター"
+    }
+  },
+  "NIKI": {
+    "area": "Indonesia",
+    "aliases": {}
+  },
+  "88rising": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Snow Strippers": {
+    "area": "New York",
+    "aliases": {}
+  },
+  "DJ Antoine": {
+    "area": "Switzerland",
+    "aliases": {}
+  },
+  "Mad Mark": {
+    "area": null,
+    "aliases": {}
+  },
+  "Temara Melek": {
+    "area": null,
+    "aliases": {}
+  },
+  "Euro": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Achille Lauro": {
+    "area": "Italy",
+    "aliases": {
+      "it_IT": "Lauro De Marinis"
+    }
+  },
+  "Tom Odell": {
+    "area": "United Kingdom",
+    "aliases": {
+      "en_GB": "Thomas Peter Odell"
+    }
+  },
+  "Norman Greenbaum": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "One Direction": {
+    "area": "England",
+    "aliases": {}
+  },
+  "オレンジスパイニクラブ": {
+    "area": "Japan",
+    "aliases": {
+      "en": "Orange Spiny Crab"
+    }
+  },
+  "P!nk": {
+    "area": "United States",
+    "aliases": {
+      "ja": "ピンク"
+    }
+  },
+  "Nate Ruess": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Eduardo di Capua": {
+    "area": "Italy",
+    "aliases": {
+      "lv": "I.Di Capua"
+    }
+  },
+  "Alfredo Mazzucchi": {
+    "area": "Italy",
+    "aliases": {}
+  },
+  "National Philharmonic Orchestra": {
+    "area": "United Kingdom",
+    "aliases": {
+      "en": "London National Philharmonic Orchestra",
+      "fr": "L’Orchestre Philharmonique National de Londres",
+      "es": "Orquesta filarmónica nacional de Londres"
+    }
+  },
+  "Giancarlo Chiaramello": {
+    "area": "Italy",
+    "aliases": {}
+  },
+  "Paolo Nutini": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "Peggy Lee": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Penny Tai": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Penny Tai",
+      "zh_Hans": "戴佩妮",
+      "zh_Hant": "戴佩妮"
+    }
+  },
+  "Pet Shop Boys": {
+    "area": "United Kingdom",
+    "aliases": {
+      "en": "Pet Shop Boys",
+      "ja": "ペット・ショップ・ボーイズ"
+    }
+  },
+  "Peter McPoland": {
+    "area": "The Woodlands",
+    "aliases": {}
+  },
+  "KI/KI": {
+    "area": "Netherlands",
+    "aliases": {}
+  },
+  "Phosphorescent": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Songlorious": {
+    "area": null,
+    "aliases": {}
+  },
+  "Pinkzebra": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Benji Jackson": {
+    "area": "Melbourne",
+    "aliases": {}
+  },
+  "Kristen Agee": {
+    "area": "Poland",
+    "aliases": {}
+  },
+  "Onyay Pheori": {
+    "area": null,
+    "aliases": {}
+  },
+  "Portishead": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "Post Malone": {
+    "area": "United States",
+    "aliases": {
+      "ko": "포스트 말론"
+    }
+  },
+  "Priscilla Chan": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Chan Wai Han",
+      "ja": "プリシラ・チャン",
+      "zh_Hans": "陈慧娴",
+      "zh_Hant": "陳慧嫻"
+    }
+  },
+  "Purple Disco Machine": {
+    "area": "Germany",
+    "aliases": {}
+  },
+  "Sophie and the Giants": {
+    "area": "Sheffield",
+    "aliases": {}
+  },
+  "賴雅妍": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Megan Lai",
+      "zh_Hans": "赖雅妍",
+      "zh_Hant": "賴雅妍"
+    }
+  },
+  "Original Soundtrack": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Ninth Degree": {
+    "area": "Edinburgh",
+    "aliases": {}
+  },
+  "R.E.M.": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Rachael Yamagata": {
+    "area": "United States",
+    "aliases": {
+      "en": "Rachael Yamagata"
+    }
+  },
+  "Piano Echoes": {
+    "area": "Japan",
+    "aliases": {}
+  },
+  "オルゴール ミドリ": {
+    "area": "Japan",
+    "aliases": {}
+  },
+  "RADWIMPS": {
+    "area": "Japan",
+    "aliases": {}
+  },
+  "Raffaella Carrà": {
+    "area": "Italy",
+    "aliases": {}
+  },
+  "Rainie Yang": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Rainie Yang",
+      "zh_Hans": "杨丞琳",
+      "zh_Hant": "楊丞琳"
+    }
+  },
+  "Regina Spektor": {
+    "area": "United States",
+    "aliases": {
+      "en": "Regina Ilyinichna Spektor",
+      "ru": "Реги́на Ильи́нична Спе́ктор",
+      "ja": "レジーナ・スペクター",
+      "zh": "蕾吉娜·史派克特"
+    }
+  },
+  "Donatella Rettore": {
+    "area": "Italy",
+    "aliases": {}
+  },
+  "Rick James": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Diamonds": {
+    "area": "Canada",
+    "aliases": {
+      "ja": "ザ・ダイアモンズ"
+    }
+  },
+  "Done Again": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Paris Music": {
+    "area": "France",
+    "aliases": {}
+  },
+  "Rio Romeo": {
+    "area": "Los Angeles",
+    "aliases": {}
+  },
+  "The Beach Boys": {
+    "area": "United States",
+    "aliases": {
+      "ja": "ザ・ビーチ・ボーイズ"
+    }
+  },
+  "Roo Panes": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "Waa Wei": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Waa Wei",
+      "zh_Hant_TW": "魏如萱",
+      "zh_Hans": "魏如萱",
+      "zh_Hant": "魏如萱"
+    }
+  },
+  "Valen Hsu": {
+    "area": "Taiwan",
+    "aliases": {
+      "vi": "Hứa Như Vân",
+      "en": "Valen Hsu",
+      "zh_Hans_CN": "许茹芸",
+      "zh_Hans": "许茹芸",
+      "zh_Hant": "許茹芸"
+    }
+  },
+  "S.H.E": {
+    "area": "Taiwan",
+    "aliases": {}
+  },
+  "Samara Joy": {
+    "area": "United States",
+    "aliases": {
+      "en_US": "Samara Joy McLendon"
+    }
+  },
+  "Sebastian Yatra": {
+    "area": "Colombia",
+    "aliases": {}
+  },
+  "SEKAI NO OWARI": {
+    "area": "Japan",
+    "aliases": {
+      "en": "End of the World",
+      "ja": "SEKAI NO OWARI"
+    }
+  },
+  "SHAED": {
+    "area": "United States",
+    "aliases": {
+      "en": "SHAED"
+    }
+  },
+  "Silly Boy Blue": {
+    "area": "France",
+    "aliases": {}
+  },
+  "Sleeping At Last": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Social House": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Lil Yachty": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "sodagreen": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "sodagreen",
+      "yue_Hans": "苏打绿",
+      "yue_Hans_CN": "苏打绿",
+      "zh_Hans": "苏打绿",
+      "zh_Hans_CN": "苏打绿",
+      "zh_Hans_HK": "苏打绿",
+      "zh_Hans_MO": "苏打绿",
+      "zh_Hans_SG": "苏打绿",
+      "yue": "蘇打綠",
+      "yue_Hant": "蘇打綠",
+      "yue_Hant_HK": "蘇打綠",
+      "zh": "蘇打綠",
+      "zh_Hant": "蘇打綠",
+      "zh_Hant_HK": "蘇打綠",
+      "zh_Hant_MO": "蘇打綠",
+      "zh_Hant_TW": "蘇打綠"
+    }
+  },
+  "SOLOMON": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Steven Grossman": {
+    "area": null,
+    "aliases": {}
+  },
+  "Paul Leonard-Morgan": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "Stevie Wonder": {
+    "area": "United States",
+    "aliases": {
+      "en": "Stevie Wonder",
+      "ru": "Стиви Уандер",
+      "ja": "スティーヴィー・ワンダー"
+    }
+  },
+  "徐剑秋": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Stefanie Sun": {
+    "area": "Singapore",
+    "aliases": {
+      "en": "Stefanie Sun",
+      "ja": "スン・イェンツー",
+      "zh": "孙燕姿",
+      "zh_Hans": "孙燕姿",
+      "zh_Hans_CN": "孙燕姿",
+      "zh_Hant": "孫燕姿"
+    }
+  },
+  "Lezel": {
+    "area": "Japan",
+    "aliases": {
+      "ja": "Lezel"
+    }
+  },
+  "Tame Impala": {
+    "area": "Australia",
+    "aliases": {}
+  },
+  "Supertramp": {
+    "area": "United Kingdom",
+    "aliases": {
+      "en": "Daddy"
+    }
+  },
+  "Tanya Chua": {
+    "area": "Singapore",
+    "aliases": {
+      "en": "Tanya Chua",
+      "zh": "蔡健雅",
+      "zh_Hans": "蔡健雅",
+      "zh_Hant": "蔡健雅"
+    }
+  },
+  "Taylor Swift": {
+    "area": "United States",
+    "aliases": {
+      "en": "Dr. Taylor Alison Swift",
+      "sv": "Nils Sjöberg",
+      "cs": "Taylor Swiftová",
+      "sk": "Taylor Swiftová",
+      "shi": "Taylur Swift",
+      "lv": "Teilora Svifta",
+      "tk": "Teýlor Swift",
+      "el": "Τέιλορ Σουίφτ",
+      "kk": "Тейлор Свифт",
+      "ky": "Тейлор Свифт",
+      "ru": "Тейлор Свифт",
+      "uk": "Тейлор Свіфт",
+      "bg": "Тейлър Суифт",
+      "mk": "Тејлор Свифт",
+      "sr": "Тејлор Свифт",
+      "be": "Тэйлар Свіфт",
+      "mn": "Тэйлор Свифт",
+      "sah": "Тэйлор Суифт",
+      "hy": "Թեյլոր Սվիֆթ",
+      "he": "טיילור סוויפט",
+      "yi": "טעילאר סוויפט",
+      "ku": "تایلر سویفت",
+      "az": "تیلور سوئیفت",
+      "fa": "تیلور سوئیفت",
+      "ks": "ٹیلر سوئفٹ",
+      "pa_Arab": "ٹیلر سوئفٹ",
+      "skr": "ٹیلر سوئفٹ",
+      "ur": "ٹیلر سوئفٹ",
+      "bho": "टेलर स्विफ्ट",
+      "hi": "टेलर स्विफ्ट",
+      "mai": "टेलर स्विफ्ट",
+      "mr": "टेलर स्विफ्ट",
+      "ne": "टेलर स्विफ्ट",
+      "bn": "টেইলর সুইফট",
+      "as": "টেইলৰ ছুইফ্ট",
+      "pa_Guru": "ਟੇਲਰ ਸਵਿਫਟ",
+      "ta": "டேலர் ஸ்விஃப்ட்",
+      "te": "టేలర్ స్విఫ్ట్",
+      "kn": "ಟೈಲರ್ ಸ್ವಿಫ್ಟ್",
+      "ml": "ടെയിലർ സ്വിഫ്റ്റ്",
+      "si": "ටේලර් ස්විෆ්ට්",
+      "th": "เทย์เลอร์ สวิฟต์",
+      "lo": "ເທເລໍ່ ສວິຟ",
+      "my": "တေလာဆွစ်ဖ်",
+      "ka": "ტეილორ სვიფტი",
+      "km": "ថេល័រ ស្វីហ្វត៍",
+      "ja": "テイラー・スウィフト",
+      "zh_Hans": "泰勒·史薇芙特",
+      "zh": "泰勒·斯威夫特",
+      "zh_Hans_SG": "泰勒丝",
+      "zh_Hant_TW": "泰勒絲",
+      "ko": "테일러 스위프트"
+    }
+  },
+  "Keith Urban": {
+    "area": "Australia",
+    "aliases": {}
+  },
+  "曲婉婷": {
+    "area": "China",
+    "aliases": {
+      "en": "Wanting",
+      "zh_Hans": "曲婉婷",
+      "zh_Hant": "曲婉婷"
+    }
+  },
+  "Normani": {
+    "area": "United States",
+    "aliases": {
+      "zh": "諾瑪妮"
+    }
+  },
+  "Yichun Shan": {
+    "area": "China",
+    "aliases": {
+      "en": "Yichun Shan",
+      "zh_Hans": "单依纯",
+      "zh_Hant": "單依純"
+    }
+  },
+  "林家謙": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Lam Ka Him",
+      "yue": "林家謙",
+      "yue_Hant": "林家謙",
+      "yue_Hant_HK": "林家謙",
+      "zh": "林家謙",
+      "zh_Hant": "林家謙",
+      "zh_Hant_HK": "林家謙",
+      "zh_Hant_MO": "林家謙",
+      "zh_Hant_MY": "林家謙",
+      "zh_Hant_TW": "林家謙",
+      "yue_Hans": "林家谦",
+      "yue_Hans_CN": "林家谦",
+      "zh_Hans": "林家谦",
+      "zh_Hans_CN": "林家谦",
+      "zh_Hans_HK": "林家谦",
+      "zh_Hans_MO": "林家谦",
+      "zh_Hans_MY": "林家谦",
+      "zh_Hans_SG": "林家谦"
+    }
+  },
+  "THE ANXIETY": {
+    "area": null,
+    "aliases": {}
+  },
+  "Tyler Cole": {
+    "area": null,
+    "aliases": {}
+  },
+  "The Cardigans": {
+    "area": "Sweden",
+    "aliases": {}
+  },
+  "The Chainsmokers feat. Halsey": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "The Chainsmokers": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Commodores": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "The Cranberries": {
+    "area": "Ireland",
+    "aliases": {
+      "ja": "クランベリーズ"
+    }
+  },
+  "浪花兄弟": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "The Drifters"
+    }
+  },
+  "The Kills": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "The Lumineers": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "The Maytals": {
+    "area": null,
+    "aliases": {}
+  },
+  "The Platters": {
+    "area": "United States",
+    "aliases": {
+      "es": "Los Plateros"
+    }
+  },
+  "The Pogues": {
+    "area": "United Kingdom",
+    "aliases": {
+      "ja": "ザ・ポーグス"
+    }
+  },
+  "The Raconteurs": {
+    "area": "United States",
+    "aliases": {
+      "en": "The Raconteurs",
+      "en_AU": "The Saboteurs"
+    }
+  },
+  "The Righteous Brothers": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "The Temptations": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "The Turbines": {
+    "area": null,
+    "aliases": {}
+  },
+  "The Who": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "田馥甄": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Hebe Tien"
+    }
+  },
+  "Tim McGraw": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Tim Seely": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "OneRepublic": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Timbaland": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Shiloh Dynasty": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "timmies": {
+    "area": null,
+    "aliases": {}
+  },
+  "Tony Bennett": {
+    "area": "United States",
+    "aliases": {
+      "ja": "トニー・ベネット"
+    }
+  },
+  "Train": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Troye Sivan": {
+    "area": "Australia",
+    "aliases": {
+      "en": "Troye Sivan",
+      "ko": "트로이 시반"
+    }
+  },
+  "Broods": {
+    "area": "New Zealand",
+    "aliases": {}
+  },
+  "Tungevaag": {
+    "area": "Norway",
+    "aliases": {}
+  },
+  "Twin Forks": {
+    "area": "Boca Raton",
+    "aliases": {}
+  },
+  "Two Door Cinema Club": {
+    "area": "Northern Ireland",
+    "aliases": {}
+  },
+  "ur pretty": {
+    "area": "Alabama",
+    "aliases": {}
+  },
+  "宇多田ヒカル": {
+    "area": "Japan",
+    "aliases": {
+      "en": "Hikaru Utada",
+      "ja": "宇多田ヒカル"
+    }
+  },
+  "Vance Joy": {
+    "area": "Australia",
+    "aliases": {}
+  },
+  "Vaundy": {
+    "area": "Japan",
+    "aliases": {
+      "ja": "Vaundy"
+    }
+  },
+  "Cory Wong": {
+    "area": "Minneapolis",
+    "aliases": {}
+  },
+  "The Velvet Underground": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Videoclub": {
+    "area": "France",
+    "aliases": {
+      "en": "Videoclub",
+      "fr": "Vidéoclub"
+    }
+  },
+  "魏如萱": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Waa Wei",
+      "zh_Hant_TW": "魏如萱",
+      "zh_Hans": "魏如萱",
+      "zh_Hant": "魏如萱"
+    }
+  },
+  "Whitmer Thomas": {
+    "area": "Los Angeles",
+    "aliases": {}
+  },
+  "Wilco": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "刘惜君": {
+    "area": "China",
+    "aliases": {
+      "zh": "刘惜君",
+      "zh_Hans": "刘惜君",
+      "zh_Hant": "劉惜君"
+    }
+  },
+  "薛之谦": {
+    "area": "China",
+    "aliases": {
+      "en": "Jacky Xue",
+      "zh_Hant": "薛之謙",
+      "zh": "薛之谦",
+      "zh_Hans": "薛之谦"
+    }
+  },
+  "薛之謙": {
+    "area": "China",
+    "aliases": {
+      "en": "Jacky Xue",
+      "zh_Hant": "薛之謙",
+      "zh": "薛之谦",
+      "zh_Hans": "薛之谦"
+    }
+  },
+  "yama": {
+    "area": "Japan",
+    "aliases": {}
+  },
+  "孫燕姿": {
+    "area": "Singapore",
+    "aliases": {
+      "en": "Stefanie Sun",
+      "ja": "スン・イェンツー",
+      "zh": "孙燕姿",
+      "zh_Hans": "孙燕姿",
+      "zh_Hans_CN": "孙燕姿",
+      "zh_Hant": "孫燕姿"
+    }
+  },
+  "孙燕姿": {
+    "area": "Singapore",
+    "aliases": {
+      "en": "Stefanie Sun",
+      "ja": "スン・イェンツー",
+      "zh": "孙燕姿",
+      "zh_Hans": "孙燕姿",
+      "zh_Hans_CN": "孙燕姿",
+      "zh_Hant": "孫燕姿"
+    }
+  },
+  "Etta James": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Engelbert Humperdinck": {
+    "area": "United Kingdom",
+    "aliases": {
+      "ja": "エンゲルベルト・フンパーディンク"
+    }
+  },
+  "郁可唯": {
+    "area": "China",
+    "aliases": {
+      "en": "Yisa Yu",
+      "zh": "郁可唯",
+      "zh_Hans": "郁可唯",
+      "zh_Hant": "鬱可唯"
+    }
+  },
+  "于文文": {
+    "area": "China",
+    "aliases": {
+      "en": "Kelly Yu",
+      "zh_Hans": "于文文",
+      "zh_Hant": "于文文"
+    }
+  },
+  "YUI": {
+    "area": "Japan",
+    "aliases": {
+      "ja": "YUI",
+      "en": "YUI for Kaoru Amane",
+      "zh_Hans_CN": "优依"
+    }
+  },
+  "Sia": {
+    "area": "Australia",
+    "aliases": {
+      "en": "Sia",
+      "ja": "シーア"
+    }
+  },
+  "ZAYN": {
+    "area": "England",
+    "aliases": {
+      "en_GB": "ZAYN",
+      "ja": "ゼイン"
+    }
+  },
+  "Zella Day": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "周杰倫": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Chieh-Lun Chou",
+      "zh_Hans": "周杰伦",
+      "zh_Hant_TW": "周杰倫",
+      "zh_Hant": "周杰倫"
+    }
+  },
+  "齐秦": {
+    "area": "Taiwan",
+    "aliases": {
+      "zh_Hans": "齐秦",
+      "zh_Hant": "齊秦"
+    }
+  },
+  "ザ・ドリフターズ feat. いかりや長介": {
+    "area": "Japan",
+    "aliases": {
+      "en": "The Drifters",
+      "ja": "ザ・ドリフターズ"
+    }
+  },
+  "ザ・ドリフターズ": {
+    "area": "Japan",
+    "aliases": {
+      "en": "The Drifters",
+      "ja": "ザ・ドリフターズ"
+    }
+  },
+  "みきなつみ": {
+    "area": "Japan",
+    "aliases": {}
+  },
+  "4 Non Blondes": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "40mP feat. 初音ミク": {
+    "area": "Japan",
+    "aliases": {
+      "en": "Hatsune Miku",
+      "ru": "Мику Хацунэ",
+      "uk": "Міку, Хацуне",
+      "he": "האטסונה מיקו",
+      "th": "ฮะสึเนะ มิกุ",
+      "ja": "初音ミク",
+      "zh": "初音ミク",
+      "zh_Hans": "初音未来",
+      "zh_Hans_CN": "初音未来",
+      "ko": "하츠네 미쿠"
+    }
+  },
+  "40mP": {
+    "area": "Japan",
+    "aliases": {
+      "ja": "40メートルP"
+    }
+  },
+  "Robert Smith": {
+    "area": "United Kingdom",
+    "aliases": {
+      "en": "Robert Smith",
+      "ja": "ロバート・スミス"
+    }
+  },
+  "65daysofstatic": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "The 1975": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "GROUPLOVE": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "KureiYuki's": {
+    "area": "Japan",
+    "aliases": {
+      "en": "KureiYuki"
+    }
+  },
+  "Duke": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Eden James": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Iggy Azalea": {
+    "area": "Australia",
+    "aliases": {
+      "en": "Iggy Azalea",
+      "ja": "イギー・アゼリア"
+    }
+  },
+  "Jay-Z": {
+    "area": "United States",
+    "aliases": {
+      "en": "Jay-Z",
+      "ja": "ジェイ・Z"
+    }
+  },
+  "Jennifer June": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Jeremih": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Jessie Ware": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "Jon Bellion": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "JP Saxe": {
+    "area": "Canada",
+    "aliases": {}
+  },
+  "Khalid": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Kito": {
+    "area": "Australia",
+    "aliases": {}
+  },
+  "Lana Del Rey": {
+    "area": "United States",
+    "aliases": {
+      "en": "Lana Del Rey",
+      "ja": "ラナ・デル・レイ"
+    }
+  },
+  "Lucas Harmon": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "MACI": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Madison Ryann Ward": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Mae Stephens": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "MAISONdes": {
+    "area": "Japan",
+    "aliases": {}
+  },
+  "Management": {
+    "area": "Italy",
+    "aliases": {}
+  },
+  "Micah Kesselring": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Nat King Cole": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "November Ultra": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Phil Collins": {
+    "area": "United Kingdom",
+    "aliases": {
+      "en": "Phil Collins",
+      "ja": "フィル・コリンズ"
+    }
+  },
+  "Pink Martini": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Pip Millett": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Roddy Frame": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "Sam Ock": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Sjowgren": {
+    "area": "Sweden",
+    "aliases": {}
+  },
+  "Tariq": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "莫文蔚": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Karen Mok",
+      "zh_Hans": "莫文蔚",
+      "zh_Hant": "莫文蔚"
+    }
+  },
+  "AGA": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "AGA",
+      "zh_Hant": "江海迦",
+      "zh_Hans": "江海迦"
+    }
+  },
+  "艾怡良": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Eve Ai",
+      "ja": "アイ・イーリャン",
+      "zh": "艾怡良",
+      "zh-Hans": "艾怡良",
+      "zh-Hant": "艾怡良"
+    }
+  },
+  "Al Bano": {
+    "area": "Italy",
+    "aliases": {
+      "ru": "Аль Бано"
+    }
+  },
+  "Romina Power": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Germaine Franco": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "B.B.クイーンズ": {
+    "area": null,
+    "aliases": {}
+  },
+  "B.B.クィーンズ": {
+    "area": "Japan",
+    "aliases": {
+      "ja": "B.B.クィーンズ"
+    }
+  },
+  "蔡健雅": {
+    "area": "Singapore",
+    "aliases": {
+      "en": "Tanya Chua",
+      "zh": "蔡健雅",
+      "zh_Hans": "蔡健雅",
+      "zh_Hant": "蔡健雅"
+    }
+  },
+  "蔡依林": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Jolin Tsai",
+      "zh_Hans": "蔡依林",
+      "zh_Hant": "蔡依林"
+    }
+  },
+  "Charli XCX": {
+    "area": "England",
+    "aliases": {
+      "en": "Charli XCX",
+      "kk": "Чарли XCX",
+      "bg": "Чарли Екс Си Екс",
+      "sr": "Чарли Екс-Си-Екс",
+      "hy": "Չարլի ԷքսՍիԷքս",
+      "he": "צ'ארלי XCX",
+      "fa": "چارلی ایکس‌سی‌ایکس",
+      "ar": "شارلي إكس سي إكس",
+      "sd": "چارلي ايڪس‌سي ايڪس",
+      "ku": "چارلی ئێکس سی ئێکس",
+      "az_Arab": "چارلی ایکس‌سیایکس",
+      "ur": "چارلی ایکس‌سی‌ایکس",
+      "ta": "சார்லி எக்ஸ்சிஎக்ஸ்",
+      "th": "ชาร์ลี เอ็กซ์ซีเอ็กซ์",
+      "ka": "ჩარლი ექსიექსი",
+      "ja": "チャーリー・XCX",
+      "zh": "查莉 XCX",
+      "ko": "찰리 XCX"
+    }
+  },
+  "陳柏宇": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Chan Pak Yu",
+      "zh_Hans": "陈柏宇",
+      "zh_Hant": "陳柏宇"
+    }
+  },
+  "陳慧嫻": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Chan Wai Han",
+      "ja": "プリシラ・チャン",
+      "zh_Hans": "陈慧娴",
+      "zh_Hant": "陳慧嫻"
+    }
+  },
+  "陳凱詠": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Jace Chan",
+      "zh_Hans": "陈凯咏",
+      "zh_Hant": "陳凱詠"
+    }
+  },
+  "陈粒": {
+    "area": "China",
+    "aliases": {
+      "en": "Chen Li",
+      "zh_Hans_CN": "陈粒",
+      "zh_Hans": "陈粒",
+      "zh_Hant": "陳粒"
+    }
+  },
+  "Rosemary Clooney": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "王菲": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Faye Wong",
+      "vi": "Vương Phi",
+      "ja": "フェイ・ウォン",
+      "zh": "王菲",
+      "zh_Hant": "王菲",
+      "zh-Hans": "王菲",
+      "zh-Hant": "王菲"
+    }
+  },
+  "陳泳彤": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Jennifer Chan",
+      "zh_Hans": "陈咏桐",
+      "zh_Hant": "陳泳彤"
+    }
+  },
+  "Cringe": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "the Lizards": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "戴愛玲": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Princess Ai",
+      "zh_Hant": "戴愛玲",
+      "zh_Hans": "戴爱玲"
+    }
+  },
+  "戴佩妮": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Penny Tai",
+      "zh_Hans": "戴佩妮",
+      "zh_Hant": "戴佩妮"
+    }
+  },
+  "大黒摩季": {
+    "area": "Japan",
+    "aliases": {
+      "en": "Maki Ohguro",
+      "ja": "大黒摩季"
+    }
+  },
+  "鄧麗君": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Teng Li Chun",
+      "vi": "Đặng Lệ Quân",
+      "ja": "テレサ・テン",
+      "zh_Hans": "邓丽君",
+      "zh_Hant": "鄧麗君",
+      "zh-Hans": "邓丽君",
+      "zh-Hant": "鄧麗君"
+    }
+  },
+  "Rettore": {
+    "area": "Italy",
+    "aliases": {}
+  },
+  "Jones": {
+    "area": "United States",
+    "aliases": {
+      "en": "George Glenn Jones"
+    }
+  },
+  "Louis Theroux": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "Giovanni Capurro": {
+    "area": null,
+    "aliases": {
+      "lv": "Capurro"
+    }
+  },
+  "F.I.R. 飛兒樂團": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "F.I.R.",
+      "zh_Hans_CN": "F.I.R. 飞儿乐团",
+      "zh_Hant": "飛兒樂團",
+      "zh": "飞儿乐团",
+      "zh_Hans": "飞儿乐团",
+      "zh-Hans": "F.I.R. 飞儿乐团",
+      "zh-Hant": "F.I.R. 飛兒樂團"
+    }
+  },
+  "方皓玟": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Charmaine Fong",
+      "zh_Hans_CN": "方皓玟",
+      "zh_Hans": "方皓玟",
+      "zh_Hant": "方皓玟"
+    }
+  },
+  "馮允謙": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Jay Fung",
+      "zh_Hans": "冯允谦",
+      "zh_Hant": "馮允謙",
+      "zh-Hans": "冯允谦",
+      "zh-Hant": "馮允謙"
+    }
+  },
+  "ミゾベリョウ": {
+    "area": "Japan",
+    "aliases": {
+      "ja": "ミゾベリョウ"
+    }
+  },
+  "初音ミク": {
+    "area": "Japan",
+    "aliases": {
+      "en": "Hatsune Miku",
+      "ru": "Мику Хацунэ",
+      "uk": "Міку, Хацуне",
+      "he": "האטסונה מיקו",
+      "th": "ฮะสึเนะ มิกุ",
+      "ja": "初音ミク",
+      "zh": "初音ミク",
+      "zh_Hans": "初音未来",
+      "zh_Hans_CN": "初音未来",
+      "ko": "하츠네 미쿠"
+    }
+  },
+  "胡彦斌": {
+    "area": "China",
+    "aliases": {
+      "en": "Anson Hu",
+      "zh_Hant": "胡彥斌",
+      "zh": "胡彦斌",
+      "zh_Hans": "胡彦斌",
+      "zh-Hans": "胡彦斌",
+      "zh-Hant": "胡彥斌"
+    }
+  },
+  "希林娜依·高": {
+    "area": "China",
+    "aliases": {
+      "zh_Hans": "希林娜依·高",
+      "en": "Curley G",
+      "zh": "希林娜依·高",
+      "zh_Hant": "希林娜依·高"
+    }
+  },
+  "Jennifer Hudson": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Kanye West": {
+    "area": "United States",
+    "aliases": {
+      "en": "Kanye Omari West",
+      "ja": "カニエ・ウェスト"
+    }
+  },
+  "James George": {
+    "area": null,
+    "aliases": {}
+  },
+  "YG": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "江海迦": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "AGA",
+      "zh_Hant": "江海迦",
+      "zh_Hans": "江海迦"
+    }
+  },
+  "Joy of Cooking": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Kah-Lo": {
+    "area": "Lagos",
+    "aliases": {}
+  },
+  "Brazy": {
+    "area": null,
+    "aliases": {}
+  },
+  "Baauer": {
+    "area": "United States",
+    "aliases": {
+      "ja": "バウアー"
+    }
+  },
+  "Kino Todo": {
+    "area": null,
+    "aliases": {}
+  },
+  "yui*": {
+    "area": "Japan",
+    "aliases": {
+      "ja": "YUI",
+      "zh_Hans_CN": "优依"
+    }
+  },
+  "yui": {
+    "area": "Japan",
+    "aliases": {
+      "ja": "YUI",
+      "en": "YUI for Kaoru Amane",
+      "zh_Hans_CN": "优依"
+    }
+  },
+  "雷深如": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Rachel Lui",
+      "zh_Hans": "雷深如",
+      "zh_Hant": "雷深如"
+    }
+  },
+  "梁靜茹": {
+    "area": "Malaysia",
+    "aliases": {
+      "en": "Fish Leong",
+      "zh_Hans": "梁静茹",
+      "zh_Hans_CN": "梁静茹",
+      "zh": "梁靜茹",
+      "zh_Hant": "梁靜茹"
+    }
+  },
+  "林憶蓮": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Lam Yik Lin",
+      "zh_Hans": "林忆莲",
+      "zh_Hant": "林憶蓮"
+    }
+  },
+  "LiSA": {
+    "area": "Japan",
+    "aliases": {
+      "ja": "LiSA",
+      "zh_Hans_CN": "织部里沙 (LiSA OLiVE)"
+    }
+  },
+  "劉若英": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Rene Liu",
+      "zh_Hans": "刘若英",
+      "zh_Hans_CN": "刘若英",
+      "zh_Hant": "劉若英"
+    }
+  },
+  "ScHoolboy Q": {
+    "area": "Los Angeles",
+    "aliases": {}
+  },
+  "Love Supreme": {
+    "area": "France",
+    "aliases": {}
+  },
+  "マカロニえんぴつ": {
+    "area": "Japan",
+    "aliases": {
+      "ja": "マカロニえんぴつ",
+      "en": "Macaroni Empitsu"
+    }
+  },
+  "和ぬか": {
+    "area": "Japan",
+    "aliases": {
+      "ja": "和ぬか",
+      "en": "Wanuka"
+    }
+  },
+  "asmi": {
+    "area": "Japan",
+    "aliases": {
+      "ja": "asmi"
+    }
+  },
+  "毛不易": {
+    "area": "China",
+    "aliases": {
+      "en": "Mao Buyi",
+      "zh": "毛不易",
+      "zh_Hans": "毛不易",
+      "zh_Hant": "王維家"
+    }
+  },
+  "Kendrick Lamar": {
+    "area": "United States",
+    "aliases": {
+      "ja": "ケンドリック・ラマー",
+      "ko": "켄드릭 라마"
+    }
+  },
+  "BRAVVO": {
+    "area": null,
+    "aliases": {}
+  },
+  "幾田りら": {
+    "area": "Japan",
+    "aliases": {
+      "ja": "幾田りら",
+      "en": "Lilas Ikuta"
+    }
+  },
+  "中島美嘉": {
+    "area": "Japan",
+    "aliases": {
+      "en": "Mika Nakashima",
+      "ja": "中島美嘉"
+    }
+  },
+  "泣き虫": {
+    "area": "Japan",
+    "aliases": {
+      "en": "Nakimushi☔︎",
+      "ja": "泣き虫"
+    }
+  },
+  "JAY-Z": {
+    "area": "United States",
+    "aliases": {
+      "en": "Shawn Corey Carter"
+    }
+  },
+  "Mikky Ekko": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Michelle": {
+    "area": "Germany",
+    "aliases": {}
+  },
+  "Karen O": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Sebastián Yatra": {
+    "area": "Colombia",
+    "aliases": {}
+  },
+  "蘇打綠": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "sodagreen",
+      "yue_Hans": "苏打绿",
+      "yue_Hans_CN": "苏打绿",
+      "zh_Hans": "苏打绿",
+      "zh_Hans_CN": "苏打绿",
+      "zh_Hans_HK": "苏打绿",
+      "zh_Hans_MO": "苏打绿",
+      "zh_Hans_SG": "苏打绿",
+      "yue": "蘇打綠",
+      "yue_Hant": "蘇打綠",
+      "yue_Hant_HK": "蘇打綠",
+      "zh": "蘇打綠",
+      "zh_Hant": "蘇打綠",
+      "zh_Hant_HK": "蘇打綠",
+      "zh_Hant_MO": "蘇打綠",
+      "zh_Hant_TW": "蘇打綠"
+    }
+  },
+  "The Gregory Brothers": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "Recess Therapy": {
+    "area": "United Kingdom",
+    "aliases": {}
+  },
+  "手嶌葵": {
+    "area": "Japan",
+    "aliases": {
+      "en": "Aoi Teshima",
+      "ja": "手嶌葵"
+    }
+  },
+  "Lontalius": {
+    "area": "New Zealand",
+    "aliases": {}
+  },
+  "王若琳": {
+    "area": "Taiwan",
+    "aliases": {
+      "en_001": "Joanna Wang",
+      "zh": "王若琳",
+      "zh_Hans": "王若琳",
+      "zh_Hant": "王若琳"
+    }
+  },
+  "王心凌": {
+    "area": "Taiwan",
+    "aliases": {
+      "zh_Hans": "王心凌",
+      "zh_Hant": "王心凌"
+    }
+  },
+  "蕭亞軒": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Elva Hsiao",
+      "zh_Hans": "萧亚轩",
+      "zh_Hant": "蕭亞軒"
+    }
+  },
+  "许美静": {
+    "area": "Singapore",
+    "aliases": {
+      "zh_Hans": "许美静",
+      "zh_Hant": "許美靜"
+    }
+  },
+  "許茹芸": {
+    "area": "Taiwan",
+    "aliases": {
+      "vi": "Hứa Như Vân",
+      "en": "Valen Hsu",
+      "zh_Hans_CN": "许茹芸",
+      "zh_Hans": "许茹芸",
+      "zh_Hant": "許茹芸"
+    }
+  },
+  "楊丞琳": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Rainie Yang",
+      "zh_Hans": "杨丞琳",
+      "zh_Hant": "楊丞琳"
+    }
+  },
+  "楊乃文": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "Faith Yang",
+      "zh_Hans": "杨乃文",
+      "zh_Hant": "楊乃文"
+    }
+  },
+  "楊千嬅": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Miriam Yeung",
+      "zh_Hans": "杨千嬅",
+      "zh_Hant": "楊千嬅"
+    }
+  },
+  "張惠妹": {
+    "area": "Taiwan",
+    "aliases": {
+      "en": "A-Mei Chang",
+      "zh_Hans": "张惠妹",
+      "zh_Hant": "張惠妹"
+    }
+  },
+  "阿密特": {
+    "area": "Japan",
+    "aliases": {
+      "ja": "阿保剛",
+      "en": "Takeshi Abo"
+    }
+  },
+  "張懸": {
+    "area": "Taiwan",
+    "aliases": {
+      "zh": "张悬",
+      "zh_Hans": "张悬",
+      "zh_Hant": "張懸"
+    }
+  },
+  "張學友": {
+    "area": "Hong Kong",
+    "aliases": {
+      "en": "Cheung Hok Yau",
+      "ja": "ジャッキー・チュン",
+      "zh_Hans": "张学友",
+      "zh_Hant": "張學友",
+      "zh-Hans": "张学友",
+      "zh-Hant": "張學友"
+    }
+  },
+  "赵雷": {
+    "area": "China",
+    "aliases": {
+      "en": "Zhao Lei",
+      "zh": "赵雷",
+      "zh_Hans": "赵雷",
+      "zh_Hant": "趙雷"
+    }
+  },
+  "趙學而": {
+    "area": "Hong Kong",
+    "aliases": {
+      "zh_Hans_CN": "赵学而",
+      "zh_Hans": "赵学而",
+      "zh_Hant": "趙學而"
+    }
+  },
+  "赵紫骅": {
+    "area": "China",
+    "aliases": {
+      "en": "Zhao Zihua",
+      "zh_Hans": "赵紫骅",
+      "zh_Hant": "趙紫驊"
+    }
+  },
+  "魏如昀": {
+    "area": "Taiwan",
+    "aliases": {
+      "zh_Hant": "魏如昀",
+      "zh_Hans": "魏如昀"
+    }
+  },
+  "方文山": {
+    "area": "Taiwan",
+    "aliases": {
+      "zh_Hant": "方文山",
+      "en": "Vincent Fang",
+      "zh": "方文山",
+      "zh_Hans": "方文山"
+    }
+  },
+  "Grouplove": {
+    "area": "United States",
+    "aliases": {}
+  },
+  "久保田利伸": {
+    "area": "Japan",
+    "aliases": {
+      "ja": "久保田利伸",
+      "en": "Toshinobu Kubota"
+    }
+  }
 }

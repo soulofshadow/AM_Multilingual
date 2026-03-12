@@ -26,21 +26,20 @@ def manual_repair(cache: dict, rows: list[dict]):
         artist = row["artist"].strip()
         album_artist = row["album_artist"].strip()
         album  = row["album"].strip()
-        key    = f"{name}|||{artist}|||{album}"
+        db_id = row.get("db_id")
 
-        if key not in cache:
-            print(f"    Key not found in cache, skipping: {key}")
+        if db_id not in cache:
+            print(f"    Key not found in cache, skipping: {db_id}")
             skipped += 1
             continue
 
-        entry = cache[key]
-
-        corrected_name   = row.get("corrected_name", "").strip()
-        corrected_artist = row.get("corrected_artist", "").strip()
-        corrected_album_artist = row.get("corrected_album_artist", "").strip()
-        corrected_album  = row.get("corrected_album", "").strip()
+    
+        corrected_name   = row.get("NEW_name", "").strip()
+        corrected_artist = row.get("NEW_artist", "").strip()
+        corrected_album_artist = row.get("NEW_album_artist", "").strip()
+        corrected_album  = row.get("NEW_album", "").strip()
         
-
+        entry = cache[db_id]
         if corrected_name:
             entry["song_name"] = corrected_name
         if corrected_artist:
@@ -54,7 +53,7 @@ def manual_repair(cache: dict, rows: list[dict]):
         entry["needs_review"]   = False
         entry["review_reason"]  = "manually_verified"
 
-        cache[key] = entry
+        cache[db_id] = entry
         updated += 1
         print(f"    Updated: {name} — {artist}")
 
@@ -73,9 +72,9 @@ if __name__ == "__main__":
 
     recording_cache  = load_json(RECORDING_CACHE_FILE)
 
-    print("💁‍♂️ Reading manual review log...")
+    print("🗿  Reading manual review log...")
     with open(FAILED_LOG_FILE, encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
     print(f"    Found {len(rows)} entries to update")
     manual_repair(recording_cache, rows)
-    print("💁‍♂️ Manual repair completed!")
+    print("🗿  Manual repair completed!")

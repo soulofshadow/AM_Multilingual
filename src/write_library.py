@@ -7,7 +7,7 @@ from .utils import RECORDING_CACHE_FILE, FIXED_CACHE_FILE
 def update_track(db_id: str, row: dict):
     script = f'''
 tell application "Music"
-    set t to first track of library playlist 1 whose database ID is {db_id}
+    set t to first track of library playlist 1 whose persistent ID is "{db_id}"
     set name of t to "{row["song_name"].replace('"', '\\"')}"
     set artist of t to "{row["artist_name"].replace('"', '\\"')}"
     set album artist of t to "{row["album_artist_name"].replace('"', '\\"')}"
@@ -29,15 +29,11 @@ def write_back(tracks, fixed_cache, recording_cache):
     updated = 0
     failed = []
     
-    pbar = tqdm(tracks.items(), total=len(tracks), desc="Writing", ncols=50)
+    pbar = tqdm(tracks.items(), total=len(tracks), desc="    Writing", ncols=100)
     for key, row in pbar:
-        pbar.set_postfix_str(f"{row['name'][:30]} — {row['artist'][:20]}")
-        if row is None:
-            skipped += 1
-            continue
+        pbar.set_postfix_str(f"{row['name'][:20]:<20} — {row['artist'][:15]:<15}")
 
-        db_id = row.get("db_id")
-        if not db_id:
+        if row is None:
             skipped += 1
             continue
 
@@ -45,13 +41,13 @@ def write_back(tracks, fixed_cache, recording_cache):
             skipped += 1
             continue
 
-        ok = update_track(db_id, row)
+        ok = update_track(key, row)
         if ok:
             updated += 1
-            fixed_cache.add(db_id)
+            fixed_cache.add(key)
         else:
             failed.append({
-                "db_id": db_id,
+                "db_id": key,
                 "name": row["name"],
                 "artist": row["artist"],
                 "album_artist": row["album_artist"],
@@ -69,11 +65,11 @@ def write_back(tracks, fixed_cache, recording_cache):
 
 
 if __name__ == "__main__":
-    print("📚 Writing library...")
+    print("📚  Writing library...")
     recording_cache  = load_json(RECORDING_CACHE_FILE)
     fixed_cache:set  = set(load_json(FIXED_CACHE_FILE) or [])
 
-    tracks = {k: v for k, v in recording_cache.items() if v and v.get("db_id") not in fixed_cache}
+    tracks = {k: v for k, v in recording_cache.items() if k not in fixed_cache}
     print(f"    Writing {len(tracks)} tracks back")
     write_back(tracks, fixed_cache, recording_cache)
-    print("📚 Library update completed!")
+    print("📚  Library update completed!")

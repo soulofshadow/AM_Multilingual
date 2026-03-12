@@ -86,44 +86,40 @@ def gemini_main(recording_cache, fixed_cache, client, config):
 
     count = 1
     needs_review = []
-    pbar = tqdm(enumerate(tracks), total=len(tracks), desc="Processing", ncols=50)
+    pbar = tqdm(enumerate(tracks), total=len(tracks), desc="    Processing", ncols=100)
     for i, t in pbar:
-        pbar.set_postfix_str(f"{t['name'][:30]} — {t['artist'][:20]}")
+        pbar.set_postfix_str(f"{t['name'][:20]:<20} — {t['artist'][:15]:<15}")
+
         song   = t["name"].strip()
         artist = t["artist"].strip()
         album  = t["album"].strip()
-        db_id = t["db_id"].strip()
 
-        if db_id in fixed_cache:
-            continue
-
-        key = f"{song}|||{artist}|||{album}"
-        if key in recording_cache:
+        if i in fixed_cache:
             continue
 
         # Start processing
         gemini_result = patch_metadata(client, config, song, artist, album)
         if gemini_result:
             t.update(gemini_result)
-            recording_cache[key] = t
+            recording_cache[i] = t
             save_json(RECORDING_CACHE_FILE, recording_cache)
 
             if gemini_result.get("needs_review"):
                 needs_review.append({
-                    "db_id": db_id,
                     "name": t["name"],
+                    "NEW_name": gemini_result.get("song_name"),
                     "artist": t["artist"],
+                    "NEW_artist": gemini_result.get("artist_name"),
                     "album_artist": t["album_artist"],
+                    "NEW_album_artist": gemini_result.get("album_artist_name"),
                     "album": t["album"],
-                    "sep": "|||",
-                    "corrected_name": gemini_result.get("song_name"),
-                    "corrected_artist": gemini_result.get("artist_name"),
-                    "corrected_album_artist": gemini_result.get("album_artist_name"),
-                    "corrected_album": gemini_result.get("album_name"),
+                    "NEW_album": gemini_result.get("album_name"),
                     "confirmed": 0,
+                    "db_id": i
                 })
         count += 1
     
+    print(f"    Done! Processed {count} tracks, {len(needs_review)} need review.")
     return needs_review
 
 
@@ -143,13 +139,11 @@ if __name__ == "__main__":
     resp = json.loads(resp.text)
 
     if resp['status'] == 'ok':
-        print(f"🤖 Gemini API is working and model {MODEL_NAME} is ready...")
+        print(f"🤖  Gemini API is working and model {MODEL_NAME} is ready...")
         needs_review = gemini_main(recording_cache, fixed_cache, client, config)
         if needs_review:
             with open(FAILED_LOG_FILE, "w", newline="", encoding="utf-8") as f:
                 writer = csv.DictWriter(f, fieldnames=needs_review[0].keys())
                 writer.writeheader()
                 writer.writerows(needs_review)
-            print(f"    {len(needs_review)} tracks need manual review, saved to {FAILED_LOG_FILE}")
-        print(f"🤖 Gemini work completed successfully!")
-
+        print(f"🤖  Gemini work completed successfully!")
