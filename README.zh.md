@@ -193,8 +193,6 @@ python3 -m src.write_library
 }
 ```
 
-`"needs_review": true` 的曲目在写回时会被跳过，需通过人工审核流程处理。
-
 ---
 
 ## 🌏 支持语言

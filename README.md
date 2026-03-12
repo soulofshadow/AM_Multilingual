@@ -193,8 +193,6 @@ Processed results are stored in `cache/recording_cache.json`. Each entry uses `"
 }
 ```
 
-Tracks flagged with `"needs_review": true` are skipped during write-back and should be handled via the manual review workflow.
-
 ---
 
 ## 🌏 Supported Languages

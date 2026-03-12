@@ -23,7 +23,7 @@ MB_CACHE_FILE      = "cache/mb_cache.json"
 FIXED_CACHE_FILE   = "cache/fixed_cache.json"
 # Music library file
 MUSIC_LIBRARY_FILE = "data/music_library.csv"
-FAILED_LOG_FILE    = "data/failed_log.csv"
+FAILED_LOG_FILE    = "data/needs_review.csv"
 # -----------------------------------------------------
 # -----------------------------------------------------
 
