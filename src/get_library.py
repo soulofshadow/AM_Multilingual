@@ -4,25 +4,30 @@ import os
 from .utils import MUSIC_LIBRARY_FILE, FIELDS
 
 APPLESCRIPT = '''
-tell application "Music"
-    set output to ""
-    set allTracks to every track of library playlist 1
-    repeat with t in allTracks
-        set dbID         to persistent ID of t as string
-        set tName        to name of t as string
-        set tArtist      to artist of t as string
-        set tAlbumArtist to album artist of t as string
-        set tAlbum       to album of t as string
-        set sName        to sort name of t as string
-        set sArtist      to sort artist of t as string
-        set sAlbumArtist to sort album artist of t as string
-        set sAlbum       to sort album of t as string
-        set output to output & dbID & "\t" & tName & "\t" & tArtist & "\t" & tAlbumArtist & "\t" & tAlbum & "\t" & sName & "\t" & sArtist & "\t" & sAlbumArtist & "\t" & sAlbum & "\n"
-    end repeat
-    return output
-end tell
-'''
+on joinList(lst)
+    set AppleScript's text item delimiters to "|||"
+    set str to lst as string
+    set AppleScript's text item delimiters to ""
+    return str
+end joinList
 
+tell application "Music"
+    set lib to library playlist 1
+    set dbIDs to persistent ID of every track of lib
+    set tNames to name of every track of lib
+    set tArtists to artist of every track of lib
+    set tAlbumArtists to album artist of every track of lib
+    set tAlbums to album of every track of lib
+    set sNames to sort name of every track of lib
+    set sArtists to sort artist of every track of lib
+    set sAlbumArtists to sort album artist of every track of lib
+    set sAlbums to sort album of every track of lib
+end tell
+
+set output to joinList(dbIDs) & "<END_LIST>" & joinList(tNames) & "<END_LIST>" & joinList(tArtists) & "<END_LIST>" & joinList(tAlbumArtists) & "<END_LIST>" & joinList(tAlbums) & "<END_LIST>" & joinList(sNames) & "<END_LIST>" & joinList(sArtists) & "<END_LIST>" & joinList(sAlbumArtists) & "<END_LIST>" & joinList(sAlbums)
+
+return output
+'''
 
 def fetch_library() -> list[dict]:
     result = subprocess.run(
@@ -32,23 +37,28 @@ def fetch_library() -> list[dict]:
     if result.returncode != 0:
         raise RuntimeError(f"AppleScript error: {result.stderr}")
 
-    tracks = []
-    for line in result.stdout.strip().split("\n"):
-        if not line:
-            continue
-        parts = line.split("|||")
-        if len(parts) != len(FIELDS):
-            continue
-        tracks.append(dict(zip(FIELDS, parts)))
+    # 1. Split <END_LIST> 
+    lists_str = result.stdout.strip().split("<END_LIST>")
+    if len(lists_str) != 9:
+        raise RuntimeError("Unexpected number of columns returned from AppleScript")
 
-    for line in result.stdout.strip().split("\n"):
-        if not line:
-            continue
-        parts = line.split("\t")
-        if len(parts) != len(FIELDS):
-            print(f"    Skipped malformed line: {line[:80]}")
-            continue
-        tracks.append(dict(zip(FIELDS, parts)))
+    # 2. Split ||| to get 9 lists of track info
+    columns = [lst.split("|||") for lst in lists_str]
+
+    tracks = []
+    num_tracks = len(columns[0]) 
+    
+    # 3. Combine the 9 columns into a list of track dictionaries
+    for i in range(num_tracks):
+        track = {}
+        for j, field in enumerate(FIELDS):
+            val = columns[j][i] if i < len(columns[j]) else ""
+            if val == "missing value":
+                val = ""
+                
+            track[field] = val.strip()
+            
+        tracks.append(track)
 
     return tracks
 
@@ -63,7 +73,7 @@ def save_csv(tracks, path="default.csv"):
     print(f"    Saved {len(tracks)} tracks to {path}")
 
 if __name__ == "__main__":
-    print("📚  Reading library...")
+    print("📚  Reading library (Bulk Extraction mode)...")
     tracks = fetch_library()
     print(f"    Found {len(tracks)} tracks")
     save_csv(tracks, MUSIC_LIBRARY_FILE)

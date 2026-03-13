@@ -88,12 +88,13 @@ def gemini_main(recording_cache, fixed_cache, client, config):
     needs_review = []
     pbar = tqdm(enumerate(tracks), total=len(tracks), desc="    Processing", ncols=100)
     for _, t in pbar:
-        pbar.set_postfix_str(f"{t['name'][:20]:<20} — {t['artist'][:15]:<15}")
-
+        # Filter out
         db_id = t["db_id"].strip()
         if db_id in fixed_cache or db_id in recording_cache:
+            pbar.update(1)
             continue
 
+        pbar.set_postfix_str(f"{t['name'][:20]:<20} — {t['artist'][:15]:<15}")
         # Start processing
         song   = t["name"].strip()
         artist = t["artist"].strip()
