@@ -1,42 +1,43 @@
-# 🎵 Apple Music 元数据修复工具
+# 🎵 Apple Music Metadata Fixer
 
 **[English](README.md) | [中文](README.zh.md)**
 
-一个使用 **Gemini API** 和 **MusicBrainz** 自动修复并本地化 Apple Music 库中歌曲元数据（歌名、艺人、专辑）的工具。
+这是一个利用 **Gemini API** 和 **MusicBrainz** 自动修复并本地化 Apple Music 资料库元数据（歌曲名、歌手、专辑）的工具。
 
-适用于以下情况：
-- 名称被音译（如 `Zitan Qi` → `祁紫檀`）
-- 元数据语言错误（如中文歌曲显示为英文标题）
-- 专辑艺人字段缺失或错误
-- 亚洲地区歌曲的地区元数据不准确
+适用于您的资料库中包含以下情况：
+- 拼音/罗马音化的名称（例如：`Zitan Qi` → `祁紫檀`）
+- 错误的语言元数据（例如：中文歌曲显示为英文标题）
+- 缺失或错误的“专辑艺人 (Album Artist)”字段
+- 来自亚洲市场的歌曲带有不准确的地区元数据
 
 ---
 
-## ✨ 功能特色
+## ✨ 核心特性
 
-- 通过 AppleScript 导出完整的 Apple Music 库
-- 使用 Gemini AI 将元数据还原为**原始语言**（付费版支持 Google 搜索以处理新歌）
-- 识别每首歌的**原始发行国家**
-- 为中文、日文、韩文名称生成罗马字拼音排序字段
+- 通过 AppleScript 导出完整的 Apple Music 资料库
+- 使用 Gemini AI 将元数据纠正为**原始语言**（付费版支持使用 Google 搜索获取最新发行的歌曲信息）
+- 识别每首歌曲的**原始发行国家/地区**
+- 为中日韩文名称生成罗马拼音排序字段（拼音、罗马音等）
 - 通过 AppleScript 将修正后的元数据写回 Music.app
-- 增量处理 — 已修复的曲目自动跳过
-- MusicBrainz 集成，用于艺人名称本地化
-- 低置信度结果的人工审核流程
-- 本地缓存所有结果，避免重复调用 API（同时分享了我的 MusicBrainz 缓存和规范化艺人名称缓存）
+- 增量处理 —— 自动跳过已修复的曲目
+- 集成 MusicBrainz 用于艺人名称本地化
+- 针对低置信度修复的“手动审核”工作流
+- 在本地缓存所有结果以避免重复调用 API（仓库中也分享了我的 MusicBrainz 缓存和规范化的艺人名称缓存）
+- **🤖 通过 macOS 快捷指令实现“零打扰”全自动化运行**
 
 ---
 
 ## 预览
 
-![预览](https://github.com/user-attachments/assets/0a1f32db-0fe2-4de3-81a2-347e53f6536f)
+![Preview](https://github.com/user-attachments/assets/0a1f32db-0fe2-4de3-81a2-347e53f6536f)
 
 ---
 
 ## 📋 环境要求
 
-- 安装了 **Music.app** 的 macOS
+- 带有 **音乐 (Music.app)** 的 macOS
 - Python 3.12+
-- **Gemini API Key** — 免费版可在 [aistudio.google.com](https://aistudio.google.com) 获取
+- 一个 **Gemini API 密钥** —— 可以在 [aistudio.google.com](https://aistudio.google.com) 免费获取
 
 安装依赖：
 
@@ -46,20 +47,7 @@ pip3 install google-genai tqdm python-dotenv opencc-python-reimplemented pypinyi
 
 ---
 
-## ⚙️ 配置
-
-在项目根目录创建 `.env` 文件：
-
-```
-GEMINI_API_KEY=your_api_key_here
-PAID_USER = false  # 付费账户设为 true
-```
-- `False`（免费版）：**每日 1,500 次请求**
-- `True`（付费版）：支持**Google 搜索**（适合处理新歌）
-
----
-
-## 🚀 快速开始
+## 🚀 快速开始 (终端运行)
 
 ### 1. 克隆仓库
 
@@ -68,88 +56,111 @@ git clone https://github.com/soulofshadow/AM_Multilingual.git
 cd AM_Multilingual
 ```
 
-### 2. 配置 API Key
+### 2. 配置环境
+
+在项目根目录创建一个 `.env` 文件：
+
+```text
+GEMINI_API_KEY=your_api_key_here
+PAID_USER = false  # 如果使用付费版 Gemini API 密钥，请设置为 true
+```
+- `False` (免费额度): **每天 500 次请求 (500 RPD)**
+- `True` (付费额度): 支持通过 Google 搜索获取最新发行的歌曲信息
+
+### 3. 运行一键修复脚本
 
 ```bash
-cp .env.example .env
-# 编辑 .env 文件，填入你的 GEMINI_API_KEY
+chmod +x scripts/fix_gemini.sh
+./scripts/fix_gemini.sh
 ```
 
-### 3. 一键修复
+或者逐步运行每个脚本：
 
 ```bash
-chmod +x fix_gemini.sh
-./fix_gemini.sh
+python3 -m src.get_library      # 第一步: 导出资料库
+python3 -m src.gemini_repair    # 第二步: 修复元数据
+python3 -m src.write_library    # 第三步: 写回 Music.app
 ```
 
-脚本会依次执行以下三步：
-1. **导出** Music.app 中的音乐库
-2. **修复** 元数据（使用 Gemini + MusicBrainz）
-3. **写回** 修正后的元数据到 Music.app
-
-也可以单独执行每个步骤：
-
-```bash
-python3 -m src.get_library      # 第一步：导出音乐库
-python3 -m src.gemini_repair    # 第二步：修复元数据
-python3 -m src.write_library    # 第三步：写回 Music.app
-```
-
-> ⚠️ 运行 `write_library` 前，请务必**备份你的音乐库**。
+> ⚠️ 每次运行写回脚本之前，请务必**备份您的资料库**。
 
 ---
 
-## 🔍 人工审核流程
+## 🔍 手动审核工作流
 
-Gemini 置信度较低的结果会被标记为 `needs_review`，保存到 `data/needs_review.csv`，不会自动写回。按以下步骤处理：
+Gemini 不太确定的曲目将被标记为 `needs_review`，并保存到 `data/needs_review.csv` 中，而不会被自动写回。请使用此工作流来处理它们：
 
-### 第一步 — 在 Excel / Numbers 中审核并确认
+### 第一步 — 检查与确认
+打开 `data/needs_review.csv` 并检查每一行。
+当您验证或更正了某一行后，将其中的 `confirmed` 的值从 `0` 改为 `1`。如果保留 `confirmed = 0`，程序将跳过该行，并将其保留到下一次审核。
 
-打开 `data/needs_review.csv`，检查每一行：
+### 第二步 — 应用手动修正
+您可以直接点击并运行之前安装的 **Apple Music Fixer - Manual** 快捷指令。
 
-在确认或修改完成后，将 `confirmed` 修改 `0` 改为 `1`。
-
-保留 `confirmed = 0` 则跳过该行，留待下次处理。
-
-### 第二步 — 应用人工修正
-
+或者，通过终端运行：
 ```bash
-python3 -m src.manual_repair
+./scripts/fix_manual.sh
 ```
-### 第三步 — 写回 Music.app
+所有已确认的曲目现在都将被写回资料库。
 
-```bash
-python3 -m src.write_library
-```
+---
 
-所有已确认的曲目现在都会被写回。
+## 🤖 全自动化工作流 (macOS 快捷指令)
+
+为了实现真正的“无人值守”体验，您可以将此工具与 macOS 快捷指令集成。它会在后台静默监听加入 Apple Music 资料库的新歌并自动修复，只有在需要手动审核时才会通知您。
+
+### 1. 安装快捷指令
+点击以下链接在您的 Mac 上安装预设好的快捷指令：
+- **[Apple Music Fixer](https://www.icloud.com/shortcuts/7cf162e4b99a4166b87da07e3e13df92)** (运行主自动化流程)
+- **[Apple Music Fixer - Manual](https://www.icloud.com/shortcuts/670030e9d3bc481e8c32d3eec82373af)** (运行手动审核后的写回流程)
+
+**请务必修改这些快捷指令中“运行 Shell 脚本”操作的路径，使其与您实际的项目目录路径一致。**
+
+**(注意：确保您的 `.env` 文件中包含了您的 `PATH` 环境变量，以便后台脚本能够找到您的 Python 环境。您可以在终端运行 `which python3` 来获取路径)。**
+
+### 2. 设置后台触发器
+
+![Preview](https://github.com/user-attachments/assets/8e08f4b1-2cc8-4374-874a-709b6df6de0d)
+
+为了让它在您添加歌曲时完全自动运行：
+1. 打开 Mac 上的 **快捷指令** App，进入 **自动化 (Automation)**。
+2. 创建一个新的 **文件夹 (Folder)** 自动化。
+3. 选择您的 Apple Music 媒体文件夹（通常是 `~/Music/Music/Media/Media.localized`）。
+4. 勾选 **添加 (Added)** 和 **修改 (Modified)**。
+5. 设置为 **立即运行 (Run Immediately)**（无需确认）。
+6. 选择运行 **Apple Music Fixer** 快捷指令。
+
+**工作原理：** 每当您添加一首新歌时，系统会检测到文件变化并触发修复工具。如果所有歌曲都成功修复，它会在后台静默完成。如果有任何歌曲未能通过置信度检查，系统会弹出通知提醒您去查看 `needs_review.csv`。
 
 ---
 
 ## 📁 文件结构
 
-```
+```text
 .
 ├── src/
 │   ├── __init__.py
-│   ├── get_library.py      # 通过 AppleScript 导出 Music.app 音乐库
+│   ├── get_library.py      # 通过 AppleScript 从 Music.app 导出资料库
 │   ├── gemini_repair.py    # 使用 Gemini API 修复元数据
-│   ├── manual_repair.py    # 应用 needs_review.csv 中的人工修正
+│   ├── manual_repair.py    # 从 needs_review.csv 应用手动修复
 │   ├── write_library.py    # 将修正后的元数据写回 Music.app
 │   ├── musicbrain.py       # MusicBrainz 艺人名称本地化
-│   └── utils.py            # 公共工具（缓存、限速、罗马字转换）
+│   └── utils.py            # 共享工具类（缓存、速率限制、罗马音转换）
+├── scripts/
+│   ├── fix_gemini.sh             # 终端一键修复脚本
+│   ├── fix_manual.sh             # 终端一键修复脚本（在手动验证后使用）
+│   ├── shortcuts_gemini.sh       # 由快捷指令触发的自动化脚本
+│   └── shortcuts_manual.sh       # 用于手动审核写回的自动化脚本
 ├── cache/
-│   ├── recording_cache.json  # 已处理的元数据缓存
-│   ├── artist_cache.json     # MusicBrainz 艺人本地化缓存
+│   ├── recording_cache.json  # 已修正元数据的缓存
+│   ├── artist_cache.json     # MusicBrainz 艺人本地化结果缓存
 │   ├── mb_cache.json         # MusicBrainz 查询缓存
-│   └── fixed_cache.json      # 增量处理缓存
+│   └── fixed_cache.json      # 用于增量处理的记录缓存
 ├── data/
-│   ├── music_library.csv     # 从 Music.app 导出的原始音乐库
-│   └── needs_review.csv      # 待人工审核的曲目
-├── fix_gemini.sh             # 一键修复脚本
-├── fix_manual.sh             # 一键修复脚本
-├── README.md
-└── .env                      # API Key（不要提交到 Git）
+│   ├── music_library.csv     # 从 Music.app 导出的原始资料库
+│   └── needs_review.csv      # 标记为需要手动审核的曲目
+├── README.md                 
+└── .env                      # 您的 API 密钥和 PATH（请勿提交到 Git）
 ```
 
 ---
@@ -159,24 +170,24 @@ python3 -m src.write_library
 处理结果存储在 `cache/recording_cache.json` 中：
 
 ```json
-"689E899A6FBA5E01": {                  // Music.app 数据库 ID     
-    "name":             "コイワズライ",  // Music.app 中的原始歌名（保留）
-    "artist":           "Aimer",       // Music.app 中的原始艺人名（保留）
-    "album_artist":     "Aimer",       // Music.app 中的原始专辑艺人（保留）
-    "album":            "Sun Dance",   // Music.app 中的原始专辑名（保留）
+"689E899A6FBA5E01": {                  // Music.app 中的数据库 ID     
+    "name":             "コイワズライ",  // Music.app 中的原名 (保留)
+    "artist":           "Aimer",       // Music.app 中的原艺人 (保留)
+    "album_artist":     "Aimer",       // Music.app 中的原专辑艺人 (保留)
+    "album":            "Sun Dance",   // Music.app 中的原专辑 (保留)
 
-    "sort_name":        "Koiwazurai",  // 罗马字排序字段（已修正）
-    "sort_artist":      "Aimer",       // 罗马字排序字段（已修正）
-    "sort_album_artist":"Aimer",       // 罗马字排序字段（已修正）
-    "sort_album":       "Sun Dance",   // 罗马字排序字段（已修正）
+    "sort_name":        "Koiwazurai",  // 罗马音排序字段 (已修正)
+    "sort_artist":      "Aimer",       // 罗马音排序字段 (已修正)
+    "sort_album_artist":"Aimer",       // 罗马音排序字段 (已修正)
+    "sort_album":       "Sun Dance",   // 罗马音排序字段 (已修正)
 
-    "song_name":        "コイワズライ",  // Gemini 返回的修正歌名（新增字段）
-    "artist_name":      "Aimer",       // Gemini 返回的修正艺人名（新增字段）
-    "album_artist_name":"Aimer",       // Gemini 返回的修正专辑艺人（新增字段）
-    "album_name":       "Sun Dance",   // Gemini 返回的修正专辑名（新增字段）
-    "country":          "Japan",       // Gemini 识别的原始发行国家（新增字段）
-    "language":         "Japanese",    // Gemini 识别的原始语言（新增字段）
-    "needs_review":     false          // 是否需要人工审核（新增字段）
+    "song_name":        "コイワズライ",  // Gemini 返回的修正名称 (新增字段)
+    "artist_name":      "Aimer",       // Gemini 返回的修正艺人 (新增字段)
+    "album_artist_name":"Aimer",       // Gemini 返回的修正专辑艺人 (新增字段)
+    "album_name":       "Sun Dance",   // Gemini 返回的修正专辑 (新增字段)
+    "country":          "Japan",       // Gemini 识别的原始发行国家 (新增字段)
+    "language":         "Japanese",    // Gemini 识别的原始语言 (新增字段)
+    "needs_review":     false          // 结果是否需要手动审核 (新增字段)
 }
 ```
 
@@ -184,22 +195,22 @@ python3 -m src.write_library
 
 ## 🌏 支持语言
 
-本工具可正确处理以下语言的元数据：
-- 简体中文（简体中文）
-- 繁体中文（繁體中文）
-- 日文（日本語）
-- 韩文（한국어）
-- 英文及其他拉丁字母语言
+该工具可以正确处理以下语言的元数据：
+- 简体中文
+- 繁体中文
+- 日语 (日本語)
+- 韩语 (한국어)
+- 英语及其他拉丁字母语言
 
 ---
 
 ## ⚠️ 注意事项
 
-- 运行 `write_library.py` 前，请务必**备份你的音乐库**
-- 曲目通过 Music.app 的 `database ID` 匹配 — 重新导入的曲目会获得新 ID，需要重新处理
-- `cache/recording_cache.json`、`data/` 和 `.env` 文件默认已加入 `.gitignore`，保护你的个人数据和 API Key
-- MusicBrainz API 严格限制每秒 1 次请求，工具会自动处理
-- Gemini 倾向于返回官方标准专辑名，并会去掉 `(Deluxe)`、`- Single`、`- EP` 等版本标记
+- 在运行 `write_library.py` 之前，务必**备份您的资料库**。
+- 曲目是通过 Music.app 中的 `database ID` 进行匹配的 —— 重新导入曲目会改变其 ID，并需要重新处理。
+- `cache/recording_cache.json`、`data/` 和 `.env` 文件默认被 gitignore 忽略，以保护您的个人数据和 API 密钥。
+- MusicBrainz API 具有严格的 **1 请求/秒** 的速率限制 —— 本工具会自动处理此限制。
+- **Gemini 倾向于返回官方的标准专辑名称，并会自动移除版本标签，例如 `(Deluxe)`、`- Single`、`- EP`。**
 
 ---
 
