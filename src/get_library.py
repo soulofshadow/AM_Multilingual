@@ -73,7 +73,7 @@ def save_csv(tracks, path="default.csv"):
     print(f"    Saved {len(tracks)} tracks to {path}")
 
 if __name__ == "__main__":
-    print("📚  Reading library (Bulk Extraction mode)...")
+    print("📚  Reading library...")
     tracks = fetch_library()
     print(f"    Found {len(tracks)} tracks")
     save_csv(tracks, MUSIC_LIBRARY_FILE)
