@@ -54,8 +54,8 @@ Create a `.env` file in the project root:
 GEMINI_API_KEY=your_api_key_here
 PAID_USER = false  # Set to true if using a paid Gemini API key
 ```
-- `False` (free tier): uses `gemini-3.1-flash-lite-preview` — supports JSON schema output, **1,500 RPD**
-- `True` (paid tier): uses `gemini-3-flash` — supports both JSON schema output **and** Google Search grounding for newer releases
+- `False` (free tier): **1,500 RPD**
+- `True` (paid tier): supports Google Search grounding for newer releases
 
 ---
 
@@ -107,9 +107,7 @@ Tracks where Gemini is uncertain are flagged as `needs_review` and saved to `dat
 
 Open `data/needs_review.csv` and check each row:
 
-```bash
-|confirmed| Change from `0` to `1` when you have verified or corrected the row
-```
+Change `confirmed` from `0` to `1` when you have verified or corrected the row
 Leave `confirmed = 0` to skip a row and keep it pending for next time.
 
 ### Step 2 — Apply manual corrections
@@ -117,8 +115,6 @@ Leave `confirmed = 0` to skip a row and keep it pending for next time.
 ```bash
 python3 -m src.manual_repair
 ```
-
-Rows marked `confirmed = 1` are written back to `cache/recording_cache.json` with `needs_review` cleared to `false`.
 
 ### Step 3 — Write back to Music.app
 

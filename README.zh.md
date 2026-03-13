@@ -54,8 +54,8 @@ pip3 install google-genai tqdm python-dotenv opencc-python-reimplemented pypinyi
 GEMINI_API_KEY=your_api_key_here
 PAID_USER = false  # 付费账户设为 true
 ```
-- `False`（免费版）：使用 `gemini-3.1-flash-lite-preview`，支持 JSON 结构化输出，**每日 1,500 次请求**
-- `True`（付费版）：使用 `gemini-3-flash`，同时支持 JSON 结构化输出和 **Google 搜索**（适合处理新歌）
+- `False`（免费版）：**每日 1,500 次请求**
+- `True`（付费版）：支持**Google 搜索**（适合处理新歌）
 
 ---
 
@@ -107,9 +107,7 @@ Gemini 置信度较低的结果会被标记为 `needs_review`，保存到 `data/
 
 打开 `data/needs_review.csv`，检查每一行：
 
-```bash
-`confirmed`  确认或修改完成后，将 `0` 改为 `1` 
-```
+在确认或修改完成后，将 `confirmed` 修改 `0` 改为 `1` 
 保留 `confirmed = 0` 则跳过该行，留待下次处理。
 
 ### 第二步 — 应用人工修正
@@ -117,9 +115,6 @@ Gemini 置信度较低的结果会被标记为 `needs_review`，保存到 `data/
 ```bash
 python3 -m src.manual_repair
 ```
-
-标记为 `confirmed = 1` 的行将写回 `cache/recording_cache.json`，`needs_review` 自动清除为 `false`。
-
 ### 第三步 — 写回 Music.app
 
 ```bash
