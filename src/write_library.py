@@ -24,12 +24,12 @@ end tell
     return True
 
 
-def write_back(tracks, fixed_cache, recording_cache):
+def write_back(tracks_to_write, fixed_cache):
     skipped = 0
     updated = 0
     failed = []
     
-    pbar = tqdm(tracks.items(), total=len(tracks), desc="    Writing", ncols=100)
+    pbar = tqdm(tracks_to_write.items(), total=len(tracks_to_write), desc="    Writing", ncols=100)
     for key, row in pbar:
         pbar.set_postfix_str(f"{row['name'][:20]:<20} — {row['artist'][:15]:<15}")
 
@@ -41,6 +41,7 @@ def write_back(tracks, fixed_cache, recording_cache):
             skipped += 1
             continue
 
+        # Start writing back to Music app
         ok = update_track(key, row)
         if ok:
             updated += 1
@@ -53,10 +54,8 @@ def write_back(tracks, fixed_cache, recording_cache):
                 "album_artist": row["album_artist"],
                 "album": row["album"],
             })
-            del recording_cache[key]  # Remove from cache to avoid retrying next time
 
     save_json(FIXED_CACHE_FILE, list(fixed_cache))
-    save_json(RECORDING_CACHE_FILE, recording_cache)
     print(f"    Done! Updated {updated}, skipped {skipped}")
     if failed:
         print("    Failed to update the following tracks (check track availability in Music):")
@@ -69,7 +68,7 @@ if __name__ == "__main__":
     recording_cache  = load_json(RECORDING_CACHE_FILE)
     fixed_cache:set  = set(load_json(FIXED_CACHE_FILE) or [])
 
-    tracks = {k: v for k, v in recording_cache.items() if k not in fixed_cache}
-    print(f"    Writing {len(tracks)} tracks back")
-    write_back(tracks, fixed_cache, recording_cache)
+    tracks_to_write = {k: v for k, v in recording_cache.items() if k not in fixed_cache}
+    print(f"    Writing {len(tracks_to_write)} tracks back")
+    write_back(tracks_to_write, fixed_cache)
     print("📚  Library update completed!")

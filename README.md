@@ -109,17 +109,13 @@ python3 -m src.write_library    # Step 3: Write back to Music.app
 
 Tracks where Gemini is uncertain are flagged as `needs_review` and saved to `data/needs_review.csv` instead of being written back automatically. Use this workflow to handle them:
 
-### Step 1 — Review and confirm in Excel / Numbers
+### Step 1 — Review and Confirm
 
 Open `data/needs_review.csv` and check each row:
 
-| Field | Description |
-|---|---|
-| `confirmed` | Change from `0` to `1` when you have verified or corrected the row |
-| `corrected_name` | Edit if the song name is wrong |
-| `corrected_artist` | Edit if the artist name is wrong |
-| `corrected_album` | Edit if the album name is wrong |
-
+```bash
+|confirmed| Change from `0` to `1` when you have verified or corrected the row
+```
 Leave `confirmed = 0` to skip a row and keep it pending for next time.
 
 ### Step 2 — Apply manual corrections
@@ -128,7 +124,7 @@ Leave `confirmed = 0` to skip a row and keep it pending for next time.
 python3 -m src.manual_repair
 ```
 
-Rows marked `confirmed = 1` are written back to `cache/recording_cache.json` with `needs_review` cleared to `false`. Confirmed rows are automatically removed from `data/needs_review.csv`.
+Rows marked `confirmed = 1` are written back to `cache/recording_cache.json` with `needs_review` cleared to `false`.
 
 ### Step 3 — Write back to Music.app
 
@@ -155,11 +151,13 @@ All confirmed tracks are now included in the write-back.
 ├── cache/
 │   ├── recording_cache.json  # Cached corrected metadata
 │   ├── artist_cache.json     # Cached MusicBrainz artist localization results
-│   └── mb_cache.json         # Cached MusicBrainz lookups
+│   ├── mb_cache.json         # Cached MusicBrainz lookups
+|   └── fixed_cache.json      # Cached for incremental processing
 ├── data/
 │   ├── music_library.csv     # Raw exported library from Music.app
 │   └── needs_review.csv      # Tracks flagged for manual review
 ├── fix_gemini.sh             # One-click fix script
+├── fix_manual.sh             # One-click fix script (after manual verification)
 ├── README.md
 └── .env                      # Your API key (do not commit)
 ```
@@ -168,11 +166,10 @@ All confirmed tracks are now included in the write-back.
 
 ## 🗃️ Cache Format
 
-Processed results are stored in `cache/recording_cache.json`. Each entry uses `"song|||artist|||album"` as the key:
+Processed results are stored in `cache/recording_cache.json`:
 
 ```json
-"コイワズライ|||Aimer|||Sun Dance": {
-    "db_id":            "1231",        // Database ID from Music.app
+"689E899A6FBA5E01": {                  // Database ID from Music.app     
     "name":             "コイワズライ",  // Original name from Music.app (preserved)
     "artist":           "Aimer",       // Original artist from Music.app (preserved)
     "album_artist":     "Aimer",       // Original album artist from Music.app (preserved)
@@ -212,7 +209,7 @@ The tool correctly handles metadata in:
 - Tracks are matched by `database ID` from Music.app — re-importing a track will change its ID and require re-processing
 - The `cache/recording_cache.json`, `data/`, and `.env` files are gitignored by default to protect your personal data and API keys
 - MusicBrainz API has a strict rate limit of **1 request/second** — the tool handles this automatically
-- Gemini prefers to return the official standard album name and will remove edition tags such as `(Deluxe)`, `- Single`, `- EP`
+- **Gemini prefers to return the official standard album name and will remove edition tags such as `(Deluxe)`, `- Single`, `- EP`**
 
 ---
 

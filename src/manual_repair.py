@@ -17,37 +17,23 @@ def patch_sort_fields(corrected: dict):
 def manual_repair(cache: dict, rows: list[dict]):
     skipped = 0
     updated = 0
-    for row in rows:
-        if row.get("confirmed", "0") != "1":
+
+    for old_row, new_row in zip(rows[0::2], rows[1::2]):
+        if new_row.get("confirmed", "0") != "1":
             skipped += 1
-            continue  
+            continue
 
-        name   = row["name"].strip()
-        artist = row["artist"].strip()
-        album_artist = row["album_artist"].strip()
-        album  = row["album"].strip()
-        db_id = row.get("db_id")
-
+        db_id = old_row["db_id"]
         if db_id not in cache:
             print(f"    Key not found in cache, skipping: {db_id}")
             skipped += 1
             continue
 
-    
-        corrected_name   = row.get("NEW_name", "").strip()
-        corrected_artist = row.get("NEW_artist", "").strip()
-        corrected_album_artist = row.get("NEW_album_artist", "").strip()
-        corrected_album  = row.get("NEW_album", "").strip()
-        
         entry = cache[db_id]
-        if corrected_name:
-            entry["song_name"] = corrected_name
-        if corrected_artist:
-            entry["artist_name"] = corrected_artist
-        if corrected_album:
-            entry["album_name"] = corrected_album
-        if corrected_album_artist:
-            entry["album_artist_name"] = corrected_album_artist
+        entry["song_name"] = new_row["name"]
+        entry["artist_name"] = new_row["artist"]
+        entry["album_artist_name"] = new_row["album_artist"]
+        entry["album_name"] = new_row["album"]
 
         entry = patch_sort_fields(entry)
         entry["needs_review"]   = False
@@ -55,18 +41,22 @@ def manual_repair(cache: dict, rows: list[dict]):
 
         cache[db_id] = entry
         updated += 1
-        print(f"    Updated: {name} — {artist}")
+        print(f"    Updated: {new_row['name']} — {new_row['artist']}")
 
     save_json(RECORDING_CACHE_FILE, cache)
     print(f"    Done. {updated} updated, {skipped} skipped.")
     
-    remaining = [r for r in rows if r.get("confirmed", "0") != "1"]
-    if len(remaining) < len(rows):
+    pairs = list(zip(rows[0::2], rows[1::2]))
+    remaining_pairs = [(old, new) for old, new in pairs if new.get("confirmed", "0") != "1"]
+    if len(remaining_pairs) < len(pairs):
+        remaining_rows = [row for pair in remaining_pairs for row in pair] 
         with open(FAILED_LOG_FILE, "w", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(f, fieldnames=rows[0].keys())
             writer.writeheader()
-            writer.writerows(remaining)
-        print(f"    Removed {len(rows) - len(remaining)} confirmed rows from {FAILED_LOG_FILE}")
+            writer.writerows(remaining_rows)
+        removed = len(pairs) - len(remaining_pairs)
+        print(f"    Removed {removed} confirmed pairs from {FAILED_LOG_FILE}")
+
 
 if __name__ == "__main__":
 
@@ -75,6 +65,6 @@ if __name__ == "__main__":
     print("🗿  Reading manual review log...")
     with open(FAILED_LOG_FILE, encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
-    print(f"    Found {len(rows)} entries to update")
+    print(f"    Found {len(rows)/2} entries to update")
     manual_repair(recording_cache, rows)
     print("🗿  Manual repair completed!")

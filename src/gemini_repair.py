@@ -84,41 +84,49 @@ def gemini_main(recording_cache, fixed_cache, client, config):
     with open(MUSIC_LIBRARY_FILE, encoding="utf-8") as f:
         tracks = list(csv.DictReader(f))
 
-    count = 1
+    count = 0
     needs_review = []
     pbar = tqdm(enumerate(tracks), total=len(tracks), desc="    Processing", ncols=100)
-    for i, t in pbar:
+    for _, t in pbar:
         pbar.set_postfix_str(f"{t['name'][:20]:<20} — {t['artist'][:15]:<15}")
 
-        song   = t["name"].strip()
-        artist = t["artist"].strip()
-        album  = t["album"].strip()
-
-        if i in fixed_cache:
+        db_id = t["db_id"].strip()
+        if db_id in fixed_cache or db_id in recording_cache:
             continue
 
         # Start processing
+        song   = t["name"].strip()
+        artist = t["artist"].strip()
+        album  = t["album"].strip()
         gemini_result = patch_metadata(client, config, song, artist, album)
         if gemini_result:
             t.update(gemini_result)
-            recording_cache[i] = t
+            recording_cache[db_id] = t
             save_json(RECORDING_CACHE_FILE, recording_cache)
 
+            # log failed reviews for manual checking
             if gemini_result.get("needs_review"):
                 needs_review.append({
-                    "name": t["name"],
-                    "NEW_name": gemini_result.get("song_name"),
+                    "db_id": db_id,
+                    "type": "OLD",
+                    "name": t["name"], 
                     "artist": t["artist"],
-                    "NEW_artist": gemini_result.get("artist_name"),
                     "album_artist": t["album_artist"],
-                    "NEW_album_artist": gemini_result.get("album_artist_name"),
                     "album": t["album"],
-                    "NEW_album": gemini_result.get("album_name"),
-                    "confirmed": 0,
-                    "db_id": i
+                    "confirmed": ""
+                })
+                needs_review.append({
+                    "db_id": "",
+                    "type": "NEW",
+                    "name": gemini_result.get("song_name"),
+                    "artist": gemini_result.get("artist_name"),
+                    "album_artist": gemini_result.get("album_artist_name"),
+                    "album": gemini_result.get("album_name"),
+                    "confirmed": 0
                 })
         count += 1
-    
+
+        
     print(f"    Done! Processed {count} tracks, {len(needs_review)} need review.")
     return needs_review
 
@@ -134,7 +142,7 @@ if __name__ == "__main__":
     # Check API connectivity and model availability before the main loop to avoid wasting time on multiple failed attempts.
     resp = client.models.generate_content(
         model=MODEL_NAME,
-        contents='Reply with this exact JSON only: {"status": "ok", "model": "gemini-2.0-flash"}'
+        contents='Reply with this exact JSON only: {"status": "ok"}'
     )
     resp = json.loads(resp.text)
 

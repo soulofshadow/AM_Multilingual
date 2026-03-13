@@ -59,7 +59,6 @@ GEMINI_API_KEY=your_api_key_here
 ```python
 PAID_USER = False  # 付费账户设为 True
 ```
-
 - `False`（免费版）：使用 `gemini-3.1-flash-lite-preview`，支持 JSON 结构化输出，**每日 1,500 次请求**
 - `True`（付费版）：使用 `gemini-3-flash`，同时支持 JSON 结构化输出和 **Google 搜索**（适合处理新歌）
 
@@ -113,13 +112,9 @@ Gemini 置信度较低的结果会被标记为 `needs_review`，保存到 `data/
 
 打开 `data/needs_review.csv`，检查每一行：
 
-| 字段 | 说明 |
-|---|---|
-| `confirmed` | 确认或修改完成后，将 `0` 改为 `1` |
-| `corrected_name` | 如果歌名有误，在此修改 |
-| `corrected_artist` | 如果艺人名有误，在此修改 |
-| `corrected_album` | 如果专辑名有误，在此修改 |
-
+```bash
+`confirmed`  确认或修改完成后，将 `0` 改为 `1` 
+```
 保留 `confirmed = 0` 则跳过该行，留待下次处理。
 
 ### 第二步 — 应用人工修正
@@ -128,7 +123,7 @@ Gemini 置信度较低的结果会被标记为 `needs_review`，保存到 `data/
 python3 -m src.manual_repair
 ```
 
-标记为 `confirmed = 1` 的行将写回 `cache/recording_cache.json`，`needs_review` 自动清除为 `false`。已确认的行同时从 `data/needs_review.csv` 中移除。
+标记为 `confirmed = 1` 的行将写回 `cache/recording_cache.json`，`needs_review` 自动清除为 `false`。
 
 ### 第三步 — 写回 Music.app
 
@@ -155,11 +150,13 @@ python3 -m src.write_library
 ├── cache/
 │   ├── recording_cache.json  # 已处理的元数据缓存
 │   ├── artist_cache.json     # MusicBrainz 艺人本地化缓存
-│   └── mb_cache.json         # MusicBrainz 查询缓存
+│   ├── mb_cache.json         # MusicBrainz 查询缓存
+│   └── fixed_cache.json      # 增量处理缓存
 ├── data/
 │   ├── music_library.csv     # 从 Music.app 导出的原始音乐库
 │   └── needs_review.csv      # 待人工审核的曲目
 ├── fix_gemini.sh             # 一键修复脚本
+├── fix_manual.sh             # 一键修复脚本
 ├── README.md
 └── .env                      # API Key（不要提交到 Git）
 ```
@@ -168,11 +165,10 @@ python3 -m src.write_library
 
 ## 🗃️ 缓存格式
 
-处理结果存储在 `cache/recording_cache.json` 中，以 `"歌名|||艺人|||专辑"` 为键：
+处理结果存储在 `cache/recording_cache.json` 中：
 
 ```json
-"コイワズライ|||Aimer|||Sun Dance": {
-    "db_id":            "1231",        // Music.app 数据库 ID
+"689E899A6FBA5E01": {                  // Music.app 数据库 ID     
     "name":             "コイワズライ",  // Music.app 中的原始歌名（保留）
     "artist":           "Aimer",       // Music.app 中的原始艺人名（保留）
     "album_artist":     "Aimer",       // Music.app 中的原始专辑艺人（保留）
