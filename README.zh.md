@@ -95,9 +95,7 @@ Gemini 不太确定的曲目将被标记为 `needs_review`，并保存到 `data/
 当您验证或更正了某一行后，将其中的 `confirmed` 的值从 `0` 改为 `1`。如果保留 `confirmed = 0`，程序将跳过该行，并将其保留到下一次审核。
 
 ### 第二步 — 应用手动修正
-您可以直接点击并运行之前安装的 **Apple Music Fixer - Manual** 快捷指令。
-
-或者，通过终端运行：
+通过终端运行：
 ```bash
 ./scripts/fix_manual.sh
 ```
@@ -207,8 +205,6 @@ Gemini 不太确定的曲目将被标记为 `needs_review`，并保存到 `data/
 ## ⚠️ 注意事项
 
 - 在运行 `write_library.py` 之前，务必**备份您的资料库**。
-- 曲目是通过 Music.app 中的 `database ID` 进行匹配的 —— 重新导入曲目会改变其 ID，并需要重新处理。
-- `cache/recording_cache.json`、`data/` 和 `.env` 文件默认被 gitignore 忽略，以保护您的个人数据和 API 密钥。
 - MusicBrainz API 具有严格的 **1 请求/秒** 的速率限制 —— 本工具会自动处理此限制。
 - **Gemini 倾向于返回官方的标准专辑名称，并会自动移除版本标签，例如 `(Deluxe)`、`- Single`、`- EP`。**
 
