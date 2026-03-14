@@ -95,9 +95,8 @@ Open `data/needs_review.csv` and check each row.
 Change `confirmed` from `0` to `1` when you have verified or corrected the row. Leave `confirmed = 0` to skip a row and keep it pending for next time.
 
 ### Step 2 — Apply manual corrections
-You can simply click and run the **Apple Music Fixer - Manual** Shortcut you installed earlier. 
 
-Alternatively, run it via terminal:
+run it via terminal:
 ```bash
 ./scripts/fix_manual.sh
 ```
@@ -207,8 +206,6 @@ The tool correctly handles metadata in:
 ## ⚠️ Notes
 
 - Always **back up your library** before running `write_library.py`
-- Tracks are matched by `database ID` from Music.app — re-importing a track will change its ID and require re-processing
-- The `cache/recording_cache.json`, `data/`, and `.env` files are gitignored by default to protect your personal data and API keys
 - MusicBrainz API has a strict rate limit of **1 request/second** — the tool handles this automatically
 - **Gemini prefers to return the official standard album name and will remove edition tags such as `(Deluxe)`, `- Single`, `- EP`**
 
