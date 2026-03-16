@@ -24,6 +24,9 @@ FIXED_CACHE_FILE   = "cache/fixed_cache.json"
 # Music library file
 MUSIC_LIBRARY_FILE = "data/music_library.csv"
 FAILED_LOG_FILE    = "data/needs_review.csv"
+
+os.makedirs("cache", exist_ok=True)
+os.makedirs("data", exist_ok=True)
 # -----------------------------------------------------
 # -----------------------------------------------------
 

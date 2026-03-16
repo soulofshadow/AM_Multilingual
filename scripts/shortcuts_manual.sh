@@ -15,7 +15,7 @@ with open('$PROJECT/data/needs_review.csv', encoding='utf-8') as f:
 ")
     
     if [ "$NEED_COUNT" -eq 0 ]; then
-        echo "All fixed successfully"
+        echo "All fixed successfully, no needs review."
     else
         echo "$NEED_COUNT needs review: data/needs_review.csv"
     fi

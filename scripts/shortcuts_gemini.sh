@@ -11,7 +11,7 @@ if [ -f "$LOCK" ]; then
 fi
 
 # 2. Hold
-sleep 60
+sleep 1
 
 # 3. Check agains
 if [ -f "$LOCK" ]; then

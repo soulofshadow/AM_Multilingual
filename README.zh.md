@@ -14,121 +14,117 @@
 
 ## ✨ 核心特性
 
-- 通过 AppleScript 导出完整的 Apple Music 资料库
+- **🤖 通过 macOS 快捷指令实现“零打扰”全自动化运行**
 - 使用 Gemini AI 将元数据纠正为**原始语言**（付费版支持使用 Google 搜索获取最新发行的歌曲信息）
-- 识别每首歌曲的**原始发行国家/地区**
 - 为中日韩文名称生成罗马拼音排序字段（拼音、罗马音等）
-- 通过 AppleScript 将修正后的元数据写回 Music.app
 - 增量处理 —— 自动跳过已修复的曲目
 - 集成 MusicBrainz 用于艺人名称本地化
 - 针对低置信度修复的“手动审核”工作流
 - 在本地缓存所有结果以避免重复调用 API（仓库中也分享了我的 MusicBrainz 缓存和规范化的艺人名称缓存）
-- **🤖 通过 macOS 快捷指令实现“零打扰”全自动化运行**
 
 ---
 
 ## 预览
 
-![Preview](https://github.com/user-attachments/assets/0a1f32db-0fe2-4de3-81a2-347e53f6536f)
+![Preview](https://github.com/user-attachments/assets/68954c94-0f65-4805-905e-e4dec5f3d86d)
 
 ---
 
-## 📋 环境要求
+## 🛠 准备工作 (必须)
 
+在配置自动化之前，您需要先将项目下载到本地并配置好环境。
+
+### 1. 环境要求
 - 带有 **音乐 (Music.app)** 的 macOS
 - Python 3.12+
 - 一个 **Gemini API 密钥** —— 可以在 [aistudio.google.com](https://aistudio.google.com) 免费获取
 
-安装依赖：
-
-```bash
-pip3 install google-genai tqdm python-dotenv opencc-python-reimplemented pypinyin pykakasi hangul-romanize
-```
-
----
-
-## 🚀 快速开始 (终端运行)
-
-### 1. 克隆仓库
+### 2. 下载项目并安装依赖
+打开终端，执行以下命令克隆仓库并安装必要的 Python 库：
 
 ```bash
 git clone https://github.com/soulofshadow/AM_Multilingual.git
+
 cd AM_Multilingual
+
+pip3 install google-genai tqdm python-dotenv opencc-python-reimplemented pypinyin pykakasi hangul-romanize
 ```
 
-### 2. 配置环境
-
-在项目根目录创建一个 `.env` 文件：
+### 3. 配置密钥与环境变量
+在项目根目录创建一个 `.env` 文件，填入您的 API 密钥和 Python 路径（供快捷指令在后台调用时使用）：
 
 ```text
 GEMINI_API_KEY=your_api_key_here
 PAID_USER = false  # 如果使用付费版 Gemini API 密钥，请设置为 true
+PATH="<在此替换为您的_Python_目录>:/opt/homebrew/bin:/usr/local/bin:$PATH"
 ```
-- `False` (免费额度): **每天 500 次请求 (500 RPD)**
-- `True` (付费额度): 支持通过 Google 搜索获取最新发行的歌曲信息
+> **💡 到底该怎么填写 PATH？（极其重要）**
+> 快捷指令在后台沙盒中运行时，需要知道您的 Python 环境在哪里。
+> 1. 请在您的 Mac 终端中输入并回车：`dirname "$(command -v python3)"`
+> 2. 终端会输出一个**文件夹路径**（例如：python3=`/opt/homebrew/opt/python@3.12/libexec/bin` 或 `/usr/local/bin`）。
+> 3. 将这个路径替换掉上面代码里的 `<在此替换为您的_Python_目录>`。
 
-### 3. 运行一键修复脚本
+*(注：`PAID_USER = false` 为免费额度，每天 500 次请求；设置为 `true` 可支持通过 Google 搜索获取最新发行的歌曲信息。)*
 
-```bash
-chmod +x scripts/fix_gemini.sh
-./scripts/fix_gemini.sh
-```
+---
 
-或者逐步运行每个脚本：
+## 🤖 推荐用法：全自动化工作流 (macOS 快捷指令)
 
-```bash
-python3 -m src.get_library      # 第一步: 导出资料库
-python3 -m src.gemini_repair    # 第二步: 修复元数据
-python3 -m src.write_library    # 第三步: 写回 Music.app
-```
+为了实现真正的“无人值守”体验，强烈建议您将此工具与 macOS 快捷指令集成。它会在后台静默监听加入 Apple Music 资料库的新歌并自动修复，只有在需要手动审核时才会打扰您。
 
-> ⚠️ 每次运行写回脚本之前，请务必**备份您的资料库**。
+### 第一步：安装快捷指令
+点击以下链接在您的 Mac 上安装预设好的快捷指令：
+- **[Apple Music Fixer](https://www.icloud.com/shortcuts/7cf162e4b99a4166b87da07e3e13df92)** (运行主自动化流程)
+- **[Apple Music Fixer - Manual](https://www.icloud.com/shortcuts/670030e9d3bc481e8c32d3eec82373af)** (运行手动审核后的写回流程)
+
+> **请务必编辑这两个快捷指令，将其中的 `cd` 路径修改为您实际克隆该项目的本地文件夹路径。**
+
+### 第二步：设置后台触发器
+
+![Preview](https://github.com/user-attachments/assets/8e08f4b1-2cc8-4374-874a-709b6df6de0d)
+
+为了让它在您每次添加歌曲时自动运行：
+1. 打开 Mac 上的 **快捷指令** App，进入 **自动化 (Automation)**。
+2. 创建一个新的 **文件夹 (Folder)** 自动化。
+3. 选择您的 Apple Music 媒体文件夹（通常是 `~/Music/Music/Media/Media.localized` 或 `~/Music/Music/Media`）。
+4. 勾选 **添加 (Added)** 和 **修改 (Modified)**。
+5. 设置为 **立即运行 (Run Immediately)**（无需确认）。
+6. 选择运行刚才安装的 **Apple Music Fixer** 快捷指令。
+
+**🎉 大功告成！** 现在，每当您添加一首新歌，系统会检测到文件变化并默默在后台修复。如果完全成功，将不会有任何提示；如果有未能通过 AI 置信度检查的歌曲，系统会弹窗提醒您去查看 `needs_review.csv`。
 
 ---
 
 ## 🔍 手动审核工作流
 
-Gemini 不太确定的曲目将被标记为 `needs_review`，并保存到 `data/needs_review.csv` 中，而不会被自动写回。请使用此工作流来处理它们：
+Gemini 不太确定的曲目将被标记为 `needs_review`，并保存到 `data/needs_review.csv` 中，而不会被自动写回。收到系统通知后，请使用此工作流来处理它们：
 
-### 第一步 — 检查与确认
+### 1. 检查与确认
 打开 `data/needs_review.csv` 并检查每一行。
 当您验证或更正了某一行后，将其中的 `confirmed` 的值从 `0` 改为 `1`。如果保留 `confirmed = 0`，程序将跳过该行，并将其保留到下一次审核。
 
-### 第二步 — 应用手动修正
-通过终端运行：
-```bash
-./scripts/fix_manual.sh
-```
-所有已确认的曲目现在都将被写回资料库。
+### 2. 应用手动修正
+修改完成后，直接点击运行您之前安装的 **Apple Music Fixer - Manual** 快捷指令即可（也可在终端运行 `./scripts/fix_manual.sh`）。所有已确认的曲目现在都将被安全写回资料库。
 
 ---
 
-## 🤖 全自动化工作流 (macOS 快捷指令)
+## 💻 备选方案：通过终端手动运行
 
-为了实现真正的“无人值守”体验，您可以将此工具与 macOS 快捷指令集成。它会在后台静默监听加入 Apple Music 资料库的新歌并自动修复，只有在需要手动审核时才会通知您。
+如果您不想使用快捷指令后台运行，也可以随时在终端手动触发修复：
 
-### 1. 安装快捷指令
-点击以下链接在您的 Mac 上安装预设好的快捷指令：
-- **[Apple Music Fixer](https://www.icloud.com/shortcuts/7cf162e4b99a4166b87da07e3e13df92)** (运行主自动化流程)
-- **[Apple Music Fixer - Manual](https://www.icloud.com/shortcuts/670030e9d3bc481e8c32d3eec82373af)** (运行手动审核后的写回流程)
+### 一键修复全部
+```bash
+chmod +x scripts/fix_gemini.sh
+./scripts/fix_gemini.sh
+```
 
-**请务必修改这些快捷指令中“运行 Shell 脚本”操作的路径，使其与您实际的项目目录路径一致。**
-
-**(注意：确保您的 `.env` 文件中包含了您的 `PATH` 环境变量，以便后台脚本能够找到您的 Python 环境。您可以在终端运行 `which python3` 来获取路径)。**
-
-### 2. 设置后台触发器
-
-![Preview](https://github.com/user-attachments/assets/8e08f4b1-2cc8-4374-874a-709b6df6de0d)
-
-为了让它在您添加歌曲时完全自动运行：
-1. 打开 Mac 上的 **快捷指令** App，进入 **自动化 (Automation)**。
-2. 创建一个新的 **文件夹 (Folder)** 自动化。
-3. 选择您的 Apple Music 媒体文件夹（通常是 `~/Music/Music/Media/Media.localized`）。
-4. 勾选 **添加 (Added)** 和 **修改 (Modified)**。
-5. 设置为 **立即运行 (Run Immediately)**（无需确认）。
-6. 选择运行 **Apple Music Fixer** 快捷指令。
-
-**工作原理：** 每当您添加一首新歌时，系统会检测到文件变化并触发修复工具。如果所有歌曲都成功修复，它会在后台静默完成。如果有任何歌曲未能通过置信度检查，系统会弹出通知提醒您去查看 `needs_review.csv`。
+### 或逐步执行
+```bash
+python3 -m src.get_library      # 第一步: 导出资料库
+python3 -m src.gemini_repair    # 第二步: 修复元数据
+python3 -m src.write_library    # 第三步: 写回 Music.app
+```
+> ⚠️ 每次运行写回脚本之前，请务必**备份您的资料库**。
 
 ---
 
@@ -146,9 +142,9 @@ Gemini 不太确定的曲目将被标记为 `needs_review`，并保存到 `data/
 │   └── utils.py            # 共享工具类（缓存、速率限制、罗马音转换）
 ├── scripts/
 │   ├── fix_gemini.sh             # 终端一键修复脚本
-│   ├── fix_manual.sh             # 终端一键修复脚本（在手动验证后使用）
-│   ├── shortcuts_gemini.sh       # 由快捷指令触发的自动化脚本
-│   └── shortcuts_manual.sh       # 用于手动审核写回的自动化脚本
+│   ├── fix_manual.sh             # 终端手动验证后写回的脚本
+│   ├── shortcuts_gemini.sh       # 供快捷指令后台调用的自动化主脚本
+│   └── shortcuts_manual.sh       # 供快捷指令调用的手动审核写回脚本
 ├── cache/
 │   ├── recording_cache.json  # 已修正元数据的缓存
 │   ├── artist_cache.json     # MusicBrainz 艺人本地化结果缓存
@@ -205,6 +201,8 @@ Gemini 不太确定的曲目将被标记为 `needs_review`，并保存到 `data/
 ## ⚠️ 注意事项
 
 - 在运行 `write_library.py` 之前，务必**备份您的资料库**。
+- 曲目是通过 Music.app 中的 `persistence ID` 进行匹配的，重新导入曲目将更改其 ID 并需要重新处理。
+- `cache/recording_cache.json`、`data/` 和 `.env` 文件默认被 gitignore 忽略，以保护您的个人数据和 API 密钥。
 - MusicBrainz API 具有严格的 **1 请求/秒** 的速率限制 —— 本工具会自动处理此限制。
 - **Gemini 倾向于返回官方的标准专辑名称，并会自动移除版本标签，例如 `(Deluxe)`、`- Single`、`- EP`。**
 
