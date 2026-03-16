@@ -26,7 +26,7 @@
 
 ## 预览
 
-![Preview](https://github.com/user-attachments/assets/c2802df9-69b4-4215-9d2b-baeaaea8e678)
+![Preview](https://github.com/user-attachments/assets/68954c94-0f65-4805-905e-e4dec5f3d86d)
 
 ---
 
